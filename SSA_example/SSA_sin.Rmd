@@ -8,16 +8,12 @@ output: html_document
 ```{r}
 library(Rssa)
 library(dplyr)
+N = 249
 eps = rnorm(N)
 ```
 
-
-N = K + L - 1
-N = T(K+L) - 1
-
 ```{r}
 T = 25
-N = 249
 f <- function(x) 0.05*x + 5
 y<-sin(2*pi*(1:N)/T) + f(1:N)
 y <- y + eps
@@ -48,12 +44,3 @@ plot(s4, type = "series", groups = as.list(1:6))
 res <- reconstruct(s4, groups = list(c(1, 4), c(2, 3)))
 plot(res)
 ```
-```{r}
-plot(res, add.residuals = F, plot.type = "single", col = c("black", "red", "red"), lwd = c(1, 2, 2), lty = c("solid","solid","dashed"))
-```
-
-
-```{r}
-s4$US
-```
-
