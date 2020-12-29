@@ -1,0 +1,59 @@
+---
+title: "SSA_test"
+author: "morememes"
+date: "11/2/2020"
+output: html_document
+---
+
+```{r}
+library(Rssa)
+library(dplyr)
+eps = rnorm(N)
+```
+
+
+N = K + L - 1
+N = T(K+L) - 1
+
+```{r}
+T = 25
+N = 249
+f <- function(x) 0.05*x + 5
+y<-sin(2*pi*(1:N)/T) + f(1:N)
+y <- y + eps
+plot(y, pch=19, type = "l", col = "light blue", lwd = 2, xlab = "X", ylab = "f(t)")
+```
+```{r}
+sints <- ts(y)
+length(sints)
+plot(sints)
+```
+```{r}
+s4 <- ssa(sints, L=125)
+plot(s4)
+```
+
+```{r}
+plot(s4, type = "vectors", idx=1:10)
+plot(s4, type = "paired", idx = 1:5, plot.contrib = FALSE)
+plot(s4, type = "series", groups = as.list(1:6))
+#plot(s4, type = "series", groups = as.list(11:20))
+#plot(s4, type = "series", groups = as.list(21:30))
+#plot(s4, type = "series", groups = as.list(31:40))
+#plot(s4, type = "series", groups = as.list(41:50))
+```
+
+
+```{r}
+res <- reconstruct(s4, groups = list(c(1, 4), c(2, 3)))
+plot(res)
+```
+```{r}
+plot(res, add.residuals = F, plot.type = "single", col = c("black", "red", "red"), lwd = c(1, 2, 2), lty = c("solid","solid","dashed"))
+```
+
+
+```{r}
+s4$US
+```
+
