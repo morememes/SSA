@@ -130,7 +130,7 @@ $$\mathbf{X} = \sum_{j=1}^m \mathbf{X}_{I_j},$$
 $$F = \sum_{k=1}^m F^{(k)}.$$
 
 \section{Пример разложения ряда}
-Продемонстрируем работу метода SSA. Пользоваться будем библиотекой \textit{Rssa} из языка R. В качестве исходного ряда возьмем простую функцию (рис. 1)  $f(t) = f_1(t) + f_2(t) + \epsilon(t)$, где $0 \leqslant t \leqslant 250$ $f_1(t) = 0.05 t + 5$ -- тренд, $f_2(t) = \sin (2 \pi \dfrac{t}{T} )$ -- сезонность, период $T = 25$ и $\epsilon(t)$ - гауссовский шум в точке t.
+Продемонстрируем работу метода SSA. Пользоваться будем библиотекой \textit{Rssa} из языка R. В качестве исходного ряда возьмем простую функцию (рис. 1)  $f(t) = f_1(t) + f_2(t) + \epsilon(t)$, где $1 \leqslant t < 250$, $f_1(t) = 0.05 t + 5$ -- тренд, $f_2(t) = \sin (2 \pi \dfrac{t}{T} )$ -- сезонность, период $T = 25$ и $\epsilon(t)$ - гауссовский шум в точке t.
 
 \begin{figure}[h]
 	\center{\includegraphics[width=1\linewidth]{1} \\ Рис. 1}
@@ -312,7 +312,8 @@ SSA использовался в качестве feature-extraction. Выбирается подпоследовательност
 	\bibitem{ar1}
 	Kongchang Du, Ying Zhao, Jiaqiang Lei (2017). \href{https://www.sciencedirect.com/science/article/abs/pii/S0022169417304237}{The incorrect usage of singular spectral analysis and discrete wavelet transform in hybrid models to predict hydrological time series.}
 	\bibitem{ar2}
-	Muhammad Fajar, Sri Hartini Rachmad(2020). \href{https://www.researchgate.net/publication/342802248_Comparison_of_ARIMA_SSA_and_ARIMA_-SSA_Hybrid_Model_Performance_in_Indonesian_Economic_Growth_Forecasting}{Comparison of ARIMA, SSA, and ARIMA – SSA Hybrid Model Performance in Indonesia Economic Growth Forecasting.}
+	Muhammad Fajar, Sri Hartini Rachmad
+(2020). \href{https://www.researchgate.net/publication/342802248_Comparison_of_ARIMA_SSA_and_ARIMA_-SSA_Hybrid_Model_Performance_in_Indonesian_Economic_Growth_Forecasting}{Comparison of ARIMA, SSA, and ARIMA – SSA Hybrid Model Performance in Indonesia Economic Growth Forecasting.}
 	\bibitem{ar3}
 	Winita Sulandari, Subanar, Suhartono, Herni Utami, Muhammad Hisyam Lee, Paulo Canas Rodrigues (2020). \href{https://www.researchgate.net/publication/344459384_SSA-based_hybrid_forecasting_models_and_applications}{SSA-based hybrid forecasting models and applications.}
 	\bibitem{ar4}
