@@ -229,14 +229,34 @@ def getPreds(model, seq, scaler, scaler_ssa, testSize, seq_length, ssa_ts, ssa):
       test_seq = torch.as_tensor(new_seq).view(seq_length).float()
     return preds
 
-def getPredCases(model, data, ssa_ts = None, ssa = None):
+def getPredsTomorrow(model, seq, groundTruth, scaler, testSize, seq_length):
+    assert len(groundTruth) == testSize, "wrong size of groundTruth"
+
+    groundTruth = scaler.transform(np.expand_dims(groundTruth, axis=1)).squeeze()
+    test_sq = scaler.transform(np.expand_dims(seq, axis=1)).squeeze()
+    test_seq = torch.from_numpy(test_sq).float()
+    preds = []
+
+    for i in tqdm(range(testSize)):
+      y_test_pred = model(test_seq)
+      pred = torch.flatten(y_test_pred).item()
+      preds.append(pred)
+      new_seq = test_seq.numpy().flatten()
+      new_seq = np.append(new_seq, groundTruth[i])
+      new_seq = new_seq[1:]
+      test_seq = torch.as_tensor(new_seq).view(seq_length).float()
+    return preds
+
+def getPredCases(model, data, ssa_ts = None, ssa = None, tomorrow = None, y_ssa = True):
+
   if ssa_ts is None:
     seq = data.ts[:(data.train.size + data.val.size)][-data.seq_len:]
   else:
     seq = applySSA(data.ts[:(data.train.size + data.val.size)], ssa)
     seq = seq[-data.seq_len:]
 
-  preds = getPreds(model, 
+  if tomorrow is None:
+    preds = getPreds(model, 
                    seq,
                    data.scaler,
                    data.scaler_ssa, 
@@ -245,9 +265,43 @@ def getPredCases(model, data, ssa_ts = None, ssa = None):
                    ssa_ts = ssa_ts, 
                    ssa = ssa)
   
-  predicted_cases = data.scaler.inverse_transform(
-  np.expand_dims(preds, axis=0)
-  ).flatten()
+    predicted_cases = data.scaler.inverse_transform(
+    np.expand_dims(preds, axis=0)
+    ).flatten()
+  elif tomorrow is True:
+    preds = getPredsTomorrow(model, 
+                             seq, 
+                             data.ts[-data.test.size:],
+                             data.scaler,
+                             testSize = data.test.size,
+                             seq_length = data.seq_len
+                             )
+    if y_ssa is True:
+      predicted_cases = data.scaler_ssa.inverse_transform(
+        np.expand_dims(preds, axis=0)
+        ).flatten()
+    else:
+      predicted_cases = data.scaler.inverse_transform(
+        np.expand_dims(preds, axis=0)
+        ).flatten()
+  else:
+    seq = tomorrow.ts[:(data.train.size + data.val.size)][-data.seq_len:]
+    preds = getPredsTomorrow(model, 
+                             seq, 
+                             tomorrow.ts[-data.test.size:],
+                             tomorrow.scaler,
+                             testSize = data.test.size,
+                             seq_length = data.seq_len
+                             )
+    if y_ssa is True:
+      predicted_cases = data.scaler_ssa.inverse_transform(
+        np.expand_dims(preds, axis=0)
+        ).flatten()
+    else:
+      predicted_cases = data.scaler.inverse_transform(
+        np.expand_dims(preds, axis=0)
+        ).flatten()
+
   return predicted_cases
 
 #################################################################
