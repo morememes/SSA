@@ -227,7 +227,7 @@ def getPreds(model, seq, scaler, scaler_ssa, testSize, seq_length, ssa_ts, ssa):
         new_seq = np.array(new_seq[-seq_length:])
         new_seq = scaler_ssa.transform(np.expand_dims(new_seq, axis=1) ).squeeze()
       test_seq = torch.as_tensor(new_seq).view(seq_length).float()
-    return preds
+    return np.array(preds)
 
 def getPredsTomorrow(model, seq, groundTruth, scaler, testSize, seq_length):
     assert len(groundTruth) == testSize, "wrong size of groundTruth"
@@ -245,7 +245,7 @@ def getPredsTomorrow(model, seq, groundTruth, scaler, testSize, seq_length):
       new_seq = np.append(new_seq, groundTruth[i])
       new_seq = new_seq[1:]
       test_seq = torch.as_tensor(new_seq).view(seq_length).float()
-    return preds
+    return np.array(preds)
 
 def getPredCases(model, data, ssa_ts = None, ssa = None, tomorrow = None, y_ssa = True):
 
