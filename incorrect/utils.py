@@ -41,6 +41,18 @@ def applySSA(ts, ssa):
     res += resD[key]
   return res
 
+def createTestTsSSA(ts, size, ssa):
+  res = []
+  for i in tqdm(range(size)):
+    sl = (-size + 1 + i)
+    if sl == 0:
+      t = ts
+    else:
+      t = ts[: sl ]
+    r = applySSA(t, ssa)
+    res.append(r[-1])
+  return np.array(res)
+
 def splitData(ts, seq_len, TRAIN_SIZE, VAL_SIZE, TEST_SIZE, ssa, val_ssa = False):
   tsOrigin = ts
 
@@ -67,10 +79,14 @@ def splitData(ts, seq_len, TRAIN_SIZE, VAL_SIZE, TEST_SIZE, ssa, val_ssa = False
   res = scalerssa.transform(np.expand_dims(res, axis=1)).squeeze()
   
   if (val_ssa):
-    X_val_ssa, y_val_ssa = createValXSSA(tsOrigin[:(TRAIN_SIZE + VAL_SIZE)], VAL_SIZE, seq_len, scalerssa, ssa)
+    X_val_ssa, y_val_ssa = createValXSSA(tsOrigin[:(TRAIN_SIZE + VAL_SIZE)], VAL_SIZE, seq_len, 
+                                         scalerssa, ssa)
     X_val_ssa = torch.from_numpy(X_val_ssa).float()
     y_val_ssa = torch.from_numpy(y_val_ssa).float()
 
+  ts_test_ssa = None
+  if (val_ssa):
+    ts_test_ssa = createTestTsSSA(tsOrigin, TEST_SIZE, ssa)
 
   X_train_ssa, y_train_ssa = create_sequences(res, seq_len)
 
@@ -95,7 +111,8 @@ def splitData(ts, seq_len, TRAIN_SIZE, VAL_SIZE, TEST_SIZE, ssa, val_ssa = False
         'ts' : dTest,
         'X' : torch.from_numpy(X_test).float(),
         'y' : torch.from_numpy(y_test).float(),
-        'size' : TEST_SIZE
+        'size' : TEST_SIZE,
+        'ts_ssa' : ts_test_ssa
       },
       'ts_scaled' : ts,
       'ts' : tsOrigin,
@@ -231,7 +248,7 @@ def getPreds(model, seq, scaler, scaler_ssa, testSize, seq_length, ssa_ts, ssa):
 
 def getPredsTomorrow(model, seq, groundTruth, scaler, testSize, seq_length):
     assert len(groundTruth) == testSize, "wrong size of groundTruth"
-
+    
     groundTruth = scaler.transform(np.expand_dims(groundTruth, axis=1)).squeeze()
     test_sq = scaler.transform(np.expand_dims(seq, axis=1)).squeeze()
     test_seq = torch.from_numpy(test_sq).float()
@@ -249,7 +266,7 @@ def getPredsTomorrow(model, seq, groundTruth, scaler, testSize, seq_length):
 
 def getPredCases(model, data, ssa_ts = None, ssa = None, tomorrow = None, y_ssa = True):
 
-  if ssa_ts is None:
+  if ssa is None:
     seq = data.ts[:(data.train.size + data.val.size)][-data.seq_len:]
   else:
     seq = applySSA(data.ts[:(data.train.size + data.val.size)], ssa)
@@ -269,10 +286,16 @@ def getPredCases(model, data, ssa_ts = None, ssa = None, tomorrow = None, y_ssa 
     np.expand_dims(preds, axis=0)
     ).flatten()
   elif tomorrow is True:
+    if ssa is None:
+      ts = data.ts[-data.test.size:]
+      sc = data.scaler
+    else:
+      ts = data.test.ts_ssa
+      sc = data.scaler_ssa
     preds = getPredsTomorrow(model, 
                              seq, 
-                             data.ts[-data.test.size:],
-                             data.scaler,
+                             ts,
+                             sc,
                              testSize = data.test.size,
                              seq_length = data.seq_len
                              )
