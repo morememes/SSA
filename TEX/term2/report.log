@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.2)  9 JUN 2021 12:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.5.2)  9 JUN 2021 13:55
 entering extended mode
 **./report.tex
 (report.tex
@@ -2321,149 +2321,152 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 [17]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRI' on input line 371.
+(hyperref)                removing `\CYRI' on input line 382.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 371.
+(hyperref)                removing `\cyrt' on input line 382.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 371.
+(hyperref)                removing `\cyro' on input line 382.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 371.
+(hyperref)                removing `\cyrg' on input line 382.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 371.
+(hyperref)                removing `\cyri' on input line 382.
 
 [18]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRZ' on input line 374.
+(hyperref)                removing `\CYRZ' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 374.
+(hyperref)                removing `\cyra' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 374.
+(hyperref)                removing `\cyrk' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 374.
+(hyperref)                removing `\cyrl' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyryu' on input line 374.
+(hyperref)                removing `\cyryu' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 374.
+(hyperref)                removing `\cyrch' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 374.
+(hyperref)                removing `\cyre' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 374.
+(hyperref)                removing `\cyrn' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 374.
+(hyperref)                removing `\cyri' on input line 385.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 374.
+(hyperref)                removing `\cyre' on input line 385.
 
 [19
 
 ]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 378.
+(hyperref)                removing `\CYRS' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 378.
+(hyperref)                removing `\cyrp' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 378.
+(hyperref)                removing `\cyri' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 378.
+(hyperref)                removing `\cyrs' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 378.
+(hyperref)                removing `\cyro' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 378.
+(hyperref)                removing `\cyrk' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 378.
+(hyperref)                removing `\cyrl' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 378.
+(hyperref)                removing `\cyri' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 378.
+(hyperref)                removing `\cyrt' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 378.
+(hyperref)                removing `\cyre' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 378.
+(hyperref)                removing `\cyrr' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 378.
+(hyperref)                removing `\cyra' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 378.
+(hyperref)                removing `\cyrt' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 378.
+(hyperref)                removing `\cyru' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 378.
+(hyperref)                removing `\cyrr' on input line 389.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 378.
+(hyperref)                removing `\cyrery' on input line 389.
 
 [20
 
 ] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: AA8FF141AB1C675FE49757237D5A12C0;3490.
+(rerunfilecheck)             Checksum: A2F349A5FA5936938FDDE4ECF3AF702E;3490.
  ) 
 Here is how much of TeX's memory you used:
- 13016 strings out of 479321
- 194530 string characters out of 2856107
+ 13017 strings out of 479321
+ 194546 string characters out of 2856107
  504446 words of memory out of 3000000
  30116 multiletter control sequences out of 15000+600000
  420139 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 86i,9n,88p,773b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 86i,9n,88p,877b,514s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\Fridge\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1
 095.pk> <C:\Users\Fridge\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dpi600\
 labx1440.pk> <C:\Users\Fridge\AppData\Local\MiKTeX\fonts/pk/ljfour/lh/lh-t2a/dp
@@ -2485,9 +2488,9 @@ X/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/Fridge/AppData/Local/Prog
 rams/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Fridge/AppData/L
 ocal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Fridge/
 AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on report.pdf (20 pages, 941540 bytes).
+Output written on report.pdf (20 pages, 942468 bytes).
 PDF statistics:
- 725 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
+ 727 PDF objects out of 1000 (max. 8388607)
+ 93 named destinations out of 1000 (max. 500000)
  263 words of extra memory for PDF output out of 10000 (max. 10000000)
 
