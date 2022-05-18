@@ -1,0 +1,143 @@
+---
+title: "ssa_forecast"
+output: html_document
+date: '2022-04-08'
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library('Rssa')
+library('forecast')
+```
+
+```{r}
+rain = read.table(file = './data/rain_m.txt', header = FALSE, sep = "\t")
+```
+
+```{r}
+rain_t = c()
+for(i in 1:146)
+  rain_t = c(rain_t, as.vector(t(rain[i,])))
+```
+
+```{r}
+rain_ts = ts(rain_t[1:1500])
+plot(rain_ts, col="light blue", pch=19, lwd=1, xlab="", ylab="")
+```
+```{r}
+N = 100
+# исходный ряд
+x <- sin(2*pi*(1:N)/10)
+sp <- spectrum(x, plot = FALSE)$spec
+plot(sp, type = "l")
+```
+
+```{r}
+#делаем как-то криво меняющуюся амплитуду
+A <- (1:N)^2/N^2 + (1:N)/N + 1
+x <- A*sin(2*pi*(1:N)/10)
+plot(x, type = 'l')
+sp <- spectrum(x, plot = FALSE)$spec
+plot(sp, type = "l")
+```
+
+```{r}
+#делаем период не постоянным, а меняющимся вокруг основного.
+x <- A*sin(2*pi*(1:N)*(0.1 + 0.001*sin(2*pi*(1:N)/50)))
+x <- A*sin(2*pi*(1:N)/(10 + 0.1*sin(2*pi*(1:N)/50)))
+x <- A*sin(2*pi*(1:N)/(10 + 0.1*sin(2*pi*(1:N)/100)))
+sp <- spectrum(x, plot = FALSE)$spec
+plot(x, type = 'l')
+plot(sp, type = "l")
+```
+
+```{r}
+x <- A*sin(2*pi*(1:N)/(10+0.1*sin(2*pi*(1:N)/100)))
+sp <- spectrum(x, plot = FALSE)$spec
+plot(x, type = 'l')
+plot(sp, type = "l")
+```
+
+
+
+```{r}
+rain_ts_full = ts(rain_t[1:1500])
+rain_ts = ts(rain_t[1:1000])
+s <- ssa(rain_ts, kind = '1d-ssa')
+plot(s, type = "vectors", idx = 1:20)
+plot(wcor(s))
+rec <-reconstruct(s, groups = list(1:7))
+plot(rec, add.residuals = FALSE, add.original = TRUE,
+     plot.method = "xyplot",
+     superpose = TRUE, auto.key = list(columns = 2))
+f <- rforecast(s, groups = list(1:7), len = 500, only.new = FALSE)
+
+sqrt(mean(((rain_ts_full-f)[1:1000])^2))
+sqrt(mean(((rain_ts_full-f)[1001:1500])^2))
+plot(rain_ts_full, type = "l")
+lines(f, col = "red")
+```
+
+
+
+```{r}
+train = rain_ts[1:750]
+val = rain_ts[751:1250]
+test = rain_ts[1251:1500]
+```
+
+
+```{r}
+s = ssa(train, L = length(train)/2)
+```
+
+```{r}
+res = rforecast(s, groups = list(1:7), len = 1)
+```
+
+```{r}
+res
+```
+
+
+```{r}
+res[[1]]$mean
+```
+
+```{r}
+ser = ts(read.csv('data/ser.csv')[['x']], frequency = 12)
+```
+
+```{r}
+s = ssa(ser, L = length(ser)/2)
+```
+
+```{r}
+plot(s)
+```
+
+```{r}
+plot(s, type = "vectors", idx = 1:11)
+plot(s, type = "paired", idx = 1:11)
+plot(s, type = "series", groups = as.list(1:7))
+```
+
+```{r}
+write.csv(sig, 'ser_sig.csv', row.names = FALSE)
+```
+
+
+```{r}
+set.seed(5)# seed подобрала специально.
+N <- 650
+sig <- sin(2*pi*(1:N)/6) + 2*sin(2*pi*(1:N)/12)
+ser <- sig #+ arima.sim(n = N, list(ar = c(0.8)), sd = 1.2)
+ser <- ts(ser, frequency = 12)
+plot(ser, type = "l")
+spectrum(ser, log='no', taper = 0)
+
+#s <- ssa(ser)
+#plot(wcor(s, groups = 1:10))
+#plot(s, type = "vectors")
+```
+

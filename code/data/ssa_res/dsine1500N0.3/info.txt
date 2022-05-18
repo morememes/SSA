@@ -1,0 +1,8 @@
+TRAIN_SIZE: 750 
+L list: [13, 52, 91, 130, 169, 208, 247, 286, 325, 364] 
+r list: [4, 8, 12, 16] 
+ 
+Best L: 325 
+Best r: 12 
+Best method: recurrent 
+Error: 0.31377968681200963 
