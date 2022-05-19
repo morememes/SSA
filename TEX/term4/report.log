@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.9)  17 MAY 2022 14:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.9)  19 MAY 2022 13:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -791,14 +791,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 [1
 
 {C:/Users/Fridge/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-(report.toc)
+(report.toc [2
+
+
+])
 \tf@toc=\write5
 \openout5 = `report.toc'.
 
- [2
-
-
-]
+ [3]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\CYRV' on input line 70.
@@ -831,7 +831,7 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyre' on input line 70.
 
-[3
+[4
 
 
 ]
@@ -1052,7 +1052,7 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyre' on input line 97.
 
-[4
+[5
 
 ]
 
@@ -1323,7 +1323,7 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyre' on input line 130.
 
-[5] [6]
+[6] [7]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\CYRG' on input line 147.
@@ -1444,9 +1444,9 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyrishrt' on input line 147.
 
-[7
+[8
 
-] [8] [9]
+] [9] [10]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\CYRG' on input line 244.
@@ -1675,7 +1675,7 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyrh' on input line 252.
 
-[10
+[11
 
 ]
 Overfull \hbox (1.11285pt too wide) in paragraph at lines 279--280
@@ -1683,7 +1683,7 @@ Overfull \hbox (1.11285pt too wide) in paragraph at lines 279--280
 рок отличаетс€ от преды
  []
 
-[11]
+[12]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\CYRO' on input line 301.
@@ -1768,7 +1768,7 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyri' on input line 301.
 
-[12]
+[13]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\CYRP' on input line 315.
@@ -1997,7 +1997,7 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyrv' on input line 331.
 
-[13] [14] [15]
+[14] [15] [16]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\CYRG' on input line 368.
@@ -2080,111 +2080,151 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 368.
+(hyperref)                removing `\CYRS' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 368.
+(hyperref)                removing `\cyru' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 368.
+(hyperref)                removing `\cyrm' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 368.
+(hyperref)                removing `\cyrm' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 368.
+(hyperref)                removing `\cyra' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 368.
+(hyperref)                removing `\cyrd' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 368.
+(hyperref)                removing `\cyrv' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 368.
+(hyperref)                removing `\cyru' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 368.
+(hyperref)                removing `\cyrh' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 368.
+(hyperref)                removing `\cyrs' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 368.
+(hyperref)                removing `\cyri' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 368.
+(hyperref)                removing `\cyrn' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 368.
+(hyperref)                removing `\cyru' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 368.
+(hyperref)                removing `\cyrs' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 368.
+(hyperref)                removing `\cyro' on input line 378.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 368.
+(hyperref)                removing `\cyrv' on input line 378.
 
-<imgs/ts/edsine/edsine_graph.png, id=270, 827.59187pt x 308.65312pt>
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrb' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrery' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrm' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrsh' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyru' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrm' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyro' on input line 378.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrm' on input line 378.
+
+<imgs/ts/edsine/edsine_graph.png, id=279, 827.59187pt x 308.65312pt>
 File: imgs/ts/edsine/edsine_graph.png Graphic file (type png)
 <use imgs/ts/edsine/edsine_graph.png>
 Package pdftex.def Info: imgs/ts/edsine/edsine_graph.png  used on input line 39
-1.
+0.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/ts/edsine/edsine_pgram.png, id=272, 843.65187pt x 581.67313pt>
+[17
+
+]
+<imgs/ts/edsine/edsine_pgram.png, id=289, 843.65187pt x 581.67313pt>
 File: imgs/ts/edsine/edsine_pgram.png Graphic file (type png)
 <use imgs/ts/edsine/edsine_pgram.png>
 Package pdftex.def Info: imgs/ts/edsine/edsine_pgram.png  used on input line 39
-7.
+6.
 (pdftex.def)             Requested size: 422.52057pt x 291.324pt.
-[16
-
- <./imgs/ts/edsine/edsine_graph.png>]
-<imgs/comp/edsine/ssa_comp.png, id=285, 829.59938pt x 581.67313pt>
+ [18 <./imgs/ts/edsine/edsine_graph.png> <./imgs/ts/edsine/edsine_pgram.png>]
+<imgs/comp/edsine/ssa_comp.png, id=300, 829.59938pt x 581.67313pt>
 File: imgs/comp/edsine/ssa_comp.png Graphic file (type png)
 <use imgs/comp/edsine/ssa_comp.png>
-Package pdftex.def Info: imgs/comp/edsine/ssa_comp.png  used on input line 411.
+Package pdftex.def Info: imgs/comp/edsine/ssa_comp.png  used on input line 410.
 
 (pdftex.def)             Requested size: 422.52057pt x 296.24997pt.
- [17 <./imgs/ts/edsine/edsine_pgram.png>]
-<imgs/comp/edsine/edsinerec2.png, id=297, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinerec2.png, id=304, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinerec2.png Graphic file (type png)
 <use imgs/comp/edsine/edsinerec2.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinerec2.png  used on input line 42
-3.
+2.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [18 <./imgs/comp/edsine/ssa_comp.png>]
-<imgs/comp/edsine/edsinerec4.png, id=307, 827.59187pt x 308.65312pt>
+ [19 <./imgs/comp/edsine/ssa_comp.png>]
+<imgs/comp/edsine/edsinerec4.png, id=317, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinerec4.png Graphic file (type png)
 <use imgs/comp/edsine/edsinerec4.png>
-Package pdftex.def Info: imgs/comp/edsine/edsinerec4.png  used on input line 43
-0.
+Package pdftex.def Info: imgs/comp/edsine/edsinerec4.png  used on input line 42
+9.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/edsinerec6.png, id=308, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinerec6.png, id=318, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinerec6.png Graphic file (type png)
 <use imgs/comp/edsine/edsinerec6.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinerec6.png  used on input line 43
-8.
+7.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
 
-Overfull \hbox (16.58835pt too wide) in paragraph at lines 445--446
+Overfull \hbox (16.58835pt too wide) in paragraph at lines 444--445
 []\T2A/cmr/m/n/12 ѕусть задана следующа€ сетка параметров: $\OML/cmm/m
 /it/12 T \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 12\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 24\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 144\OMS/cmsy/m/n/1
@@ -2193,213 +2233,213 @@ OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/cmm/m/it/12 ; [] ; \
 OT1/cmr/m/n/12 100\OMS/cmsy/m/n/12 g$\T2A/cmr/m/n/12 .
  []
 
-[19 <./imgs/comp/edsine/edsinerec2.png> <./imgs/comp/edsine/edsinerec4.png> <./
+[20 <./imgs/comp/edsine/edsinerec2.png> <./imgs/comp/edsine/edsinerec4.png> <./
 imgs/comp/edsine/edsinerec6.png>]
-<imgs/comp/edsine/r2.png, id=325, 848.16875pt x 600.2425pt>
+<imgs/comp/edsine/r2.png, id=334, 848.16875pt x 600.2425pt>
 File: imgs/comp/edsine/r2.png Graphic file (type png)
 <use imgs/comp/edsine/r2.png>
-Package pdftex.def Info: imgs/comp/edsine/r2.png  used on input line 451.
+Package pdftex.def Info: imgs/comp/edsine/r2.png  used on input line 450.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
-<imgs/comp/edsine/r2.h.png, id=326, 857.70438pt x 601.24625pt>
+<imgs/comp/edsine/r2.h.png, id=335, 857.70438pt x 601.24625pt>
 File: imgs/comp/edsine/r2.h.png Graphic file (type png)
 <use imgs/comp/edsine/r2.h.png>
-Package pdftex.def Info: imgs/comp/edsine/r2.h.png  used on input line 458.
+Package pdftex.def Info: imgs/comp/edsine/r2.h.png  used on input line 457.
 (pdftex.def)             Requested size: 422.52057pt x 296.18204pt.
- [20 <./imgs/comp/edsine/r2.png>]
-<imgs/comp/edsine/r4.png, id=339, 848.16875pt x 600.2425pt>
+ [21 <./imgs/comp/edsine/r2.png>]
+<imgs/comp/edsine/r4.png, id=348, 848.16875pt x 600.2425pt>
 File: imgs/comp/edsine/r4.png Graphic file (type png)
 <use imgs/comp/edsine/r4.png>
-Package pdftex.def Info: imgs/comp/edsine/r4.png  used on input line 465.
+Package pdftex.def Info: imgs/comp/edsine/r4.png  used on input line 464.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
- [21 <./imgs/comp/edsine/r2.h.png>]
-<imgs/comp/edsine/r4.h.png, id=345, 857.70438pt x 601.74812pt>
+ [22 <./imgs/comp/edsine/r2.h.png>]
+<imgs/comp/edsine/r4.h.png, id=354, 857.70438pt x 601.74812pt>
 File: imgs/comp/edsine/r4.h.png Graphic file (type png)
 <use imgs/comp/edsine/r4.h.png>
-Package pdftex.def Info: imgs/comp/edsine/r4.h.png  used on input line 472.
+Package pdftex.def Info: imgs/comp/edsine/r4.h.png  used on input line 471.
 (pdftex.def)             Requested size: 422.52057pt x 296.42926pt.
- [22 <./imgs/comp/edsine/r4.png>]
-<imgs/comp/edsine/r6.png, id=351, 857.70438pt x 600.2425pt>
+ [23 <./imgs/comp/edsine/r4.png>]
+<imgs/comp/edsine/r6.png, id=360, 857.70438pt x 600.2425pt>
 File: imgs/comp/edsine/r6.png Graphic file (type png)
 <use imgs/comp/edsine/r6.png>
-Package pdftex.def Info: imgs/comp/edsine/r6.png  used on input line 479.
+Package pdftex.def Info: imgs/comp/edsine/r6.png  used on input line 478.
 (pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [23 <./imgs/comp/edsine/r4.h.png>]
-<imgs/comp/edsine/r6.h.png, id=357, 857.70438pt x 600.2425pt>
+ [24 <./imgs/comp/edsine/r4.h.png>]
+<imgs/comp/edsine/r6.h.png, id=366, 857.70438pt x 600.2425pt>
 File: imgs/comp/edsine/r6.h.png Graphic file (type png)
 <use imgs/comp/edsine/r6.h.png>
-Package pdftex.def Info: imgs/comp/edsine/r6.h.png  used on input line 486.
+Package pdftex.def Info: imgs/comp/edsine/r6.h.png  used on input line 485.
 (pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [24 <./imgs/comp/edsine/r6.png>]
-<imgs/comp/edsine/edsinr_r2_res_ann.png, id=363, 827.59187pt x 308.65312pt>
+ [25 <./imgs/comp/edsine/r6.png>]
+<imgs/comp/edsine/edsinr_r2_res_ann.png, id=373, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinr_r2_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r2_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_ann.png  used on input 
-line 496.
+line 495.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/edsinr_r2_res_rnn.png, id=364, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinr_r2_res_rnn.png, id=374, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinr_r2_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r2_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_rnn.png  used on input 
-line 502.
+line 501.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [25 <./imgs/comp/edsine/r6.h.png> <./imgs/comp/edsine/edsinr_r2_res_ann.png>]
-<imgs/comp/edsine/edsinr_r2_res_gru.png, id=374, 827.59187pt x 309.155pt>
+ [26 <./imgs/comp/edsine/r6.h.png> <./imgs/comp/edsine/edsinr_r2_res_ann.png>]
+<imgs/comp/edsine/edsinr_r2_res_gru.png, id=383, 827.59187pt x 309.155pt>
 File: imgs/comp/edsine/edsinr_r2_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r2_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_gru.png  used on input 
-line 508.
+line 507.
 (pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
-<imgs/comp/edsine/edsinr_r2_res_lstm.png, id=375, 827.59187pt x 309.65688pt>
+<imgs/comp/edsine/edsinr_r2_res_lstm.png, id=384, 827.59187pt x 309.65688pt>
 File: imgs/comp/edsine/edsinr_r2_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r2_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_lstm.png  used on input
- line 514.
+ line 513.
 (pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
-<imgs/comp/edsine/edsinr_r4_res_ann.png, id=376, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinr_r4_res_ann.png, id=385, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinr_r4_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r4_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_ann.png  used on input 
-line 520.
+line 519.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [26 <./imgs/comp/edsine/edsinr_r2_res_rnn.png> <./imgs/comp/edsine/edsinr_r2_r
+ [27 <./imgs/comp/edsine/edsinr_r2_res_rnn.png> <./imgs/comp/edsine/edsinr_r2_r
 es_gru.png> <./imgs/comp/edsine/edsinr_r2_res_lstm.png>]
-<imgs/comp/edsine/edsinr_r4_res_rnn.png, id=387, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinr_r4_res_rnn.png, id=396, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinr_r4_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r4_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_rnn.png  used on input 
-line 526.
+line 525.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/edsinr_r4_res_gru.png, id=388, 827.59187pt x 309.155pt>
+<imgs/comp/edsine/edsinr_r4_res_gru.png, id=397, 827.59187pt x 309.155pt>
 File: imgs/comp/edsine/edsinr_r4_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r4_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_gru.png  used on input 
-line 532.
+line 531.
 (pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
-<imgs/comp/edsine/edsinr_r4_res_lstm.png, id=389, 827.59187pt x 309.65688pt>
+<imgs/comp/edsine/edsinr_r4_res_lstm.png, id=398, 827.59187pt x 309.65688pt>
 File: imgs/comp/edsine/edsinr_r4_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r4_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_lstm.png  used on input
- line 538.
+ line 537.
 (pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
- [27 <./imgs/comp/edsine/edsinr_r4_res_ann.png> <./imgs/comp/edsine/edsinr_r4_r
+ [28 <./imgs/comp/edsine/edsinr_r4_res_ann.png> <./imgs/comp/edsine/edsinr_r4_r
 es_rnn.png> <./imgs/comp/edsine/edsinr_r4_res_gru.png>]
-<imgs/comp/edsine/edsinr_r6_res_ann.png, id=400, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinr_r6_res_ann.png, id=409, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinr_r6_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r6_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_ann.png  used on input 
-line 544.
+line 543.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/edsinr_r6_res_rnn.png, id=401, 827.59187pt x 312.66812pt>
+<imgs/comp/edsine/edsinr_r6_res_rnn.png, id=410, 827.59187pt x 312.66812pt>
 File: imgs/comp/edsine/edsinr_r6_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r6_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_rnn.png  used on input 
-line 550.
+line 549.
 (pdftex.def)             Requested size: 422.52057pt x 159.63515pt.
-<imgs/comp/edsine/edsinr_r6_res_gru.png, id=402, 827.59187pt x 309.155pt>
+<imgs/comp/edsine/edsinr_r6_res_gru.png, id=411, 827.59187pt x 309.155pt>
 File: imgs/comp/edsine/edsinr_r6_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r6_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_gru.png  used on input 
-line 556.
+line 555.
 (pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
 
-[28 <./imgs/comp/edsine/edsinr_r4_res_lstm.png> <./imgs/comp/edsine/edsinr_r6_r
+[29 <./imgs/comp/edsine/edsinr_r4_res_lstm.png> <./imgs/comp/edsine/edsinr_r6_r
 es_ann.png> <./imgs/comp/edsine/edsinr_r6_res_rnn.png>]
-<imgs/comp/edsine/edsinr_r6_res_lstm.png, id=413, 827.59187pt x 309.65688pt>
+<imgs/comp/edsine/edsinr_r6_res_lstm.png, id=422, 827.59187pt x 309.65688pt>
 File: imgs/comp/edsine/edsinr_r6_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r6_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_lstm.png  used on input
- line 562.
+ line 561.
 (pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
-<imgs/comp/edsine/loopr2.12.png, id=414, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/loopr2.12.png, id=423, 857.70438pt x 327.2225pt>
 File: imgs/comp/edsine/loopr2.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr2.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 571
+Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 570
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr2.84.png, id=415, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/loopr2.84.png, id=424, 857.70438pt x 327.2225pt>
 File: imgs/comp/edsine/loopr2.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr2.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 577
+Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 576
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr4.12.png, id=416, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/loopr4.12.png, id=425, 857.70438pt x 327.2225pt>
 File: imgs/comp/edsine/loopr4.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr4.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 583
+Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 582
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr4.84.png, id=417, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/loopr4.84.png, id=426, 857.70438pt x 327.2225pt>
 File: imgs/comp/edsine/loopr4.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr4.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 589
+Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 588
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr6.12.png, id=418, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/loopr6.12.png, id=427, 857.70438pt x 327.2225pt>
 File: imgs/comp/edsine/loopr6.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr6.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 595
+Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 594
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr6.84.png, id=419, 848.16875pt x 327.2225pt>
+<imgs/comp/edsine/loopr6.84.png, id=428, 848.16875pt x 327.2225pt>
 File: imgs/comp/edsine/loopr6.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr6.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 601
+Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 600
 .
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[29 <./imgs/comp/edsine/edsinr_r6_res_gru.png> <./imgs/comp/edsine/edsinr_r6_re
+[30 <./imgs/comp/edsine/edsinr_r6_res_gru.png> <./imgs/comp/edsine/edsinr_r6_re
 s_lstm.png>]
-<imgs/comp/edsine/N0.3/ssa_comp.png, id=432, 829.59938pt x 581.67313pt>
+<imgs/comp/edsine/N0.3/ssa_comp.png, id=441, 829.59938pt x 581.67313pt>
 File: imgs/comp/edsine/N0.3/ssa_comp.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/ssa_comp.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/ssa_comp.png  used on input line
- 620.
+ 619.
 (pdftex.def)             Requested size: 422.52057pt x 296.24997pt.
- [30 <./imgs/comp/edsine/loopr2.12.png> <./imgs/comp/edsine/loopr2.84.png>]
+ [31 <./imgs/comp/edsine/loopr2.12.png> <./imgs/comp/edsine/loopr2.84.png>]
 Overfull \vbox (51.45532pt too high) has occurred while \output is active []
 
 
-[31 <./imgs/comp/edsine/loopr4.12.png> <./imgs/comp/edsine/loopr4.84.png> <./im
+[32 <./imgs/comp/edsine/loopr4.12.png> <./imgs/comp/edsine/loopr4.84.png> <./im
 gs/comp/edsine/N0.3/ssa_comp.png>]
-<imgs/comp/edsine/N0.3/edsinerec2.png, id=459, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/N0.3/edsinerec2.png, id=468, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/N0.3/edsinerec2.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsinerec2.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsinerec2.png  used on input li
-ne 632.
+ne 631.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [32 <./imgs/comp/edsine/loopr6.12.png> <./imgs/comp/edsine/loopr6.84.png>]
-<imgs/comp/edsine/N0.3/edsinerec4.png, id=472, 827.59187pt x 308.65312pt>
+ [33 <./imgs/comp/edsine/loopr6.12.png> <./imgs/comp/edsine/loopr6.84.png>]
+<imgs/comp/edsine/N0.3/edsinerec4.png, id=481, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/N0.3/edsinerec4.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsinerec4.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsinerec4.png  used on input li
-ne 639.
+ne 638.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsinerec6.png, id=473, 827.59187pt x 311.1625pt>
+<imgs/comp/edsine/N0.3/edsinerec6.png, id=482, 827.59187pt x 311.1625pt>
 File: imgs/comp/edsine/N0.3/edsinerec6.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsinerec6.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsinerec6.png  used on input li
-ne 646.
+ne 645.
 (pdftex.def)             Requested size: 422.52057pt x 158.86644pt.
 
-Overfull \hbox (16.58835pt too wide) in paragraph at lines 652--653
+Overfull \hbox (16.58835pt too wide) in paragraph at lines 651--652
 []\T2A/cmr/m/n/12 ѕусть задана следующа€ сетка параметров: $\OML/cmm/m
 /it/12 T \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 12\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 24\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 144\OMS/cmsy/m/n/1
@@ -2408,143 +2448,143 @@ OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/cmm/m/it/12 ; [] ; \
 OT1/cmr/m/n/12 100\OMS/cmsy/m/n/12 g$\T2A/cmr/m/n/12 .
  []
 
-[33 <./imgs/comp/edsine/N0.3/edsinerec2.png> <./imgs/comp/edsine/N0.3/edsinerec
+[34 <./imgs/comp/edsine/N0.3/edsinerec2.png> <./imgs/comp/edsine/N0.3/edsinerec
 4.png> <./imgs/comp/edsine/N0.3/edsinerec6.png>]
-<imgs/comp/edsine/N0.3/r2.png, id=487, 848.16875pt x 600.2425pt>
+<imgs/comp/edsine/N0.3/r2.png, id=496, 848.16875pt x 600.2425pt>
 File: imgs/comp/edsine/N0.3/r2.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r2.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.png  used on input line 659.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.png  used on input line 658.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
-<imgs/comp/edsine/N0.3/r2.h.png, id=488, 848.16875pt x 600.2425pt>
+<imgs/comp/edsine/N0.3/r2.h.png, id=497, 848.16875pt x 600.2425pt>
 File: imgs/comp/edsine/N0.3/r2.h.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r2.h.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.h.png  used on input line 666
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.h.png  used on input line 665
 .
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
- [34 <./imgs/comp/edsine/N0.3/r2.png>]
-<imgs/comp/edsine/N0.3/r4.png, id=501, 867.24pt x 600.2425pt>
+ [35 <./imgs/comp/edsine/N0.3/r2.png>]
+<imgs/comp/edsine/N0.3/r4.png, id=510, 867.24pt x 600.2425pt>
 File: imgs/comp/edsine/N0.3/r4.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r4.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.png  used on input line 673.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.png  used on input line 672.
 (pdftex.def)             Requested size: 422.52057pt x 292.44531pt.
- [35 <./imgs/comp/edsine/N0.3/r2.h.png>]
-<imgs/comp/edsine/N0.3/r4.h.png, id=507, 857.70438pt x 600.2425pt>
+ [36 <./imgs/comp/edsine/N0.3/r2.h.png>]
+<imgs/comp/edsine/N0.3/r4.h.png, id=516, 857.70438pt x 600.2425pt>
 File: imgs/comp/edsine/N0.3/r4.h.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r4.h.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.h.png  used on input line 680
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.h.png  used on input line 679
 .
 (pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [36 <./imgs/comp/edsine/N0.3/r4.png>]
-<imgs/comp/edsine/N0.3/r6.png, id=513, 867.24pt x 600.2425pt>
+ [37 <./imgs/comp/edsine/N0.3/r4.png>]
+<imgs/comp/edsine/N0.3/r6.png, id=523, 867.24pt x 600.2425pt>
 File: imgs/comp/edsine/N0.3/r6.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r6.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.png  used on input line 687.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.png  used on input line 686.
 (pdftex.def)             Requested size: 422.52057pt x 292.44531pt.
- [37 <./imgs/comp/edsine/N0.3/r4.h.png>]
-<imgs/comp/edsine/N0.3/r6.h.png, id=520, 857.70438pt x 600.2425pt>
+ [38 <./imgs/comp/edsine/N0.3/r4.h.png>]
+<imgs/comp/edsine/N0.3/r6.h.png, id=529, 857.70438pt x 600.2425pt>
 File: imgs/comp/edsine/N0.3/r6.h.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r6.h.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.h.png  used on input line 694
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.h.png  used on input line 693
 .
 (pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [38 <./imgs/comp/edsine/N0.3/r6.png>]
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png, id=526, 827.59187pt x 308.6531
+ [39 <./imgs/comp/edsine/N0.3/r6.png>]
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png, id=535, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png  used o
-n input line 705.
+n input line 704.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png, id=527, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png, id=536, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png  used o
-n input line 712.
+n input line 711.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [39 <./imgs/comp/edsine/N0.3/r6.h.png> <./imgs/comp/edsine/N0.3/edsin0.3r_r2_r
+ [40 <./imgs/comp/edsine/N0.3/r6.h.png> <./imgs/comp/edsine/N0.3/edsin0.3r_r2_r
 es_ann.png>]
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png, id=536, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png, id=545, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png  used o
-n input line 719.
+n input line 718.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png, id=537, 827.59187pt x 308.653
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png, id=546, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png  used 
-on input line 726.
+on input line 725.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png, id=538, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png, id=547, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png  used o
-n input line 733.
+n input line 732.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [40 <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png> <./imgs/comp/edsine/N0.
+ [41 <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png> <./imgs/comp/edsine/N0.
 3/edsin0.3r_r2_res_gru.png> <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png>
 ]
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png, id=549, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png, id=558, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png  used o
-n input line 740.
+n input line 739.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png, id=550, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png, id=559, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png  used o
-n input line 747.
+n input line 746.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png, id=551, 827.59187pt x 308.653
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png, id=560, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png  used 
-on input line 754.
+on input line 753.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [41 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png> <./imgs/comp/edsine/N0.
+ [42 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png> <./imgs/comp/edsine/N0.
 3/edsin0.3r_r4_res_rnn.png> <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png>]
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png, id=562, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png, id=571, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png  used o
-n input line 761.
+n input line 760.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png, id=563, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png, id=572, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png  used o
-n input line 768.
+n input line 767.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png, id=564, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png, id=573, 827.59187pt x 308.6531
 2pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png  used o
-n input line 775.
+n input line 774.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [42 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png> <./imgs/comp/edsine/N0
+ [43 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png> <./imgs/comp/edsine/N0
 .3/edsin0.3r_r6_res_ann.png> <./imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png>
 ]
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png, id=575, 827.59187pt x 308.653
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png, id=585, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png  used 
-on input line 782.
+on input line 781.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
 File: imgs/comp/edsine/loopr2.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr2.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 792
+Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 791
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
@@ -2553,7 +2593,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr2.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr2.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 798
+Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 797
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
@@ -2561,7 +2601,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr4.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr4.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 804
+Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 803
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
@@ -2569,7 +2609,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr4.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr4.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 810
+Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 809
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
@@ -2577,7 +2617,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr6.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr6.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 816
+Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 815
 .
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
@@ -2585,252 +2625,252 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr6.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr6.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 822
+Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 821
 .
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43 <./imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png> <./imgs/comp/edsine/N0.3
-/edsin0.3r_r6_res_lstm.png>] Excluding 'comment' comment. [44] [45] [46]
+[44 <./imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png> <./imgs/comp/edsine/N0.3
+/edsin0.3r_r6_res_lstm.png>] Excluding 'comment' comment. [45] [46] [47]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 1049.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1049.
+(hyperref)                removing `\CYRS' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1049.
+(hyperref)                removing `\cyru' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1049.
+(hyperref)                removing `\cyrm' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1049.
+(hyperref)                removing `\cyrm' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1049.
+(hyperref)                removing `\cyra' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1049.
+(hyperref)                removing `\cyrd' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1049.
+(hyperref)                removing `\cyrv' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1049.
+(hyperref)                removing `\cyru' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1049.
+(hyperref)                removing `\cyrh' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1049.
+(hyperref)                removing `\cyrs' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1049.
+(hyperref)                removing `\cyri' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1049.
+(hyperref)                removing `\cyrn' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1049.
+(hyperref)                removing `\cyru' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1049.
+(hyperref)                removing `\cyrs' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1049.
+(hyperref)                removing `\cyro' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1049.
+(hyperref)                removing `\cyrv' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 1049.
+(hyperref)                removing `\cyrs' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1049.
+(hyperref)                removing `\cyrk' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1049.
+(hyperref)                removing `\cyrr' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1049.
+(hyperref)                removing `\cyra' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1049.
+(hyperref)                removing `\cyrs' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1049.
+(hyperref)                removing `\cyrn' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1049.
+(hyperref)                removing `\cyrery' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsh' on input line 1049.
+(hyperref)                removing `\cyrm' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1049.
+(hyperref)                removing `\cyrsh' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1049.
+(hyperref)                removing `\cyru' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1049.
+(hyperref)                removing `\cyrm' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1049.
+(hyperref)                removing `\cyro' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRR' on input line 1049.
+(hyperref)                removing `\cyrm' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrya' on input line 1049.
+(hyperref)                removing `\CYRR' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1049.
+(hyperref)                removing `\cyrya' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1049.
+(hyperref)                removing `\cyrd' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1049.
+(hyperref)                removing `\cyrs' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1049.
+(hyperref)                removing `\cyrt' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1049.
+(hyperref)                removing `\cyrr' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1049.
+(hyperref)                removing `\cyru' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1049.
+(hyperref)                removing `\cyrd' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1049.
+(hyperref)                removing `\cyrn' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1049.
+(hyperref)                removing `\cyro' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1049.
+(hyperref)                removing `\cyro' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1049.
+(hyperref)                removing `\cyrt' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1049.
+(hyperref)                removing `\cyrd' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1049.
+(hyperref)                removing `\cyre' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1049.
+(hyperref)                removing `\cyrl' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1049.
+(hyperref)                removing `\cyri' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1049.
+(hyperref)                removing `\cyrm' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1049.
+(hyperref)                removing `\cyrery' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1049.
+(hyperref)                removing `\cyrm' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1049.
+(hyperref)                removing `\cyrs' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1049.
+(hyperref)                removing `\cyri' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1049.
+(hyperref)                removing `\cyrg' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1049.
+(hyperref)                removing `\cyrn' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1049.
+(hyperref)                removing `\cyra' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1049.
+(hyperref)                removing `\cyrl' on input line 1048.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1049.
+(hyperref)                removing `\cyro' on input line 1048.
 
-<imgs/ts/ser/ser.png, id=609, 827.59187pt x 308.65312pt>
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrm' on input line 1048.
+
+<imgs/ts/ser/ser.png, id=618, 827.59187pt x 308.65312pt>
 File: imgs/ts/ser/ser.png Graphic file (type png)
 <use imgs/ts/ser/ser.png>
-Package pdftex.def Info: imgs/ts/ser/ser.png  used on input line 1056.
+Package pdftex.def Info: imgs/ts/ser/ser.png  used on input line 1055.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/ts/ser/ser_pgram.png, id=610, 834.11626pt x 581.67313pt>
+<imgs/ts/ser/ser_pgram.png, id=619, 834.11626pt x 581.67313pt>
 File: imgs/ts/ser/ser_pgram.png Graphic file (type png)
 <use imgs/ts/ser/ser_pgram.png>
-Package pdftex.def Info: imgs/ts/ser/ser_pgram.png  used on input line 1062.
+Package pdftex.def Info: imgs/ts/ser/ser_pgram.png  used on input line 1061.
 (pdftex.def)             Requested size: 422.52057pt x 294.65236pt.
-[47
+[48
 
  <./imgs/ts/ser/ser.png>]
-Overfull \hbox (8.56306pt too wide) in paragraph at lines 1073--1074
+Overfull \hbox (8.56306pt too wide) in paragraph at lines 1072--1073
 []\T2A/cmr/m/n/12 «ададим следующую сетку параметров $\OML/cmm/m/it/12 L
  \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 12\OML/cmm/m/it/12 ; \OT1/
 cmr/m/n/12 24\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 175\OMS/cmsy/m/n/12 g$\T2A
@@ -2841,63 +2881,63 @@ cmm/m/it/12 ; \OT1/cmr/m/n/12 12\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 16\OMS/cmsy/
 m/n/12 g$\T2A/cmr/m/n/12 . 
  []
 
-<imgs/comp/ser/ssa_comp.png, id=620, 1678.27pt x 1164.35pt>
+<imgs/comp/ser/ssa_comp.png, id=629, 1678.27pt x 1164.35pt>
 File: imgs/comp/ser/ssa_comp.png Graphic file (type png)
 <use imgs/comp/ser/ssa_comp.png>
-Package pdftex.def Info: imgs/comp/ser/ssa_comp.png  used on input line 1079.
+Package pdftex.def Info: imgs/comp/ser/ssa_comp.png  used on input line 1078.
 (pdftex.def)             Requested size: 422.52057pt x 293.12993pt.
-[48 <./imgs/ts/ser/ser_pgram.png>]
-<imgs/comp/ser/ssa_reconstruct.png, id=631, 830.10126pt x 581.67313pt>
+[49 <./imgs/ts/ser/ser_pgram.png>]
+<imgs/comp/ser/ssa_reconstruct.png, id=641, 830.10126pt x 581.67313pt>
 File: imgs/comp/ser/ssa_reconstruct.png Graphic file (type png)
 <use imgs/comp/ser/ssa_reconstruct.png>
 Package pdftex.def Info: imgs/comp/ser/ssa_reconstruct.png  used on input line 
-1112.
+1111.
 (pdftex.def)             Requested size: 422.52057pt x 296.07245pt.
- [49 <./imgs/comp/ser/ssa_comp.png>]
-<imgs/comp/ser/ssa_LH_r2.png, id=647, 827.59187pt x 308.65312pt>
+ [50 <./imgs/comp/ser/ssa_comp.png>]
+<imgs/comp/ser/ssa_LH_r2.png, id=656, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/ssa_LH_r2.png Graphic file (type png)
 <use imgs/comp/ser/ssa_LH_r2.png>
-Package pdftex.def Info: imgs/comp/ser/ssa_LH_r2.png  used on input line 1123.
+Package pdftex.def Info: imgs/comp/ser/ssa_LH_r2.png  used on input line 1122.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [50 <./imgs/comp/ser/ssa_reconstruct.png>]
-<imgs/comp/ser/ssa_LH_r6.png, id=660, 827.59187pt x 308.65312pt>
+ [51 <./imgs/comp/ser/ssa_reconstruct.png>]
+<imgs/comp/ser/ssa_LH_r6.png, id=669, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/ssa_LH_r6.png Graphic file (type png)
 <use imgs/comp/ser/ssa_LH_r6.png>
-Package pdftex.def Info: imgs/comp/ser/ssa_LH_r6.png  used on input line 1130.
+Package pdftex.def Info: imgs/comp/ser/ssa_LH_r6.png  used on input line 1129.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/ssa_LH_r4.png, id=661, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_LH_r4.png, id=670, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/ssa_LH_r4.png Graphic file (type png)
 <use imgs/comp/ser/ssa_LH_r4.png>
-Package pdftex.def Info: imgs/comp/ser/ssa_LH_r4.png  used on input line 1137.
+Package pdftex.def Info: imgs/comp/ser/ssa_LH_r4.png  used on input line 1136.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/ssa_L36_r16.png, id=662, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_L36_r16.png, id=671, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/ssa_L36_r16.png Graphic file (type png)
 <use imgs/comp/ser/ssa_L36_r16.png>
-Package pdftex.def Info: imgs/comp/ser/ssa_L36_r16.png  used on input line 1144
+Package pdftex.def Info: imgs/comp/ser/ssa_L36_r16.png  used on input line 1143
 .
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [51 <./imgs/comp/ser/ssa_LH_r2.png> <./imgs/comp/ser/ssa_LH_r6.png> <./imgs/co
+ [52 <./imgs/comp/ser/ssa_LH_r2.png> <./imgs/comp/ser/ssa_LH_r6.png> <./imgs/co
 mp/ser/ssa_LH_r4.png>]
-<imgs/comp/ser/ssa_L84_r14.png, id=670, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_L84_r14.png, id=679, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/ssa_L84_r14.png Graphic file (type png)
 <use imgs/comp/ser/ssa_L84_r14.png>
-Package pdftex.def Info: imgs/comp/ser/ssa_L84_r14.png  used on input line 1151
+Package pdftex.def Info: imgs/comp/ser/ssa_L84_r14.png  used on input line 1150
 .
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/ssa_r4_r6.png, id=671, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_r4_r6.png, id=680, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/ssa_r4_r6.png Graphic file (type png)
 <use imgs/comp/ser/ssa_r4_r6.png>
-Package pdftex.def Info: imgs/comp/ser/ssa_r4_r6.png  used on input line 1158.
+Package pdftex.def Info: imgs/comp/ser/ssa_r4_r6.png  used on input line 1157.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/ssa_r16_r14.png, id=672, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_r16_r14.png, id=681, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/ssa_r16_r14.png Graphic file (type png)
 <use imgs/comp/ser/ssa_r16_r14.png>
-Package pdftex.def Info: imgs/comp/ser/ssa_r16_r14.png  used on input line 1165
+Package pdftex.def Info: imgs/comp/ser/ssa_r16_r14.png  used on input line 1164
 .
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [52 <./imgs/comp/ser/ssa_L36_r16.png> <./imgs/comp/ser/ssa_L84_r14.png> <./img
+ [53 <./imgs/comp/ser/ssa_L36_r16.png> <./imgs/comp/ser/ssa_L84_r14.png> <./img
 s/comp/ser/ssa_r4_r6.png>]
-Overfull \hbox (16.58835pt too wide) in paragraph at lines 1174--1175
+Overfull \hbox (16.58835pt too wide) in paragraph at lines 1173--1174
 []\T2A/cmr/m/n/12 ѕусть задана следующа€ сетка параметров: $\OML/cmm/m
 /it/12 T \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 12\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 24\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 144\OMS/cmsy/m/n/1
@@ -2906,223 +2946,259 @@ OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/cmm/m/it/12 ; [] ; \
 OT1/cmr/m/n/12 100\OMS/cmsy/m/n/12 g$\T2A/cmr/m/n/12 .
  []
 
-<imgs/comp/ser/serr_r2.png, id=686, 848.16875pt x 600.2425pt>
+<imgs/comp/ser/serr_r2.png, id=695, 848.16875pt x 600.2425pt>
 File: imgs/comp/ser/serr_r2.png Graphic file (type png)
 <use imgs/comp/ser/serr_r2.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r2.png  used on input line 1182.
+Package pdftex.def Info: imgs/comp/ser/serr_r2.png  used on input line 1181.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
-[53 <./imgs/comp/ser/ssa_r16_r14.png>]
-<imgs/comp/ser/serr_r2.h.png, id=699, 848.16875pt x 600.2425pt>
+[54 <./imgs/comp/ser/ssa_r16_r14.png>]
+<imgs/comp/ser/serr_r2.h.png, id=708, 848.16875pt x 600.2425pt>
 File: imgs/comp/ser/serr_r2.h.png Graphic file (type png)
 <use imgs/comp/ser/serr_r2.h.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r2.h.png  used on input line 1189.
+Package pdftex.def Info: imgs/comp/ser/serr_r2.h.png  used on input line 1188.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
- [54 <./imgs/comp/ser/serr_r2.png>]
-<imgs/comp/ser/serr_r4.png, id=705, 848.16875pt x 600.2425pt>
+ [55 <./imgs/comp/ser/serr_r2.png>]
+<imgs/comp/ser/serr_r4.png, id=715, 848.16875pt x 600.2425pt>
 File: imgs/comp/ser/serr_r4.png Graphic file (type png)
 <use imgs/comp/ser/serr_r4.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r4.png  used on input line 1196.
+Package pdftex.def Info: imgs/comp/ser/serr_r4.png  used on input line 1195.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
 
-[55 <./imgs/comp/ser/serr_r2.h.png>]
-<imgs/comp/ser/serr_r4.h.png, id=712, 848.16875pt x 600.2425pt>
+[56 <./imgs/comp/ser/serr_r2.h.png>]
+<imgs/comp/ser/serr_r4.h.png, id=721, 848.16875pt x 600.2425pt>
 File: imgs/comp/ser/serr_r4.h.png Graphic file (type png)
 <use imgs/comp/ser/serr_r4.h.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r4.h.png  used on input line 1203.
+Package pdftex.def Info: imgs/comp/ser/serr_r4.h.png  used on input line 1202.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
- [56 <./imgs/comp/ser/serr_r4.png>]
-<imgs/comp/ser/serr_r14.png, id=718, 848.16875pt x 600.2425pt>
+ [57 <./imgs/comp/ser/serr_r4.png>]
+<imgs/comp/ser/serr_r14.png, id=727, 848.16875pt x 600.2425pt>
 File: imgs/comp/ser/serr_r14.png Graphic file (type png)
 <use imgs/comp/ser/serr_r14.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r14.png  used on input line 1210.
+Package pdftex.def Info: imgs/comp/ser/serr_r14.png  used on input line 1209.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
 
-[57 <./imgs/comp/ser/serr_r4.h.png>]
-<imgs/comp/ser/serr_r14.h.png, id=724, 848.16875pt x 600.2425pt>
+[58 <./imgs/comp/ser/serr_r4.h.png>]
+<imgs/comp/ser/serr_r14.h.png, id=733, 848.16875pt x 600.2425pt>
 File: imgs/comp/ser/serr_r14.h.png Graphic file (type png)
 <use imgs/comp/ser/serr_r14.h.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r14.h.png  used on input line 1217.
+Package pdftex.def Info: imgs/comp/ser/serr_r14.h.png  used on input line 1216.
 
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
- [58 <./imgs/comp/ser/serr_r14.png>]
-<imgs/comp/ser/serr_r2_res_ann.png, id=730, 827.59187pt x 308.65312pt>
+ [59 <./imgs/comp/ser/serr_r14.png>]
+<imgs/comp/ser/serr_r2_res_ann.png, id=739, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r2_res_ann.png Graphic file (type png)
 <use imgs/comp/ser/serr_r2_res_ann.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r2_res_ann.png  used on input line 
-1228.
+1227.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
 
-[59 <./imgs/comp/ser/serr_r14.h.png>]
-<imgs/comp/ser/serr_r2_res_rnn.png, id=737, 827.59187pt x 308.65312pt>
+[60 <./imgs/comp/ser/serr_r14.h.png>]
+<imgs/comp/ser/serr_r2_res_rnn.png, id=746, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r2_res_rnn.png Graphic file (type png)
 <use imgs/comp/ser/serr_r2_res_rnn.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r2_res_rnn.png  used on input line 
-1235.
+1234.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r2_res_gru.png, id=738, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r2_res_gru.png, id=747, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r2_res_gru.png Graphic file (type png)
 <use imgs/comp/ser/serr_r2_res_gru.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r2_res_gru.png  used on input line 
-1242.
+1241.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r2_res_lstm.png, id=739, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r2_res_lstm.png, id=748, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r2_res_lstm.png Graphic file (type png)
 <use imgs/comp/ser/serr_r2_res_lstm.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r2_res_lstm.png  used on input line
- 1249.
+ 1248.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [60 <./imgs/comp/ser/serr_r2_res_ann.png> <./imgs/comp/ser/serr_r2_res_rnn.png
+ [61 <./imgs/comp/ser/serr_r2_res_ann.png> <./imgs/comp/ser/serr_r2_res_rnn.png
 > <./imgs/comp/ser/serr_r2_res_gru.png>]
-<imgs/comp/ser/serr_r4_res_ann.png, id=750, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r4_res_ann.png, id=760, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r4_res_ann.png Graphic file (type png)
 <use imgs/comp/ser/serr_r4_res_ann.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r4_res_ann.png  used on input line 
-1256.
+1255.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r4_res_rnn.png, id=751, 827.59187pt x 312.16624pt>
+<imgs/comp/ser/serr_r4_res_rnn.png, id=761, 827.59187pt x 312.16624pt>
 File: imgs/comp/ser/serr_r4_res_rnn.png Graphic file (type png)
 <use imgs/comp/ser/serr_r4_res_rnn.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r4_res_rnn.png  used on input line 
-1263.
+1262.
 (pdftex.def)             Requested size: 422.52057pt x 159.37892pt.
-<imgs/comp/ser/serr_r4_res_gru.png, id=752, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r4_res_gru.png, id=762, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r4_res_gru.png Graphic file (type png)
 <use imgs/comp/ser/serr_r4_res_gru.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r4_res_gru.png  used on input line 
-1270.
+1269.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
 
-[61 <./imgs/comp/ser/serr_r2_res_lstm.png> <./imgs/comp/ser/serr_r4_res_ann.png
+[62 <./imgs/comp/ser/serr_r2_res_lstm.png> <./imgs/comp/ser/serr_r4_res_ann.png
 > <./imgs/comp/ser/serr_r4_res_rnn.png>]
-<imgs/comp/ser/serr_r4_res_lstm.png, id=764, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r4_res_lstm.png, id=773, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r4_res_lstm.png Graphic file (type png)
 <use imgs/comp/ser/serr_r4_res_lstm.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r4_res_lstm.png  used on input line
- 1277.
+ 1276.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r14_res_ann.png, id=765, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r14_res_ann.png, id=774, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r14_res_ann.png Graphic file (type png)
 <use imgs/comp/ser/serr_r14_res_ann.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r14_res_ann.png  used on input line
- 1284.
+ 1283.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r14_res_rnn.png, id=766, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r14_res_rnn.png, id=775, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r14_res_rnn.png Graphic file (type png)
 <use imgs/comp/ser/serr_r14_res_rnn.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r14_res_rnn.png  used on input line
- 1291.
+ 1290.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [62 <./imgs/comp/ser/serr_r4_res_gru.png> <./imgs/comp/ser/serr_r4_res_lstm.pn
+ [63 <./imgs/comp/ser/serr_r4_res_gru.png> <./imgs/comp/ser/serr_r4_res_lstm.pn
 g> <./imgs/comp/ser/serr_r14_res_ann.png>]
-<imgs/comp/ser/serr_r14_res_gru.png, id=777, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r14_res_gru.png, id=786, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r14_res_gru.png Graphic file (type png)
 <use imgs/comp/ser/serr_r14_res_gru.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r14_res_gru.png  used on input line
- 1298.
+ 1297.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r14_res_lstm.png, id=778, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r14_res_lstm.png, id=787, 827.59187pt x 308.65312pt>
 File: imgs/comp/ser/serr_r14_res_lstm.png Graphic file (type png)
 <use imgs/comp/ser/serr_r14_res_lstm.png>
 Package pdftex.def Info: imgs/comp/ser/serr_r14_res_lstm.png  used on input lin
-e 1305.
+e 1304.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [63 <./imgs/comp/ser/serr_r14_res_rnn.png> <./imgs/comp/ser/serr_r14_res_gru.p
+ [64 <./imgs/comp/ser/serr_r14_res_rnn.png> <./imgs/comp/ser/serr_r14_res_gru.p
 ng> <./imgs/comp/ser/serr_r14_res_lstm.png>]
-<imgs/comp/ser/loopr2.12.png, id=789, 848.16875pt x 327.2225pt>
+<imgs/comp/ser/loopr2.12.png, id=798, 848.16875pt x 327.2225pt>
 File: imgs/comp/ser/loopr2.12.png Graphic file (type png)
 <use imgs/comp/ser/loopr2.12.png>
-Package pdftex.def Info: imgs/comp/ser/loopr2.12.png  used on input line 1315.
+Package pdftex.def Info: imgs/comp/ser/loopr2.12.png  used on input line 1314.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
-<imgs/comp/ser/loopr2.84.png, id=790, 848.16875pt x 327.2225pt>
+<imgs/comp/ser/loopr2.84.png, id=799, 848.16875pt x 327.2225pt>
 File: imgs/comp/ser/loopr2.84.png Graphic file (type png)
 <use imgs/comp/ser/loopr2.84.png>
-Package pdftex.def Info: imgs/comp/ser/loopr2.84.png  used on input line 1321.
+Package pdftex.def Info: imgs/comp/ser/loopr2.84.png  used on input line 1320.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
-<imgs/comp/ser/loopr4.12.png, id=791, 848.16875pt x 327.2225pt>
+<imgs/comp/ser/loopr4.12.png, id=800, 848.16875pt x 327.2225pt>
 File: imgs/comp/ser/loopr4.12.png Graphic file (type png)
 <use imgs/comp/ser/loopr4.12.png>
-Package pdftex.def Info: imgs/comp/ser/loopr4.12.png  used on input line 1327.
+Package pdftex.def Info: imgs/comp/ser/loopr4.12.png  used on input line 1326.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/ser/loopr4.84.png, id=792, 848.16875pt x 327.2225pt>
+<imgs/comp/ser/loopr4.84.png, id=801, 848.16875pt x 327.2225pt>
 File: imgs/comp/ser/loopr4.84.png Graphic file (type png)
 <use imgs/comp/ser/loopr4.84.png>
-Package pdftex.def Info: imgs/comp/ser/loopr4.84.png  used on input line 1333.
+Package pdftex.def Info: imgs/comp/ser/loopr4.84.png  used on input line 1332.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/ser/loopr14.12.png, id=793, 848.16875pt x 327.2225pt>
+<imgs/comp/ser/loopr14.12.png, id=802, 848.16875pt x 327.2225pt>
 File: imgs/comp/ser/loopr14.12.png Graphic file (type png)
 <use imgs/comp/ser/loopr14.12.png>
-Package pdftex.def Info: imgs/comp/ser/loopr14.12.png  used on input line 1339.
+Package pdftex.def Info: imgs/comp/ser/loopr14.12.png  used on input line 1338.
 
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/ser/loopr14.84.png, id=794, 848.16875pt x 327.2225pt>
+<imgs/comp/ser/loopr14.84.png, id=803, 848.16875pt x 327.2225pt>
 File: imgs/comp/ser/loopr14.84.png Graphic file (type png)
 <use imgs/comp/ser/loopr14.84.png>
-Package pdftex.def Info: imgs/comp/ser/loopr14.84.png  used on input line 1345.
+Package pdftex.def Info: imgs/comp/ser/loopr14.84.png  used on input line 1344.
 
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[64 <./imgs/comp/ser/loopr2.12.png> <./imgs/comp/ser/loopr2.84.png>] [65 <./img
+[65 <./imgs/comp/ser/loopr2.12.png> <./imgs/comp/ser/loopr2.84.png>] [66 <./img
 s/comp/ser/loopr4.12.png> <./imgs/comp/ser/loopr4.84.png> <./imgs/comp/ser/loop
-r14.12.png>] [66 <./imgs/comp/ser/loopr14.84.png>]
+r14.12.png>] [67 <./imgs/comp/ser/loopr14.84.png>]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRG' on input line 1416.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1416.
+(hyperref)                removing `\CYRG' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1416.
+(hyperref)                removing `\cyrl' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1416.
+(hyperref)                removing `\cyra' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1416.
+(hyperref)                removing `\cyrv' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRR' on input line 1416.
+(hyperref)                removing `\cyra' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1416.
+(hyperref)                removing `\CYRR' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1416.
+(hyperref)                removing `\cyre' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1416.
+(hyperref)                removing `\cyra' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1416.
+(hyperref)                removing `\cyrl' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1416.
+(hyperref)                removing `\cyrsftsn' on input line 1415.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1416.
+(hyperref)                removing `\cyrn' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrery' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrd' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrery' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1415.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRS' on input line 1416.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrr' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
@@ -3134,11 +3210,31 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1416.
+(hyperref)                removing `\cyrn' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1416.
+(hyperref)                removing `\cyre' on input line 1416.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrm' on input line 1416.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1416.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrs' on input line 1416.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrya' on input line 1416.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrch' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
@@ -3154,152 +3250,96 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 1417.
+(hyperref)                removing `\cyro' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1417.
+(hyperref)                removing `\cyrs' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1417.
+(hyperref)                removing `\cyra' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1417.
+(hyperref)                removing `\cyrd' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1417.
+(hyperref)                removing `\cyrk' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1417.
+(hyperref)                removing `\cyri' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1417.
+(hyperref)                removing `\cyrv' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1417.
+(hyperref)                removing `\CYRI' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1417.
+(hyperref)                removing `\cyrn' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrya' on input line 1417.
+(hyperref)                removing `\cyrd' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1417.
+(hyperref)                removing `\cyri' on input line 1416.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1417.
+(hyperref)                removing `\cyri' on input line 1416.
 
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRI' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1417.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1417.
-
-<imgs/ts/indian_rain/indian_rain.png, id=823, 831.105pt x 576.65437pt>
+<imgs/ts/indian_rain/indian_rain.png, id=833, 831.105pt x 576.65437pt>
 File: imgs/ts/indian_rain/indian_rain.png Graphic file (type png)
 <use imgs/ts/indian_rain/indian_rain.png>
 Package pdftex.def Info: imgs/ts/indian_rain/indian_rain.png  used on input lin
-e 1423.
+e 1422.
 (pdftex.def)             Requested size: 422.52057pt x 293.15714pt.
-<imgs/ts/indian_rain/indian_rain_pgram.png, id=826, 862.72313pt x 581.67313pt>
+<imgs/ts/indian_rain/indian_rain_pgram.png, id=836, 862.72313pt x 581.67313pt>
 File: imgs/ts/indian_rain/indian_rain_pgram.png Graphic file (type png)
 <use imgs/ts/indian_rain/indian_rain_pgram.png>
 Package pdftex.def Info: imgs/ts/indian_rain/indian_rain_pgram.png  used on inp
-ut line 1433.
+ut line 1432.
 (pdftex.def)             Requested size: 422.52057pt x 284.87144pt.
-[67
+[68
 
  <./imgs/ts/indian_rain/indian_rain.png>]
-<imgs/comp/indian_rain/ssa_comp.png, id=837, 834.11626pt x 581.67313pt>
+<imgs/comp/indian_rain/ssa_comp.png, id=846, 834.11626pt x 581.67313pt>
 File: imgs/comp/indian_rain/ssa_comp.png Graphic file (type png)
 <use imgs/comp/indian_rain/ssa_comp.png>
 Package pdftex.def Info: imgs/comp/indian_rain/ssa_comp.png  used on input line
- 1445.
+ 1444.
 (pdftex.def)             Requested size: 422.52057pt x 294.65236pt.
- [68 <./imgs/ts/indian_rain/indian_rain_pgram.png>]
-<imgs/comp/indian_rain/indian_rec_r7.png, id=849, 1687.30376pt x 619.31375pt>
+ [69 <./imgs/ts/indian_rain/indian_rain_pgram.png>]
+<imgs/comp/indian_rain/indian_rec_r7.png, id=858, 1687.30376pt x 619.31375pt>
 File: imgs/comp/indian_rain/indian_rec_r7.png Graphic file (type png)
 <use imgs/comp/indian_rain/indian_rec_r7.png>
 Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_r7.png  used on input
- line 1456.
+ line 1455.
 (pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
- [69 <./imgs/comp/indian_rain/ssa_comp.png>]
-<imgs/comp/indian_rain/indian_rec_r11.png, id=859, 1687.30376pt x 619.31375pt>
+ [70 <./imgs/comp/indian_rain/ssa_comp.png>]
+<imgs/comp/indian_rain/indian_rec_r11.png, id=868, 1687.30376pt x 619.31375pt>
 File: imgs/comp/indian_rain/indian_rec_r11.png Graphic file (type png)
 <use imgs/comp/indian_rain/indian_rec_r11.png>
 Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_r11.png  used on inpu
-t line 1463.
+t line 1462.
 (pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
-<imgs/comp/indian_rain/indian_rec_rboth.png, id=860, 1687.30376pt x 619.31375pt
+<imgs/comp/indian_rain/indian_rec_rboth.png, id=869, 1687.30376pt x 619.31375pt
 >
 File: imgs/comp/indian_rain/indian_rec_rboth.png Graphic file (type png)
 <use imgs/comp/indian_rain/indian_rec_rboth.png>
 Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_rboth.png  used on in
-put line 1470.
+put line 1469.
 (pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
 
-Overfull \hbox (16.58835pt too wide) in paragraph at lines 1477--1478
+Overfull \hbox (16.58835pt too wide) in paragraph at lines 1476--1477
 []\T2A/cmr/m/n/12 ѕусть задана следующа€ сетка параметров: $\OML/cmm/m
 /it/12 T \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 12\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 48\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 480\OMS/cmsy/m/n/1
@@ -3308,119 +3348,120 @@ OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/cmm/m/it/12 ; [] ; \
 OT1/cmr/m/n/12 100\OMS/cmsy/m/n/12 g$\T2A/cmr/m/n/12 . 
  []
 
-[70 <./imgs/comp/indian_rain/indian_rec_r7.png> <./imgs/comp/indian_rain/indian
+[71 <./imgs/comp/indian_rain/indian_rec_r7.png> <./imgs/comp/indian_rain/indian
 _rec_r11.png> <./imgs/comp/indian_rain/indian_rec_rboth.png>]
-<imgs/comp/indian_rain/first_comp.png, id=871, 861.71938pt x 600.2425pt>
+<imgs/comp/indian_rain/first_comp.png, id=880, 861.71938pt x 600.2425pt>
 File: imgs/comp/indian_rain/first_comp.png Graphic file (type png)
 <use imgs/comp/indian_rain/first_comp.png>
 Package pdftex.def Info: imgs/comp/indian_rain/first_comp.png  used on input li
-ne 1484.
+ne 1483.
 (pdftex.def)             Requested size: 422.52057pt x 294.31374pt.
-<imgs/comp/indian_rain/first_comp.h.png, id=872, 852.68562pt x 600.2425pt>
+<imgs/comp/indian_rain/first_comp.h.png, id=881, 852.68562pt x 600.2425pt>
 File: imgs/comp/indian_rain/first_comp.h.png Graphic file (type png)
 <use imgs/comp/indian_rain/first_comp.h.png>
 Package pdftex.def Info: imgs/comp/indian_rain/first_comp.h.png  used on input 
-line 1490.
+line 1489.
 (pdftex.def)             Requested size: 422.52057pt x 297.43694pt.
- [71 <./imgs/comp/indian_rain/first_comp.png>]
-<imgs/comp/indian_rain/rain_res_ann.png, id=881, 843.65187pt x 313.67188pt>
+ [72 <./imgs/comp/indian_rain/first_comp.png>]
+<imgs/comp/indian_rain/rain_res_ann.png, id=890, 843.65187pt x 313.67188pt>
 File: imgs/comp/indian_rain/rain_res_ann.png Graphic file (type png)
 <use imgs/comp/indian_rain/rain_res_ann.png>
 Package pdftex.def Info: imgs/comp/indian_rain/rain_res_ann.png  used on input 
-line 1500.
+line 1499.
 (pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
-<imgs/comp/indian_rain/rain_res_rnn.png, id=882, 843.65187pt x 313.67188pt>
+<imgs/comp/indian_rain/rain_res_rnn.png, id=891, 843.65187pt x 313.67188pt>
 File: imgs/comp/indian_rain/rain_res_rnn.png Graphic file (type png)
 <use imgs/comp/indian_rain/rain_res_rnn.png>
 Package pdftex.def Info: imgs/comp/indian_rain/rain_res_rnn.png  used on input 
-line 1506.
+line 1505.
 (pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
- [72 <./imgs/comp/indian_rain/first_comp.h.png> <./imgs/comp/indian_rain/rain_r
+ [73 <./imgs/comp/indian_rain/first_comp.h.png> <./imgs/comp/indian_rain/rain_r
 es_ann.png>]
-<imgs/comp/indian_rain/rain_res_gru.png, id=891, 843.65187pt x 313.67188pt>
+<imgs/comp/indian_rain/rain_res_gru.png, id=901, 843.65187pt x 313.67188pt>
 File: imgs/comp/indian_rain/rain_res_gru.png Graphic file (type png)
 <use imgs/comp/indian_rain/rain_res_gru.png>
 Package pdftex.def Info: imgs/comp/indian_rain/rain_res_gru.png  used on input 
-line 1512.
+line 1511.
 (pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
-<imgs/comp/indian_rain/rain_res_lstm.png, id=892, 843.65187pt x 313.67188pt>
+<imgs/comp/indian_rain/rain_res_lstm.png, id=902, 843.65187pt x 313.67188pt>
 File: imgs/comp/indian_rain/rain_res_lstm.png Graphic file (type png)
 <use imgs/comp/indian_rain/rain_res_lstm.png>
 Package pdftex.def Info: imgs/comp/indian_rain/rain_res_lstm.png  used on input
- line 1518.
+ line 1517.
 (pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
- [73 <./imgs/comp/indian_rain/rain_res_rnn.png> <./imgs/comp/indian_rain/rain_r
+ [74 <./imgs/comp/indian_rain/rain_res_rnn.png> <./imgs/comp/indian_rain/rain_r
 es_gru.png> <./imgs/comp/indian_rain/rain_res_lstm.png>]
-<imgs/comp/indian_rain/2.12.jpg, id=907, 1705.37125pt x 654.445pt>
+<imgs/comp/indian_rain/2.12.jpg, id=916, 1705.37125pt x 654.445pt>
 File: imgs/comp/indian_rain/2.12.jpg Graphic file (type jpg)
 <use imgs/comp/indian_rain/2.12.jpg>
-Package pdftex.def Info: imgs/comp/indian_rain/2.12.jpg  used on input line 153
-0.
+Package pdftex.def Info: imgs/comp/indian_rain/2.12.jpg  used on input line 152
+9.
 (pdftex.def)             Requested size: 422.52057pt x 162.1429pt.
-<imgs/comp/indian_rain/2.156.jpg, id=908, 1705.37125pt x 654.445pt>
+<imgs/comp/indian_rain/2.156.jpg, id=917, 1705.37125pt x 654.445pt>
 File: imgs/comp/indian_rain/2.156.jpg Graphic file (type jpg)
 <use imgs/comp/indian_rain/2.156.jpg>
 Package pdftex.def Info: imgs/comp/indian_rain/2.156.jpg  used on input line 15
-36.
+35.
 (pdftex.def)             Requested size: 422.52057pt x 162.1429pt.
- [74 <./imgs/comp/indian_rain/2.12.jpg> <./imgs/comp/indian_rain/2.156.jpg>]
+ [75 <./imgs/comp/indian_rain/2.12.jpg> <./imgs/comp/indian_rain/2.156.jpg>] [7
+6]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRD' on input line 1546.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1546.
+(hyperref)                removing `\CYRD' on input line 1547.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1546.
+(hyperref)                removing `\cyra' on input line 1547.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1546.
+(hyperref)                removing `\cyrn' on input line 1547.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1546.
+(hyperref)                removing `\cyrn' on input line 1547.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1546.
+(hyperref)                removing `\cyrery' on input line 1547.
 
-<imgs/ts/eop/x_pole.png, id=917, 842.14626pt x 326.21875pt>
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1547.
+
+<imgs/ts/eop/x_pole.png, id=930, 842.14626pt x 326.21875pt>
 File: imgs/ts/eop/x_pole.png Graphic file (type png)
 <use imgs/ts/eop/x_pole.png>
-Package pdftex.def Info: imgs/ts/eop/x_pole.png  used on input line 1552.
+Package pdftex.def Info: imgs/ts/eop/x_pole.png  used on input line 1553.
 (pdftex.def)             Requested size: 469.47049pt x 181.85992pt.
-<imgs/ts/eop/x_pole.notrend.png, id=920, 842.14626pt x 308.65312pt>
+<imgs/ts/eop/x_pole.notrend.png, id=933, 842.14626pt x 308.65312pt>
 File: imgs/ts/eop/x_pole.notrend.png Graphic file (type png)
 <use imgs/ts/eop/x_pole.notrend.png>
 Package pdftex.def Info: imgs/ts/eop/x_pole.notrend.png  used on input line 156
-0.
+1.
 (pdftex.def)             Requested size: 469.47049pt x 172.06746pt.
-[75
+[77
 
  <./imgs/ts/eop/x_pole.png> <./imgs/ts/eop/x_pole.notrend.png>]
-<imgs/ts/eop/x_pole_pgram.png, id=930, 839.135pt x 581.67313pt>
+<imgs/ts/eop/x_pole_pgram.png, id=943, 839.135pt x 581.67313pt>
 File: imgs/ts/eop/x_pole_pgram.png Graphic file (type png)
 <use imgs/ts/eop/x_pole_pgram.png>
-Package pdftex.def Info: imgs/ts/eop/x_pole_pgram.png  used on input line 1570.
+Package pdftex.def Info: imgs/ts/eop/x_pole_pgram.png  used on input line 1571.
 
 (pdftex.def)             Requested size: 422.52057pt x 292.88611pt.
- [76 <./imgs/ts/eop/x_pole_pgram.png>]
-<imgs/comp/eop/ssa_comp.png, id=942, 848.67062pt x 581.67313pt>
+ [78 <./imgs/ts/eop/x_pole_pgram.png>]
+<imgs/comp/eop/ssa_comp.png, id=955, 848.67062pt x 581.67313pt>
 File: imgs/comp/eop/ssa_comp.png Graphic file (type png)
 <use imgs/comp/eop/ssa_comp.png>
-Package pdftex.def Info: imgs/comp/eop/ssa_comp.png  used on input line 1585.
+Package pdftex.def Info: imgs/comp/eop/ssa_comp.png  used on input line 1586.
 (pdftex.def)             Requested size: 422.52057pt x 289.59326pt.
-<imgs/comp/eop/eop_rec.png, id=944, 842.14626pt x 308.65312pt>
+<imgs/comp/eop/eop_rec.png, id=957, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/eop_rec.png Graphic file (type png)
 <use imgs/comp/eop/eop_rec.png>
-Package pdftex.def Info: imgs/comp/eop/eop_rec.png  used on input line 1595.
+Package pdftex.def Info: imgs/comp/eop/eop_rec.png  used on input line 1596.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
- [77 <./imgs/comp/eop/ssa_comp.png>]
-Overfull \hbox (16.58835pt too wide) in paragraph at lines 1602--1603
+ [79 <./imgs/comp/eop/ssa_comp.png>]
+Overfull \hbox (16.58835pt too wide) in paragraph at lines 1603--1604
 []\T2A/cmr/m/n/12 ѕусть задана следующа€ сетка параметров: $\OML/cmm/m
 /it/12 T \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 13\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 42\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 143\OMS/cmsy/m/n/1
@@ -3429,112 +3470,112 @@ OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/cmm/m/it/12 ; [] ; \
 OT1/cmr/m/n/12 100\OMS/cmsy/m/n/12 g$\T2A/cmr/m/n/12 . 
  []
 
-<imgs/comp/eop/x_pole.comp.T.png, id=952, 857.70438pt x 600.2425pt>
+<imgs/comp/eop/x_pole.comp.T.png, id=966, 857.70438pt x 600.2425pt>
 File: imgs/comp/eop/x_pole.comp.T.png Graphic file (type png)
 <use imgs/comp/eop/x_pole.comp.T.png>
 Package pdftex.def Info: imgs/comp/eop/x_pole.comp.T.png  used on input line 16
-07.
+08.
 (pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
-<imgs/comp/eop/x_pole.comp.T.h.png, id=953, 867.24pt x 604.2575pt>
+<imgs/comp/eop/x_pole.comp.T.h.png, id=967, 867.24pt x 604.2575pt>
 File: imgs/comp/eop/x_pole.comp.T.h.png Graphic file (type png)
 <use imgs/comp/eop/x_pole.comp.T.h.png>
 Package pdftex.def Info: imgs/comp/eop/x_pole.comp.T.h.png  used on input line 
-1613.
+1614.
 (pdftex.def)             Requested size: 422.52057pt x 294.40146pt.
-[78 <./imgs/comp/eop/eop_rec.png> <./imgs/comp/eop/x_pole.comp.T.png>]
-<imgs/comp/eop/xpole_res_ann.png, id=964, 842.14626pt x 308.65312pt>
+[80 <./imgs/comp/eop/eop_rec.png> <./imgs/comp/eop/x_pole.comp.T.png>]
+<imgs/comp/eop/xpole_res_ann.png, id=978, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/xpole_res_ann.png Graphic file (type png)
 <use imgs/comp/eop/xpole_res_ann.png>
 Package pdftex.def Info: imgs/comp/eop/xpole_res_ann.png  used on input line 16
-25.
+26.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
- [79 <./imgs/comp/eop/x_pole.comp.T.h.png>]
-<imgs/comp/eop/xpole_res_rnn.png, id=974, 842.14626pt x 308.65312pt>
+ [81 <./imgs/comp/eop/x_pole.comp.T.h.png>]
+<imgs/comp/eop/xpole_res_rnn.png, id=987, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/xpole_res_rnn.png Graphic file (type png)
 <use imgs/comp/eop/xpole_res_rnn.png>
 Package pdftex.def Info: imgs/comp/eop/xpole_res_rnn.png  used on input line 16
-31.
+32.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
-<imgs/comp/eop/xpole_res_gru.png, id=975, 842.14626pt x 308.65312pt>
+<imgs/comp/eop/xpole_res_gru.png, id=988, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/xpole_res_gru.png Graphic file (type png)
 <use imgs/comp/eop/xpole_res_gru.png>
 Package pdftex.def Info: imgs/comp/eop/xpole_res_gru.png  used on input line 16
-37.
+38.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
-<imgs/comp/eop/xpole_res_lstm.png, id=976, 842.14626pt x 308.65312pt>
+<imgs/comp/eop/xpole_res_lstm.png, id=989, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/xpole_res_lstm.png Graphic file (type png)
 <use imgs/comp/eop/xpole_res_lstm.png>
 Package pdftex.def Info: imgs/comp/eop/xpole_res_lstm.png  used on input line 1
-643.
+644.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
- [80 <./imgs/comp/eop/xpole_res_ann.png> <./imgs/comp/eop/xpole_res_rnn.png> <.
+ [82 <./imgs/comp/eop/xpole_res_ann.png> <./imgs/comp/eop/xpole_res_rnn.png> <.
 /imgs/comp/eop/xpole_res_gru.png>]
-<imgs/comp/eop/loop13.png, id=988, 867.24pt x 327.2225pt>
+<imgs/comp/eop/loop13.png, id=1001, 867.24pt x 327.2225pt>
 File: imgs/comp/eop/loop13.png Graphic file (type png)
 <use imgs/comp/eop/loop13.png>
-Package pdftex.def Info: imgs/comp/eop/loop13.png  used on input line 1653.
+Package pdftex.def Info: imgs/comp/eop/loop13.png  used on input line 1654.
 (pdftex.def)             Requested size: 422.52057pt x 159.4267pt.
-<imgs/comp/eop/loop91.png, id=989, 857.70438pt x 327.2225pt>
+<imgs/comp/eop/loop91.png, id=1002, 857.70438pt x 327.2225pt>
 File: imgs/comp/eop/loop91.png Graphic file (type png)
 <use imgs/comp/eop/loop91.png>
-Package pdftex.def Info: imgs/comp/eop/loop91.png  used on input line 1659.
+Package pdftex.def Info: imgs/comp/eop/loop91.png  used on input line 1660.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
- [81 <./imgs/comp/eop/xpole_res_lstm.png> <./imgs/comp/eop/loop13.png>] [82 <./
-imgs/comp/eop/loop91.png>]
+ [83 <./imgs/comp/eop/xpole_res_lstm.png> <./imgs/comp/eop/loop13.png>] [84 <./
+imgs/comp/eop/loop91.png>] [85]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRP' on input line 1670.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1670.
+(hyperref)                removing `\CYRP' on input line 1673.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1670.
+(hyperref)                removing `\cyro' on input line 1673.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1670.
+(hyperref)                removing `\cyrg' on input line 1673.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1670.
+(hyperref)                removing `\cyro' on input line 1673.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1670.
+(hyperref)                removing `\cyrd' on input line 1673.
 
-<imgs/ts/weather/weather4.png, id=1007, 818.05624pt x 576.65437pt>
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1673.
+
+<imgs/ts/weather/weather4.png, id=1026, 818.05624pt x 576.65437pt>
 File: imgs/ts/weather/weather4.png Graphic file (type png)
 <use imgs/ts/weather/weather4.png>
-Package pdftex.def Info: imgs/ts/weather/weather4.png  used on input line 1676.
+Package pdftex.def Info: imgs/ts/weather/weather4.png  used on input line 1679.
 
 (pdftex.def)             Requested size: 469.47049pt x 330.94016pt.
-<imgs/ts/weather/weather4_pgram.png, id=1009, 853.1875pt x 581.67313pt>
+<imgs/ts/weather/weather4_pgram.png, id=1028, 853.1875pt x 581.67313pt>
 File: imgs/ts/weather/weather4_pgram.png Graphic file (type png)
 <use imgs/ts/weather/weather4_pgram.png>
 Package pdftex.def Info: imgs/ts/weather/weather4_pgram.png  used on input line
- 1686.
+ 1689.
 (pdftex.def)             Requested size: 469.47049pt x 320.0721pt.
-[83
+[86
 
  <./imgs/ts/weather/weather4.png>]
-<imgs/comp/weather/ssa_comp.png, id=1019, 824.58063pt x 581.67313pt>
+<imgs/comp/weather/ssa_comp.png, id=1038, 824.58063pt x 581.67313pt>
 File: imgs/comp/weather/ssa_comp.png Graphic file (type png)
 <use imgs/comp/weather/ssa_comp.png>
 Package pdftex.def Info: imgs/comp/weather/ssa_comp.png  used on input line 170
-1.
+4.
 (pdftex.def)             Requested size: 422.52057pt x 298.05171pt.
- [84 <./imgs/ts/weather/weather4_pgram.png>]
-<imgs/comp/weather/weather_rec.png, id=1029, 824.58063pt x 308.65312pt>
+ [87 <./imgs/ts/weather/weather4_pgram.png>]
+<imgs/comp/weather/weather_rec.png, id=1048, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_rec.png Graphic file (type png)
 <use imgs/comp/weather/weather_rec.png>
 Package pdftex.def Info: imgs/comp/weather/weather_rec.png  used on input line 
-1712.
+1715.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
 
-Overfull \hbox (16.58835pt too wide) in paragraph at lines 1719--1720
+Overfull \hbox (16.58835pt too wide) in paragraph at lines 1722--1723
 []\T2A/cmr/m/n/12 ѕусть задана следующа€ сетка параметров: $\OML/cmm/m
 /it/12 T \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 12\OML/cmm/m/it/12
  ; \OT1/cmr/m/n/12 48\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 120\OMS/cmsy/m/n/1
@@ -3543,105 +3584,106 @@ OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/cmm/m/it/12 ; [] ; \
 OT1/cmr/m/n/12 100\OMS/cmsy/m/n/12 g$\T2A/cmr/m/n/12 .
  []
 
-[85 <./imgs/comp/weather/ssa_comp.png> <./imgs/comp/weather/weather_rec.png>]
-<imgs/comp/weather/weather4.comp.png, id=1041, 848.16875pt x 600.2425pt>
+[88 <./imgs/comp/weather/ssa_comp.png> <./imgs/comp/weather/weather_rec.png>]
+<imgs/comp/weather/weather4.comp.png, id=1061, 848.16875pt x 600.2425pt>
 File: imgs/comp/weather/weather4.comp.png Graphic file (type png)
 <use imgs/comp/weather/weather4.comp.png>
 Package pdftex.def Info: imgs/comp/weather/weather4.comp.png  used on input lin
-e 1724.
+e 1727.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
-<imgs/comp/weather/weather4.comp.h.png, id=1042, 848.16875pt x 600.2425pt>
+<imgs/comp/weather/weather4.comp.h.png, id=1062, 848.16875pt x 600.2425pt>
 File: imgs/comp/weather/weather4.comp.h.png Graphic file (type png)
 <use imgs/comp/weather/weather4.comp.h.png>
 Package pdftex.def Info: imgs/comp/weather/weather4.comp.h.png  used on input l
-ine 1730.
+ine 1733.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
 
-[86 <./imgs/comp/weather/weather4.comp.png>]
-<imgs/comp/weather/weather_res_ann.png, id=1051, 824.58063pt x 308.65312pt>
+[89 <./imgs/comp/weather/weather4.comp.png>]
+<imgs/comp/weather/weather_res_ann.png, id=1071, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_res_ann.png Graphic file (type png)
 <use imgs/comp/weather/weather_res_ann.png>
 Package pdftex.def Info: imgs/comp/weather/weather_res_ann.png  used on input l
-ine 1740.
+ine 1743.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
-<imgs/comp/weather/weather_res_rnn.png, id=1052, 824.58063pt x 308.65312pt>
+<imgs/comp/weather/weather_res_rnn.png, id=1072, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_res_rnn.png Graphic file (type png)
 <use imgs/comp/weather/weather_res_rnn.png>
 Package pdftex.def Info: imgs/comp/weather/weather_res_rnn.png  used on input l
-ine 1746.
+ine 1749.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
- [87 <./imgs/comp/weather/weather4.comp.h.png> <./imgs/comp/weather/weather_res
+ [90 <./imgs/comp/weather/weather4.comp.h.png> <./imgs/comp/weather/weather_res
 _ann.png>]
-<imgs/comp/weather/weather_res_gru.png, id=1061, 824.58063pt x 308.65312pt>
+<imgs/comp/weather/weather_res_gru.png, id=1081, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_res_gru.png Graphic file (type png)
 <use imgs/comp/weather/weather_res_gru.png>
 Package pdftex.def Info: imgs/comp/weather/weather_res_gru.png  used on input l
-ine 1752.
+ine 1755.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
-<imgs/comp/weather/weather_res_lstm.png, id=1062, 824.58063pt x 308.65312pt>
+<imgs/comp/weather/weather_res_lstm.png, id=1082, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_res_lstm.png Graphic file (type png)
 <use imgs/comp/weather/weather_res_lstm.png>
 Package pdftex.def Info: imgs/comp/weather/weather_res_lstm.png  used on input 
-line 1758.
+line 1761.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
- [88 <./imgs/comp/weather/weather_res_rnn.png> <./imgs/comp/weather/weather_res
+ [91 <./imgs/comp/weather/weather_res_rnn.png> <./imgs/comp/weather/weather_res
 _gru.png> <./imgs/comp/weather/weather_res_lstm.png>]
-<imgs/comp/weather/loops.12.png, id=1074, 848.16875pt x 327.2225pt>
+<imgs/comp/weather/loops.12.png, id=1095, 848.16875pt x 327.2225pt>
 File: imgs/comp/weather/loops.12.png Graphic file (type png)
 <use imgs/comp/weather/loops.12.png>
-Package pdftex.def Info: imgs/comp/weather/loops.12.png  used on input line 176
-7.
+Package pdftex.def Info: imgs/comp/weather/loops.12.png  used on input line 177
+0.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
-<imgs/comp/weather/loops.84.png, id=1075, 857.70438pt x 327.2225pt>
+<imgs/comp/weather/loops.84.png, id=1096, 857.70438pt x 327.2225pt>
 File: imgs/comp/weather/loops.84.png Graphic file (type png)
 <use imgs/comp/weather/loops.84.png>
 Package pdftex.def Info: imgs/comp/weather/loops.84.png  used on input line 177
-3.
+6.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
- [89 <./imgs/comp/weather/loops.12.png> <./imgs/comp/weather/loops.84.png>]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRZ' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyryu' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1783.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1783.
-
-(report.bbl [90
-
+ [92 <./imgs/comp/weather/loops.12.png> <./imgs/comp/weather/loops.84.png>] [93
 ]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRZ' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrk' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyryu' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrch' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 1787.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1787.
+
+(report.bbl [94
+
+] [95]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\CYRS' on input line 1.
@@ -3706,20 +3748,20 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyrery' on input line 1.
 
-) [91
+) [96
 
 ] (report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 7A8B35361CB7E69611BEB6016B51618A;3740.
+(rerunfilecheck)             Checksum: FBEEAB98ACC3C33C220E1E3C82B35812;3846.
  ) 
 Here is how much of TeX's memory you used:
- 16148 strings out of 478582
- 288444 string characters out of 2843873
- 531741 words of memory out of 3000000
- 33555 multiletter control sequences out of 15000+600000
+ 16158 strings out of 478582
+ 288524 string characters out of 2843873
+ 531721 words of memory out of 3000000
+ 33556 multiletter control sequences out of 15000+600000
  488422 words of font info for 78 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,77p,1267b,436s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 75i,12n,77p,1380b,523s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-su
 per-t2a.enc}<C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type
@@ -3746,9 +3788,9 @@ blic/cm-super/sfbx1728.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts
 TeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Fridge/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/Fridge/AppData/
 Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pfb>
-Output written on report.pdf (91 pages, 20714084 bytes).
+Output written on report.pdf (96 pages, 20721574 bytes).
 PDF statistics:
- 1243 PDF objects out of 1440 (max. 8388607)
- 335 named destinations out of 1000 (max. 500000)
- 859 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1276 PDF objects out of 1440 (max. 8388607)
+ 344 named destinations out of 1000 (max. 500000)
+ 867 words of extra memory for PDF output out of 10000 (max. 10000000)
 
