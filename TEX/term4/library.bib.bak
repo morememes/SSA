@@ -1,0 +1,54 @@
+@Book{SSA,
+  author    = {Nina Golyandina and Vladimir Nekrutkin and Anatoly A. Zhigljavsky},
+  publisher = {Chapman and Hall/CRC},
+  title     = {Analysis of Time Series Structure - SSA and Related Techniques},
+  year      = {2001},
+  address   = {Boca Raton, FL},
+  booktitle = {Monographs on statistics and applied probability},
+}
+
+@Article{ar1,
+  author  = {Du, Kongchang and Zhao, Ying and Lei, Jiaqiang},
+  journal = {Journal of Hydrology},
+  title   = {The wrong usage of singular spectral analysis and discrete wavelet transform in hybrid models to predict hydrological time series},
+  year    = {2017},
+  month   = {06},
+  volume  = {552},
+  doi     = {10.1016/j.jhydrol.2017.06.019},
+}
+
+@Article{gru,
+  author     = {Kyunghyun Cho and Bart van Merrienboer and {\c{C}}aglar G{\"{u}}l{\c{c}}ehre and Fethi Bougares and Holger Schwenk and Yoshua Bengio},
+  journal    = {CoRR},
+  title      = {Learning Phrase Representations using {RNN} Encoder-Decoder for Statistical Machine Translation},
+  year       = {2014},
+  volume     = {abs/1406.1078},
+  bibsource  = {dblp computer science bibliography, https://dblp.org},
+  biburl     = {https://dblp.org/rec/journals/corr/ChoMGBSB14.bib},
+  eprint     = {1406.1078},
+  eprinttype = {arXiv},
+  timestamp  = {Mon, 13 Aug 2018 16:46:44 +0200},
+  url        = {http://arxiv.org/abs/1406.1078},
+}
+
+@Article{rnn,
+  author  = {Jeffrey L. Elman},
+  journal = {Cogn. Sci.},
+  title   = {Finding Structure in Time},
+  year    = {1990},
+  pages   = {179-211},
+  volume  = {14},
+}
+
+@Article{lstm,
+  author  = {Hochreiter, Sepp and Schmidhuber, Jürgen},
+  journal = {Neural computation},
+  title   = {Long Short-term Memory},
+  year    = {1997},
+  month   = {12},
+  pages   = {1735-80},
+  volume  = {9},
+  doi     = {10.1162/neco.1997.9.8.1735},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}
