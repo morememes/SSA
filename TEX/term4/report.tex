@@ -70,6 +70,10 @@
 \sastatus {Доцент, кафедра статистического моделирования\,\\
 	к.ф.-м.н., доцент\footnote{Где рецензент на обоих листах?}}
 
+% Рецензент
+\rev      {А.\,Ю.~Шлемов}
+\revstatus{Программист, Майкрософт Израиль}
+
 % Город и год
 \city{Санкт-Петербург}
 \date{\number\year}
@@ -99,9 +103,9 @@
 \sa       {N.\,E.~Golyandina}
 \sastatus {Associate Professor, Department of Statistical Modelling}
 %
-%%% Reviewer
-%\rev      {P.\,P.~Petrov}
-%\revstatus{Associate Professor, NPO <<Horns and Hoofs>>}
+%% Reviewer
+\rev      {А.\,Y.~Shlemov}
+\revstatus{Software developer, Microsoft R\&D, Israel}
 %
 %% City & Year
 \city{Saint Petersburg}
@@ -383,14 +387,16 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \label{comp_tactic}
 В этом разделе описана методика применения и сравнения обычных и гибридных прогнозов, а также прогнозов полученных с помощью SSA.
 
-\paragraph{Прогноз по SSA} Подберем для метода SSA параметры $L$ и $r$, которые дают наилучшие результаты на валидационной выборке. Для параметров для $L$ и $r$ зададим сетку, по которой будем перебирать комбинации параметров, оценивая ошибку прогноза на один шаг вперед с помощью метрики RMSE на валидационной выборке. Для пяти лучших пар параметров построим прогноз на тестовой выборке и получим оценку ошибки. Каждую ошибку отобразим на графике с помощью горизонтальной прямой.
+\paragraph{Прогноз по SSA} Подберем для метода SSA параметры $L$ и $r$, которые дают наилучшие результаты на валидационной выборке. Для параметров $L$ и $r$ зададим сетку, по которой будем перебирать комбинации параметров, оценивая ошибку прогноза на один шаг вперед с помощью метрики RMSE на валидационной выборке. Построим график с кривыми зависимости ошибки от параметра $L$. Каждая кривая будет соответствовать одному параметру $r$ из соответствующей сетки. 
+
+Далее для пяти лучших пар параметров построим прогноз на тестовой выборке и получим оценку ошибки. Каждую ошибку отобразим на графике с помощью горизонтальной прямой вместе с прогнозами обычных и гибридных методов.
 
 \paragraph{Выбор параметров SSA в гибридных моделях} Прежде чем сравнивать обычные и гибридные модели, нужно выбрать параметры SSA для гибридных моделей. Сделать это можно двумя способами:
 
 \begin{enumerate}
 	\item Подобрать параметры на основе SSA-анализа тренировочной части ряда.
 % или исходя из других источников информации.
-	\item Перебрать параметры для метода SSA и выбрать лучшие параметры, основываясь на точности прогноза методом.
+	\item Перебрать параметры для метода SSA и выбрать лучшие параметры, основываясь на точности прогноза методом, полученной на предыдущем этапе.
 \end{enumerate}
 
 \paragraph{Обычные и гибридные методы} Для гибридных моделей фиксируем гиперпараметры SSA $L$ и $r$, выбранные заранее. Будем сравнивать методы по сетке гиперпараметров $T$ --- размер входного вектора и $h$ --- размер скрытого слоя нейронной сети (модели нейронных сетей подробно описаны в главе \ref{models}). Каждую пару $T$ и $h$ можно представить как ячейку в таблице \ref{hyperP_grid}. Для каждой ячейки получаем ошибку по метрике RMSE на тестовой выборке. Ошибку можно усреднить по столбцам или по строкам, и построить по графику зависимости ошибки от гиперпараметров $T$ или $h$ для каждого метода соответственно. Методы можно будет сравнить на графиках.
@@ -410,6 +416,8 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \label{hyperP_grid}
 \end{table}
 
+Заметим, что для модельных данных, где сигнал известен, можно также использовать данные сигнала для анализа ошибок методов.
+
 \paragraph{Проверка устойчивости результатов}
 Для того чтобы оценить устойчивость результатов, фиксируется небольшая сетка параметров $T$ и строится таблица, аналогичная \ref{hyperP_grid}. Проводится $n$ реализаций для каждой ячейки из таблицы. Так как параметры в нейронных сетях инициализируется случайно, то каждый раз получается разный результат. Для каждого $T$ полученные результаты заносятся на отдельный график зависимости ошибки от параметра $h$ в виде точек. По этим графикам можно оценить устойчивость результатов.
 
@@ -417,7 +425,11 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 
 \paragraph{Восстановление ряда с помощью SSA} Для оценки корректности использования предобработки SSA будем строить график восстановленного сигнала с помощью SSA на фоне временного ряда (его тренировочной части).
 
-Заметим, что для модельных данных, где сигнал известен, можно также использовать данные сигнала для анализа ошибок методов.
+\paragraph{Таблица с результатами} 
+Вместе с графиками сравнения будет приводиться таблица с результатами. Данная таблица является частью большей таблицы \ref{bigtable} из приложения. В таблице \ref{bigtable} все результаты, полученные для модельных рядов из главы \ref{modts}.
+
+В столбце <<ssa-params>> отображены параметры SSA в гибридных моделях, если параметры не указаны, значит в строчке записаны результаты для негибридных моделей. Префикс <<b>> значит, что значение в таблице отображает ошибку лучшей нейронная сеть из своих аналогов (например, лучшая из негибридных, или лучшая из гибридных). Префикс <<m>> означает, что значение отображает среднее значение ошибок для негибридных, обычных методов или метода SSA. Для метода SSA показана наименьшее значение ошибки для префикса <<b>>, для префикса <<m>> показано среднее значение по пяти лучшим прогнозом, при этом для удобства сравнения во всех строчках ошибки SSA-прогноза повторены. Значения прогнозов в обоих случаев берутся из таблицы \ref{bigtable} в приложении.
+
 
 \chapter{Модельные данные}
 \label{modts}
@@ -463,7 +475,7 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 
 \begin{figure}[H]
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/ssa_comp}}
-	\caption{<<Сумма синусов с белым шумом>>. RMSE прогноза на валидационном периоде.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. RMSE прогноз на валидационной части.}
 	\label{edsinr_ssa_forecast}
 \end{figure}
 \footnote{Не исправили то, что я уже комментировала. И где указание ряда, который здесь $Z_?$? Это замечание ко всем подписям.}
@@ -478,21 +490,21 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinerec2}}
-	\caption{Сумма синусов с белым шумом. Восстановление тренировочной выборки с помощью метода SSA. $r = 2$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $r = 2$}
 	\label{edsinr_rec2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinerec4}}
-	\caption{Сумма синусов с белым шумом. Восстановление тренировочной выборки с помощью метода SSA. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $r = 4$}
 	\label{edsinr_rec4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinerec6}}
-	\caption{Сумма синусов с белым шумом. Восстановление тренировочной выборки с помощью метода SSA. $r = 6$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $r = 6$}
 	\label{edsinr_rec6}
 \end{figure}
 
@@ -507,21 +519,21 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth, height=0.6\linewidth]{imgs/comp/edsine/r2}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 2$.}
 	\label{edsinr_r2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth, height=0.6\linewidth]{imgs/comp/edsine/r4}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 4$.}
 	\label{edsinr_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth, height=0.6\linewidth]{imgs/comp/edsine/r6}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 6$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 6$.}
 	\label{edsinr_r6}
 \end{figure}
 
@@ -533,20 +545,23 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 Прогноз для $r = 4$ выглядит более гладким.
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r2_res_ann}}
-	\caption{Сумма синусов с белым шумом. Прогноз для ANN и SSA-ANN. $r = 2$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для ANN и SSA-ANN. $r = 2$}
 	\label{edsinr_r2_res_ann}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r4_res_ann}}
-	\caption{Сумма синусов с белым шумом. Прогноз для ANN и SSA-ANN. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для ANN и SSA-ANN. $r = 4$}
 	\label{edsinr_r4_res_ann}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r6_res_ann}}
-	\caption{Сумма синусов с белым шумом. Прогноз для ANN и SSA-ANN. $r = 6$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для ANN и SSA-ANN. $r = 6$}
 	\label{edsinr_r6_res_ann}
 \end{figure}
 
@@ -556,38 +571,36 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 Чтобы исключить случайность в полученных результатах, проведем сравнение для разных начальных весов методов. Зафиксируем уменьшенную сетку для параметра $T = \{12, 84\}$. Сетка для параметра $h$ останется прежней. Будем получать каждый результат по 7 раз, инициализируя метод с новыми весами. Полученные результаты отображены на рисунках \multiref{edsiner4.12}{edsiner4.84} (больше графиков в приложении \ref{aedsiner_rob}). На них подтверждается выводы, сделанные ранее. Заключаем, что полученные результаты устойчивые.
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr4.12}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
 	\label{edsiner4.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr4.84}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
 	\label{edsiner4.84}
 \end{figure}
 
 \subsubsection{Выводы}
-На ряде $\mathsf{Z}_{650}$ было продемонстрировано сравнение обычных и гибридных методов, и метода SSA. В таблице \ref{tedsiner} продемонстрированы величины ошибок по метрике RMSE для методов. 
-\footnote{Так как таблицы однотипные, их описание лучше вынести в раздел с методикой, а здесь сослаться на это описание? Или как сделать, чтобы не повторять описание?}
-Данная таблица является частью большей таблицы \ref{bigtable} из приложения. В столбце <<ssa-params>> отображены параметры SSA в гибридных моделях, если параметры не указаны, значит в строчке записаны результаты для негибридных моделей. Префикс <<b>> значит, что значение в таблице отображает ошибку лучшей нейронная сеть из своих аналогов (например, лучшая из негибридных, или лучшая из гибридных). Префикс <<m>> означает, что значение отображает среднее значение ошибок для негибридных, обычных методов или метода SSA. Для метода SSA показана наименьшее значение ошибки для префикса <<b>>, для префикса <<m>> показано среднее значение по пяти лучшим прогнозом, при этом для удобства сравнения во всех строчках ошибки SSA-прогноза повторены. Значения прогнозов в обоих случаев берутся из раздела
-\footnote{Фраза неоконченная}
+На ряде $\mathsf{Z}_{650}$ было продемонстрировано сравнение обычных и гибридных методов, и метода SSA. В таблице \ref{tedsiner} продемонстрированы величины ошибок по метрике RMSE для методов.
 
 Из значений в таблицы и полученных ранее результатов можем сделать выводы, что для ряда с несложно выделяемым сигналом выбор аналитически верных параметров является оптимальным. Выбор параметра $r$ меньше оптимального, привел к улучшению, хоть и небольшому, точности прогноза. Гибридные методы показали наилучшую точность. Наибольшую ошибку показал метод SSA. Как и говорилось, наименьшая ошибка достигается для $r = 2$ в гибридных моделях. Средняя ошибка для $r = 2$ и $r = 4$ не сильно отличается. Для $r = 6$ средняя ошибка гибридных методов выше.
-
-\footnote{Что-то не то. Неправильные числа, как минимум, для r=6.}
 
 \begin{table}[H]
 	\caption{Усредненные и лучшие результаты прогнозов методов.}
 	\begin{center}
 		\begin{tabular}{ccccc}
 			\toprule
-			{ssa-params} &  b-nn &  m-nn &  b-ssa &  m-ssa \\
+			{} &  b-nn &  m-nn &  b-ssa &  m-ssa \\
+			ssa-params &       &       &        &        \\
 			\midrule
-			-          & 1.547 & 1.571 &  1.581 &  1.586  \\
-			$L = 175, \; r = 2$ & 1.528 & 1.548 &  1.581 &  1.586  \\
-			$L = 175, \; r = 4$ & 1.532 & 1.549 &  1.581 &  1.586  \\
-			$L = 175, \; r = 6$ & 1.533 & 1.565 &  1.581 &  1.586  \\
+			-          & 1.547 & 1.635 &  1.581 &  1.586 \\
+			r2         & 1.528 & 1.567 &  1.581 &  1.586 \\
+			r4         & 1.532 & 1.575 &  1.581 &  1.586 \\
+			r6         & 1.533 & 1.613 &  1.581 &  1.586 \\
 			\bottomrule
 		\end{tabular}
 	\end{center}
@@ -607,7 +620,7 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/ssa_comp}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогнозирование с помощью метода SSA.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. RMSE прогноз на валидационной части.}
 	\label{edsin0.3r_ssa_forecast}
 \end{figure}
 
@@ -619,21 +632,21 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsinerec2}}
-	\caption{Сумма синусов с небольшим белым шумом. Восстановление тренировочной выборки с помощью метода SSA. $r = 2$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $r = 2$}
 	\label{edsin0.3r_rec2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsinerec4}}
-	\caption{Сумма синусов с небольшим белым шумом. Восстановление тренировочной выборки с помощью метода SSA. $r = 4$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $r = 4$}
 	\label{edsin0.3r_rec4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsinerec6}}
-	\caption{Сумма синусов с небольшим белым шумом. Восстановление тренировочной выборки с помощью метода SSA. $r = 6$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $r = 6$}
 	\label{edsin0.3r_rec6}
 \end{figure}
 
@@ -647,21 +660,21 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r2}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 2$.}
 	\label{edsin0.3r_r2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r4}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 4$.}
 	\label{edsin0.3r_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r6}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 6$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 6$.}
 	\label{edsin0.3r_r6}
 \end{figure}
 
@@ -673,21 +686,21 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для ANN и SSA-ANN. $r = 2$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для ANN и SSA-ANN. $r = 2$}
 	\label{edsin0.3r_r2_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для ANN и SSA-ANN. $r = 4$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для ANN и SSA-ANN. $r = 4$}
 	\label{edsin0.3r_r4_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для ANN и SSA-ANN. $r = 6$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для ANN и SSA-ANN. $r = 6$}
 	\label{edsin0.3r_r6_res_ann}
 \end{figure}
 
@@ -698,14 +711,14 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[h]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr4.12}}
-	\caption{Сумма синусов с небольшим белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
 	\label{edsine0.3r4.12}
 \end{figure}
 
 \begin{figure}[h]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr4.84}}
-	\caption{Сумма синусов с небольшим белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
 	\label{edsine0.3r4.84}
 \end{figure}
 
@@ -719,10 +732,10 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 			{} &  b-nn &  m-nn &  b-ssa &  m-ssa \\
 			ssa-params &       &       &        &        \\
 			\midrule
-			-          & 0.308 & 0.313 & 0.315  &  0.316 \\
-			r2         & 0.307 & 0.309 &  0.315  &  0.316 \\
-			r4         & 0.305 & 0.308 & 0.315  &  0.316 \\
-			r6         & 0.304 & 0.308 &  0.315  &  0.316 \\
+			-          & 0.308 & 0.325 &  0.315 &  0.316 \\
+			r2         & 0.307 & 0.313 &  0.315 &  0.316 \\
+			r4         & 0.305 & 0.314 &  0.315 &  0.316 \\
+			r6         & 0.304 & 0.316 &  0.315 &  0.316 \\
 			\bottomrule
 		\end{tabular}
 	\end{center}
@@ -742,7 +755,7 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/ssa_comp}}
-	\caption{Сумма синусов с белым шумом. Влияние длины. Прогнозирование с помощью метода SSA.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. RMSE прогноз на валидационной части.}
 	\label{edsinlen_ssa_forecast}
 \end{figure}
 
@@ -754,7 +767,7 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/edsinerec4}}
-	\caption{Сумма синусов с белым шумом. Влияние длины. Ряд $\mathsf{Z}_{1500}$. Восстановление тренировочной выборки с помощью метода SSA. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Восстановление тренировочной выборки с помощью метода SSA. $r = 4$}
 	\label{edsinlen_rec4}
 \end{figure}
 
@@ -767,14 +780,14 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/r4}}
-	\caption{Сумма синусов с белым шумом. Влияние длины. Ряд $\mathsf{Z}_{1500}$. Ошибки прогноза в зависимости от параметра $T$. $L = 375, \; r = 4$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Ошибки прогноза в зависимости от параметра $T$. $L = 375, \; r = 4$.}
 	\label{edsinlen_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/r4.h}}
-	\caption{Сумма синусов с белым шумом. Влияние длины. Ряд $\mathsf{Z}_{1500}$. Ошибки прогноза в зависимости от параметра $h$. $L = 375, \; r = 4$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Ошибки прогноза в зависимости от параметра $h$. $L = 375, \; r = 4$.}
 	\label{edsinlen_r4.h}
 \end{figure}
 
@@ -783,26 +796,30 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 Ниже на графиках представлены результаты прогнозирования методами для ряда $\mathsf{Z}_{1500}$. На графиках видно, что предсказания для гибридных методов больше напоминают сигнал ряда. Видно, что в прогноз обычных методов проникает шум.
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/edsinlen_r4_res_ann}}
-	\caption{Сумма синусов с белым шумом. Прогноз для ANN и SSA-ANN. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Прогноз для ANN и SSA-ANN. $r = 4$}
 	\label{edsinlen_r4_res_ann}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/edsinlen_r4_res_rnn}}
-	\caption{Сумма синусов с белым шумом. Прогноз для RNN и SSA-RNN. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Прогноз для RNN и SSA-RNN. $r = 4$}
 	\label{edsinlen_r4_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/edsinlen_r4_res_gru}}
-	\caption{Сумма синусов с белым шумом. Прогноз для GRU и SSA-GRU. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Прогноз для GRU и SSA-GRU. $r = 4$}
 	\label{edsilen_r4_res_gru}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/edsinlen_r4_res_lstm}}
-	\caption{Сумма синусов с белым шумом. Прогноз для LSTM и SSA-LSTM. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Прогноз для LSTM и SSA-LSTM. $r = 4$}
 	\label{edsinlen_r4_res_lstm}
 \end{figure}
 
@@ -810,14 +827,16 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 Чтобы исключить случайность в полученных результатах, проведем сравнение для разных начальных весов методов. Зафиксируем новую сетку для параметра $T = \{12, 156\}$. Сетка для параметра $h$ останется прежней. Будем получать каждый результат по 7 раз, инициализируя метод с новыми весами. Полученные результаты отображены на рисунках ниже. На них подтверждается, выводы сделанные ранее. Заключаем, что полученные результаты устойчивые.
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/loopr4.12}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
 	\label{edsinelen4.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/len/loopr4.156}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 4, \; L = 375$. $T = 156$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{1500}$. Проверка устойчивости. $r = 4, \; L = 375$. $T = 156$.}
 	\label{edsinelen4.156}
 \end{figure}
 
@@ -832,10 +851,10 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 			&    &  b-nn &  m-nn &  b-ssa &  m-ssa \\
 			ts & ssa-params &       &       &        &        \\
 			\midrule
-			$\mathsf{Z}_{650}$ & - & 1.547 & 1.571 &  1.581 &  1.586 \\
-			& $L = 175, \; r = 4$ & 1.532 & 1.549 &  1.581 &  1.586 \\
-			$\mathsf{Z}_{1500}$ & - & 1.504 & 1.514 &  1.511 &  1.512 \\
-			& $L = 375, \; r = 4$ & 1.484 & 1.496 &  1.511 & 1.512 \\
+			$\mathsf{Z}_{650}$ & - & 1.547 & 1.635 &  1.581 &  1.586 \\
+			& $L = 175, \; r = 4$ & 1.532 & 1.575 &  1.581 &  1.586 \\
+			$\mathsf{Z}_{1500}$ & - & 1.504 & 1.550 &  1.511 &  1.512 \\
+			& $L = 375, \; r = 4$ & 1.484 & 1.520 &  1.511 &  1.512 \\
 			\bottomrule
 		\end{tabular}
 	\end{center}
@@ -875,7 +894,7 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_comp}}
-	\caption{Сумма синусов с красным шумом. Прогнозирование валидационной выборки с помощью метода SSA.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. RMSE прогноз на валидационной части.}
 	\label{serr_ssa_forecast}
 \end{figure}
 
@@ -887,7 +906,7 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_reconstruct}}
-	\caption{Сумма синусов с красным шумом. Зависимость ошибки восстановления от параметра $T$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибка восстановление тренировочной части в зависимости от параметра $L$.}
 	\label{serr_ssa_reconstruct}
 \end{figure}
 
@@ -898,49 +917,49 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_LH_r2}}
-	\caption{Сумма синусов с красным шумом. Восстановление тренировочной выборки с помощью метода SSA. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $L = 175, \; r = 2$.}
 	\label{ser_ssa_LH_r2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_LH_r6}}
-	\caption{Сумма синусов с красным шумом. Восстановление тренировочной выборки с помощью метода SSA. $L = 175, \; r = 6$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $L = 175, \; r = 6$.}
 	\label{ser_ssa_LH_r6}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_LH_r4}}
-	\caption{Сумма синусов с красным шумом. Восстановление тренировочной выборки с помощью метода SSA. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $L = 175, \; r = 4$.}
 	\label{ser_ssa_LH_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_L36_r16}}
-	\caption{Сумма синусов с красным шумом. Восстановление тренировочной выборки с помощью метода SSA. $L = 36, \; r = 16$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $L = 36, \; r = 16$.}
 	\label{ser_ssa_L36_r16}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_L84_r14}}
-	\caption{Сумма синусов с красным шумом. Восстановление тренировочной выборки с помощью метода SSA. $L = 84, \; r = 14$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $L = 84, \; r = 14$.}
 	\label{ser_ssa_L84_r14}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_r4_r6}}
-	\caption{Сумма синусов с красным шумом. Восстановление тренировочной выборки с помощью метода SSA. $L = 175, \; r = 4$ и $L = 175, \; r = 6$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $L = 175, \; r = 4$ и $L = 175, \; r = 6$.}
 	\label{ser_ssa_r4_r6}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/ssa_r16_r14}}
-	\caption{Сумма синусов с красным шумом. Восстановление тренировочной выборки с помощью метода SSA. $L = 84, \; r = 14$ и $L = 36, \; r = 16$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Восстановление тренировочной выборки с помощью метода SSA. $L = 84, \; r = 14$ и $L = 36, \; r = 16$.}
 	\label{ser_ssa_r14_r16}
 \end{figure}
 
@@ -964,42 +983,42 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 175, \; r = 2$.}
 	\label{serr_r2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 175, \; r = 4$.}
 	\label{serr_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 84, \; r = 14$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 84, \; r = 14$.}
 	\label{serr_r14}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r2}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 175, \; r = 2$.}
 	\label{sigserr_r2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r4}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 175, \; r = 4$.}
 	\label{sigserr_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r14}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 84, \; r = 14$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 84, \; r = 14$.}
 	\label{sigserr_r14}
 \end{figure}
 
@@ -1011,42 +1030,42 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2_res_ann}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для ANN и SSA-ANN. $L = 175, \; r = 2$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для ANN и SSA-ANN. $L = 175, \; r = 2$}
 	\label{serr_r2_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2_res_rnn}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для RNN и SSA-RNN. $L = 175, \; r = 2$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для RNN и SSA-RNN. $L = 175, \; r = 2$}
 	\label{serr_r2_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4_res_ann}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для ANN и SSA-ANN. $L = 175, \; r = 4$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для ANN и SSA-ANN. $L = 175, \; r = 4$}
 	\label{serr_r4_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4_res_rnn}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для RNN и SSA-RNN. $L = 175, \; r = 4$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для RNN и SSA-RNN. $L = 175, \; r = 4$}
 	\label{serr_r4_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14_res_ann}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для ANN и SSA-ANN. $L = 84, \; r = 14$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для ANN и SSA-ANN. $L = 84, \; r = 14$}
 	\label{serr_r14_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14_res_rnn}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для RNN и SSA-RNN. $L = 84, \; r = 14$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для RNN и SSA-RNN. $L = 84, \; r = 14$}
 	\label{serr_r14_res_rnn}
 \end{figure}
 
@@ -1056,26 +1075,30 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 Чтобы исключить случайность в полученных результатах, проведем сравнение для разных начальных весов методов. Зафиксируем новую сетку для параметра $T = \{12, 84\}$. Сетка для параметра $h$ останется прежней. Будем получать каждый результат по 7 раз, инициализируя метод с новыми весами. Полученные результаты отображены на рисунках \multiref{serrloopsr4.12}{sigserrloopsr4.84} (больше графиков в приложении \ref{aserr_rob}). На них подтверждается, выводы сделанные ранее. Заключаем, что полученные результаты устойчивые.
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr4.12}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$}
 	\label{serrloopsr4.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr4.84}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
 	\label{serrloopsr4.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr4.12}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$}
 	\label{sigserrloopsr4.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr4.84}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
 	\label{sigserrloopsr4.84}
 \end{figure}
 
@@ -1093,15 +1116,15 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 			{} &  b-nn &  m-nn &  b-ssa &  m-ssa \\
 			ssa-params &       &       &        &        \\
 			\midrule
-			-          & 1.294 & 1.337 &  1.733 &  1.803 \\
-			$L = 175, \; r = 2$  & 1.939 & 2.019 &  1.733 &  1.803 \\
-			$L = 175, \; r = 4$       & 1.850 & 1.960 &  1.733 &  1.803 \\
-			$L = 84, \; r = 14$     & 1.736 & 1.807 &  1.733 &  1.803 \\
+			-          & 1.294 & 1.523 &  1.733 &  1.803 \\
+			$L = 175, \; r = 2$       & 1.939 & 2.083 &  1.733 &  1.803 \\
+			$L = 175, \; r = 4$       & 1.850 & 2.056 &  1.733 &  1.803 \\
+			$L = 84, \; r = 14$     & 1.736 & 1.989 &  1.733 &  1.803 \\
 			\midrule
-			-          & 0.999 & 1.374 &  1.319 &  1.398 \\
-			$L = 175, \; r = 2$      & 0.164 & 0.266 &  1.319 &  1.398 \\
-			$L = 175, \; r = 4$       & 0.694 & 0.757 &  1.319 &  1.398 \\
-			$L = 84, \; r = 14$     & 0.998 & 1.267 &  1.319 &  1.398 \\
+			-          & 0.999 & 1.589 &  1.319 &  1.398 \\
+			$L = 175, \; r = 2$       & 0.164 & 0.385 &  1.319 &  1.398 \\
+			$L = 175, \; r = 4$       & 0.694 & 0.898 &  1.319 &  1.398 \\
+			$L = 84, \; r = 14$     & 0.998 & 1.489 &  1.319 &  1.398 \\
 			\bottomrule
 		\end{tabular}
 	\end{center}
@@ -1451,9 +1474,9 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 
 Так на основе изложенных выше информации, можно сказать, что использование препроцессинга на данных EOP является бессмысленным. Данные <<Indian Rain>> в свою очередь, являются идеальным экземпляром для использовании гибридных методов. Данные погоды в Санкт-Петербурге можно рассматривать, как данные <<Indian Rain>>, но меньшей длины, что подчеркивает важность длины временных рядов.
 
-%\bibliographystyle{gost2008}
-%\bibliography{library.bib}
-%\end{document}
+\bibliographystyle{gost2008}
+\bibliography{library.bib}
+
 \appendix
 
 \chapter{Модельные данные}
@@ -1470,39 +1493,39 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth, height=0.6\linewidth]{imgs/comp/edsine/r2}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 2$.}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth, height=0.6\linewidth]{imgs/comp/edsine/r4}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 4$.}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth, height=0.6\linewidth]{imgs/comp/edsine/r6}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 6$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 6$.}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/r2.h}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 2$.}
 	\label{edsinr_r2.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/r4.h}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 4$.}
 	\label{edsinr_r4.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/r6.h}}
-	\caption{Сумма синусов с белым шумом. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 6$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 6$.}
 	\label{edsinr_r6.h}
 \end{figure}
 
@@ -1512,75 +1535,86 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 
 \begin{figure}[H]
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r2_res_ann}}
-	\caption{Сумма синусов с белым шумом. Прогноз для ANN и SSA-ANN. $r = 2$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для ANN и SSA-ANN. $r = 2$}
 %	\label{edsinr_r2_res_ann}
 \end{figure}
 
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r2_res_rnn}}
-	\caption{Сумма синусов с белым шумом. Прогноз для RNN и SSA-RNN. $r = 2$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для RNN и SSA-RNN. $r = 2$}
 	\label{edsinr_r2_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r2_res_gru}}
-	\caption{Сумма синусов с белым шумом. Прогноз для GRU и SSA-GRU. $r = 2$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для GRU и SSA-GRU. $r = 2$}
 	\label{edsinr_r2_res_gru}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r4_res_ann}}
-	\caption{Сумма синусов с белым шумом. Прогноз для ANN и SSA-ANN. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для ANN и SSA-ANN. $r = 4$}
 %	\label{edsinr_r4_res_ann}
 \end{figure}
 
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r2_res_lstm}}
-	\caption{Сумма синусов с белым шумом. Прогноз для LSTM и SSA-LSTM. $r = 2$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для LSTM и SSA-LSTM. $r = 2$}
 	\label{edsinr_r2_res_lstm}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r4_res_rnn}}
-	\caption{Сумма синусов с белым шумом. Прогноз для RNN и SSA-RNN. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для RNN и SSA-RNN. $r = 4$}
 	\label{edsinr_r4_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r4_res_gru}}
-	\caption{Сумма синусов с белым шумом. Прогноз для GRU и SSA-GRU. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для GRU и SSA-GRU. $r = 4$}
 	\label{edsinr_r4_res_gru}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r4_res_lstm}}
-	\caption{Сумма синусов с белым шумом. Прогноз для LSTM и SSA-LSTM. $r = 4$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для LSTM и SSA-LSTM. $r = 4$}
 	\label{edsinr_r4_res_lstm}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r6_res_ann}}
-	\caption{Сумма синусов с белым шумом. Прогноз для ANN и SSA-ANN. $r = 6$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для ANN и SSA-ANN. $r = 6$}
 %	\label{edsinr_r6_res_ann}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r6_res_rnn}}
-	\caption{Сумма синусов с белым шумом. Прогноз для RNN и SSA-RNN. $r = 6$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для RNN и SSA-RNN. $r = 6$}
 	\label{edsinr_r6_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r6_res_gru}}
-	\caption{Сумма синусов с белым шумом. Прогноз для GRU и SSA-GRU. $r = 6$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для GRU и SSA-GRU. $r = 6$}
 	\label{edsinr_r6_res_gru}
 \end{figure}
 
 \begin{figure}[H]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/edsinr_r6_res_lstm}}
-	\caption{Сумма синусов с белым шумом. Прогноз для LSTM и SSA-LSTM. $r = 6$}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз для LSTM и SSA-LSTM. $r = 6$}
 	\label{edsinr_r6_res_lstm}
 \end{figure}
 
@@ -1590,38 +1624,44 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr2.12}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 2, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 2, \; L = 175$. $T = 12$.}
 	\label{edsiner2.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr2.84}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 2, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 2, \; L = 175$. $T = 84$.}
 %	\label{edsiner2.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr4.12}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
 %	\label{edsiner4.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr4.84}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
 %	\label{edsiner4.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr6.12}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 6, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 6, \; L = 175$. $T = 12$.}
 	\label{edsiner6.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr6.84}}
-	\caption{Сумма синусов с белым шумом. Проверка устойчивости. $r = 6, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с белым шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 6, \; L = 175$. $T = 84$.}
 	\label{edsiner6.84}
 \end{figure}
 
@@ -1636,42 +1676,42 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r2}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 2$.}
 %	\label{edsin0.3r_r2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r4}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 4$.}
 %	\label{edsin0.3r_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r6}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 6$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $T$. $L = 175, \; r = 6$.}
 %	\label{edsin0.3r_r6}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r2.h}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 2$.}
 	\label{edsin0.3r_r2.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r4.h}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 4$.}
 	\label{edsin0.3r_r4.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/r6.h}}
-	\caption{Сумма синусов с небольшим белым шумом. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 6$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Ошибки прогноза в зависимости от параметра $h$. $L = 175, \; r = 6$.}
 	\label{edsin0.3r_r6.h}
 \end{figure}
 
@@ -1682,84 +1722,84 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для ANN и SSA-ANN. $r = 2$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для ANN и SSA-ANN. $r = 2$}
 %	\label{edsin0.3r_r2_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для RNN и SSA-RNN. $r = 2$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для RNN и SSA-RNN. $r = 2$}
 	\label{edsin0.3r_r2_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для GRU и SSA-GRU. $r = 2$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для GRU и SSA-GRU. $r = 2$}
 	\label{edsin0.3r_r2_res_gru}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для LSTM и SSA-LSTM. $r = 2$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для LSTM и SSA-LSTM. $r = 2$}
 	\label{edsin0.3r_r2_res_lstm}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для ANN и SSA-ANN. $r = 4$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для ANN и SSA-ANN. $r = 4$}
 %	\label{edsin0.3r_r4_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для RNN и SSA-RNN. $r = 4$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для RNN и SSA-RNN. $r = 4$}
 	\label{edsin0.3r_r4_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для GRU и SSA-GRU. $r = 4$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для GRU и SSA-GRU. $r = 4$}
 	\label{edsin0.3r_r4_res_gru}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для LSTM и SSA-LSTM. $r = 4$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для LSTM и SSA-LSTM. $r = 4$}
 	\label{edsin0.3r_r4_res_lstm}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для ANN и SSA-ANN. $r = 6$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для ANN и SSA-ANN. $r = 6$}
 %	\label{edsin0.3r_r6_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для RNN и SSA-RNN. $r = 6$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для RNN и SSA-RNN. $r = 6$}
 	\label{edsin0.3r_r6_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для GRU и SSA-GRU. $r = 6$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для GRU и SSA-GRU. $r = 6$}
 	\label{edsin0.3r_r6_res_gru}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm}}
-	\caption{Сумма синусов с небольшим белым шумом. Прогноз результатов для LSTM и SSA-LSTM. $r = 6$}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Прогноз результатов для LSTM и SSA-LSTM. $r = 6$}
 	\label{edsin0.3r_r6_res_lstm}
 \end{figure}
 
@@ -1768,40 +1808,44 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 На графиках проверяются устойчивость результатов по методике из раздела \ref{comp_tactic}. Графики являются приложением к разделу \ref{edsine0.3r_rob}.
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr2.12}}
-	\caption{Сумма синусов с небольшим белым шумом. Проверка устойчивости. $r = 2, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Проверка устойчивости. $r = 2, \; L = 175$. $T = 12$.}
 	\label{edsine0.3r2.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr2.84}}
-	\caption{Сумма синусов с небольшим белым шумом. Проверка устойчивости. $r = 2, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Проверка устойчивости. $r = 2, \; L = 175$. $T = 84$.}
 	\label{edsine0.3r2.84}
 \end{figure}
 
 \begin{figure}[h]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr4.12}}
-	\caption{Сумма синусов с небольшим белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$.}
 %	\label{edsine0.3r4.12}
 \end{figure}
 
 \begin{figure}[h]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr4.84}}
-	\caption{Сумма синусов с небольшим белым шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
 %	\label{edsine0.3r4.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr6.12}}
-	\caption{Сумма синусов с небольшим белым шумом. Проверка устойчивости. $r = 6, \; L = 175$.  $T = 12$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Проверка устойчивости. $r = 6, \; L = 175$.  $T = 12$.}
 	\label{edsine0.3r6.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/edsine/loopr6.84}}
-	\caption{Сумма синусов с небольшим белым шумом. Проверка устойчивости. $r = 6, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с небольшим белым шумом>>. Ряд $\mathsf{X}_{650}$. Проверка устойчивости. $r = 6, \; L = 175$. $T = 84$.}
 	\label{edsine0.3r6.84}
 \end{figure}
 
@@ -1823,21 +1867,21 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 175, \; r = 2$.}
 %	\label{serr_r2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 175, \; r = 4$.}
 %	\label{serr_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 84, \; r = 14$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $T$. $L = 84, \; r = 14$.}
 %	\label{serr_r14}
 \end{figure}
 
@@ -1845,63 +1889,63 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2.h}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $h$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $h$. $L = 175, \; r = 2$.}
 	\label{serr_r2.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4.h}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $h$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $h$. $L = 175, \; r = 4$.}
 	\label{serr_r4.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14.h}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно ряда в зависимости от параметра $h$. $L = 84, \; r = 14$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно ряда в зависимости от параметра $h$. $L = 84, \; r = 14$.}
 	\label{serr_r14.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r2}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 175, \; r = 2$.}
 	%	\label{sigserr_r2}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r4}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 175, \; r = 4$.}
 	%	\label{sigserr_r4}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r14}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 84, \; r = 14$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $T$. $L = 84, \; r = 14$.}
 	%	\label{sigserr_r14}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r2.h}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $h$. $L = 175, \; r = 2$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $h$. $L = 175, \; r = 2$.}
 	\label{sigserr_r2.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r4.h}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $h$. $L = 175, \; r = 4$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $h$. $L = 175, \; r = 4$.}
 	\label{sigserr_r4.h}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigserr_r14.h}}
-	\caption{Сумма синусов с красным шумом. Ошибки прогноза относительно сигнала в зависимости от параметра $h$. $L = 84, \; r = 14$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Ошибки прогноза относительно сигнала в зависимости от параметра $h$. $L = 84, \; r = 14$.}
 	\label{sigserr_r14.h}
 \end{figure}
 
@@ -1913,84 +1957,84 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2_res_ann}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для ANN и SSA-ANN. $L = 175, \; r = 2$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для ANN и SSA-ANN. $L = 175, \; r = 2$}
 %	\label{serr_r2_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2_res_rnn}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для RNN и SSA-RNN. $L = 175, \; r = 2$}
+	\caption{С<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для RNN и SSA-RNN. $L = 175, \; r = 2$}
 %	\label{serr_r2_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2_res_gru}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для GRU и SSA-GRU. $L = 175, \; r = 2$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для GRU и SSA-GRU. $L = 175, \; r = 2$}
 	\label{serr_r2_res_gru}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r2_res_lstm}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для LSTM и SSA-LSTM. $L = 175, \; r = 2$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для LSTM и SSA-LSTM. $L = 175, \; r = 2$}
 	\label{serr_r2_res_lstm}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4_res_ann}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для ANN и SSA-ANN. $L = 175, \; r = 4$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для ANN и SSA-ANN. $L = 175, \; r = 4$}
 %	\label{serr_r4_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4_res_rnn}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для RNN и SSA-RNN. $L = 175, \; r = 4$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для RNN и SSA-RNN. $L = 175, \; r = 4$}
 %	\label{serr_r4_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4_res_gru}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для GRU и SSA-GRU. $L = 175, \; r = 4$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для GRU и SSA-GRU. $L = 175, \; r = 4$}
 	\label{serr_r4_res_gru}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r4_res_lstm}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для LSTM и SSA-LSTM. $L = 175, \; r = 4$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для LSTM и SSA-LSTM. $L = 175, \; r = 4$}
 	\label{serr_r4_res_lstm}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14_res_ann}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для ANN и SSA-ANN. $L = 84, \; r = 14$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для ANN и SSA-ANN. $L = 84, \; r = 14$}
 %	\label{serr_r14_res_ann}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14_res_rnn}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для RNN и SSA-RNN. $L = 84, \; r = 14$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для RNN и SSA-RNN. $L = 84, \; r = 14$}
 %	\label{serr_r14_res_rnn}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14_res_gru}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для GRU и SSA-GRU. $L = 84, \; r = 14$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для GRU и SSA-GRU. $L = 84, \; r = 14$}
 	\label{serr_r14_res_gru}
 \end{figure}
 
 \begin{figure}[H]
 	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/serr_r14_res_lstm}}
-	\caption{Сумма синусов с красным шумом. Прогноз результатов для LSTM и SSA-LSTM. $L = 84, \; r = 14$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Прогноз результатов для LSTM и SSA-LSTM. $L = 84, \; r = 14$}
 	\label{serr_r14_res_lstm}
 \end{figure}
 
@@ -2000,74 +2044,86 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 На графиках проверяются устойчивость результатов по методике из раздела \ref{comp_tactic}. Графики являются приложением к разделу \ref{serr_rob}.
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr2.12}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 2, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 2, \; L = 175$. $T = 12$.}
 	\label{serrloopsr2.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr2.84}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 2, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 2, \; L = 175$. $T = 84$.}
 	\label{serrloopsr2.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr4.12}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$}
 %	\label{serrloopsr4.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr4.84}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
 %	\label{serrloopsr4.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr14.12}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 14, \; L = 84$. $T = 12$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 14, \; L = 84$. $T = 12$}
 	\label{serrloopsr14.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr14.84}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 14, \; L = 84$. $T = 84$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 14, \; L = 84$. $T = 84$.}
 	\label{serrloopsr14.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr2.12}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 2, \; L = 175$. $T = 12$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 2, \; L = 175$. $T = 12$.}
 	\label{sigserrloopsr2.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr2.84}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 2, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 2, \; L = 175$. $T = 84$.}
 	\label{sigserrloopsr2.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr4.12}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 12$}
 %	\label{sigserrloopsr4.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr4.84}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 4, \; L = 175$. $T = 84$.}
 %	\label{sigserrloopsr4.84}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr14.12}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 14, \; L = 84$. $T = 12$}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 14, \; L = 84$. $T = 12$}
 	\label{sigserrloopsr14.12}
 \end{figure}
 
 \begin{figure}[h]
+	\captionsetup{justification=centering}
 	\center{\includegraphics[width=0.9\linewidth]{imgs/comp/ser/sigloopr14.84}}
-	\caption{Сумма синусов с красным шумом. Проверка устойчивости. $r = 14, \; L = 84$. $T = 84$.}
+	\caption{<<Сумма синусов с красным шумом>>. Ряд $\mathsf{Z}_{650}$. Проверка устойчивости. $r = 14, \; L = 84$. $T = 84$.}
 	\label{sigserrloopsr14.84}
 \end{figure}
 
@@ -2137,20 +2193,24 @@ $$ \RMSE(\mathbf{Z}^y_{test}, \mathbf{\widehat{Z}}^y) = \sqrt{\MSE(\mathbf{Z}^y_
 			&        &  b-ann &  m-ann &  b-rnn &  m-rnn &  b-gru &  m-gru &  b-lstm &  m-lstm &  b-ssa &  m-ssa \\
 			experiment & ssa-params &        &        &        &        &        &        &         &         &        &        \\
 			\midrule
-			edsine & - &  1.577 &  1.580 &  1.547 &  1.558 &  1.563 &  1.569 &   1.566 &   1.576 &  1.581 &  1.586 \\
-			& r2 &  1.528 &  1.535 &  1.554 &  1.556 &  1.545 &  1.551 &   1.545 &   1.549 &  1.581 &  1.586 \\
-			& r4 &  1.542 &  1.543 &  1.551 &  1.555 &  1.532 &  1.542 &   1.551 &   1.555 &  1.581 &  1.586 \\
-			& r6 &  1.533 &  1.536 &  1.557 &  1.561 &  1.563 &  1.566 &   1.592 &   1.597 &  1.581 &  1.586 \\
-			edsine1500 & - &  1.506 &  1.520 &  1.506 &  1.509 &  1.504 &  1.510 &   1.511 &   1.515 &  1.511 &  1.512 \\
-			& r4 &  1.484 &  1.486 &  1.494 &  1.499 &  1.495 &  1.500 &   1.496 &   1.499 &  1.511 &  1.512 \\
-			edsineN0.3 & - &  0.312 &  0.314 &  0.308 &  0.311 &  0.311 &  0.312 &   0.314 &   0.316 &  0.315 &  0.316 \\
-			& r2 &  0.307 &  0.307 &  0.310 &  0.310 &  0.308 &  0.309 &   0.309 &   0.309 &  0.315 &  0.316 \\
-			& r4 &  0.306 &  0.307 &  0.309 &  0.310 &  0.305 &  0.308 &   0.307 &   0.309 &  0.315 &  0.316 \\
-			& r6 &  0.304 &  0.306 &  0.310 &  0.311 &  0.304 &  0.308 &   0.307 &   0.309 &  0.315 &  0.316 \\
-			ser & - &  1.381 &  1.404 &  1.316 &  1.322 &  1.294 &  1.311 &   1.296 &   1.311 &  1.733 &  1.803 \\
-			& r2LH &  1.939 &  1.973 &  2.014 &  2.025 &  2.025 &  2.039 &   2.021 &   2.040 &  1.733 &  1.803 \\
-			& r4LH &  1.850 &  1.881 &  1.982 &  1.986 &  1.954 &  1.973 &   1.949 &   1.999 &  1.733 &  1.803 \\
-			& r14L84 &  1.781 &  1.809 &  1.801 &  1.845 &  1.736 &  1.761 &   1.800 &   1.814 &  1.733 &  1.803 \\
+			edsine & - &  1.577 &  1.657 &  1.547 &  1.635 &  1.563 &  1.623 &   1.566 &   1.625 &  1.581 &  1.586 \\
+			& r2 &  1.528 &  1.558 &  1.554 &  1.571 &  1.545 &  1.566 &   1.545 &   1.574 &  1.581 &  1.586 \\
+			& r4 &  1.542 &  1.567 &  1.551 &  1.587 &  1.532 &  1.566 &   1.551 &   1.581 &  1.581 &  1.586 \\
+			& r6 &  1.533 &  1.578 &  1.557 &  1.614 &  1.563 &  1.629 &   1.592 &   1.632 &  1.581 &  1.586 \\
+			edsine1500 & - &  1.506 &  1.574 &  1.506 &  1.549 &  1.504 &  1.538 &   1.511 &   1.539 &  1.511 &  1.512 \\
+			& r4 &  1.484 &  1.513 &  1.494 &  1.520 &  1.495 &  1.519 &   1.496 &   1.529 &  1.511 &  1.512 \\
+			edsineN0.3 & - &  0.312 &  0.326 &  0.308 &  0.325 &  0.311 &  0.321 &   0.314 &   0.330 &  0.315 &  0.316 \\
+			& r2 &  0.307 &  0.311 &  0.310 &  0.313 &  0.308 &  0.312 &   0.309 &   0.314 &  0.315 &  0.316 \\
+			& r4 &  0.306 &  0.312 &  0.309 &  0.316 &  0.305 &  0.312 &   0.307 &   0.317 &  0.315 &  0.316 \\
+			& r6 &  0.304 &  0.313 &  0.310 &  0.317 &  0.304 &  0.315 &   0.307 &   0.320 &  0.315 &  0.316 \\
+			ser & - &  1.381 &  1.819 &  1.316 &  1.396 &  1.294 &  1.415 &   1.296 &   1.461 &  1.733 &  1.803 \\
+			& r2LH &  1.939 &  2.078 &  2.014 &  2.088 &  2.025 &  2.078 &   2.021 &   2.088 &  1.733 &  1.803 \\
+			& r4LH &  1.850 &  2.057 &  1.982 &  2.051 &  1.954 &  2.045 &   1.949 &   2.071 &  1.733 &  1.803 \\
+			& r14L84 &  1.781 &  2.031 &  1.801 &  1.968 &  1.736 &  1.914 &   1.800 &   2.043 &  1.733 &  1.803 \\
+			serws & - &  0.999 &  1.404 &  1.451 &  1.679 &  1.527 &  1.697 &   1.340 &   1.577 &  1.319 &  1.398 \\
+			& r2LH &  0.164 &  0.349 &  0.287 &  0.404 &  0.275 &  0.367 &   0.286 &   0.421 &  1.319 &  1.398 \\
+			& r4LH &  0.694 &  0.919 &  0.725 &  0.856 &  0.729 &  0.876 &   0.792 &   0.943 &  1.319 &  1.398 \\
+			& r14L84 &  0.998 &  1.443 &  1.238 &  1.475 &  1.221 &  1.439 &   1.339 &   1.597 &  1.319 &  1.398 \\
 			\bottomrule
 		\end{tabular}
 	\end{center}

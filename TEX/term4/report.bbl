@@ -1,0 +1,59 @@
+\begin{thebibliography}{1}
+\def\selectlanguageifdefined#1{
+\expandafter\ifx\csname date#1\endcsname\relax
+\else\selectlanguage{#1}\fi}
+\providecommand*{\href}[2]{{\small #2}}
+\providecommand*{\url}[1]{{\small #1}}
+\providecommand*{\BibUrl}[1]{\url{#1}}
+\providecommand{\BibAnnote}[1]{}
+\providecommand*{\BibEmph}[1]{#1}
+\ProvideTextCommandDefault{\cyrdash}{\iflanguage{russian}{\hbox
+  to.8em{--\hss--}}{\textemdash}}
+\providecommand*{\BibDash}{\ifdim\lastskip>0pt\unskip\nobreak\hskip.2em plus
+  0.1em\fi
+\cyrdash\hskip.2em plus 0.1em\ignorespaces}
+\renewcommand{\newblock}{\ignorespaces}
+
+\bibitem{ar1}
+\selectlanguageifdefined{english}
+Du~K., Zhao~Y., Lei~J. The wrong usage of singular spectral analysis and
+  discrete wavelet transform in hybrid models to predict hydrological time
+  series~//
+  \href{https://doi.org/10.1016/j.jhydrol.2017.06.019}{\BibEmph{Journal of
+  Hydrology}}. \BibDash
+\newblock 2017. \BibDash 06. \BibDash
+\newblock Vol. 552.
+
+\bibitem{rnn}
+\selectlanguageifdefined{english}
+Elman~J.~L. Finding Structure in Time~// \BibEmph{Cogn. Sci.} \BibDash
+\newblock 1990. \BibDash
+\newblock Vol.~14. \BibDash
+\newblock P.~179--211.
+
+\bibitem{gru}
+\selectlanguageifdefined{english}
+Learning Phrase Representations using {RNN} Encoder-Decoder for Statistical
+  Machine Translation~/ Cho~K., van Merrienboer~B.,
+  G{\"{u}}l{\c{c}}ehre~{\c{C}}., Bougares~F., Schwenk~H., and Bengio~Y.~//
+  \BibEmph{CoRR}. \BibDash
+\newblock 2014. \BibDash
+\newblock Vol. abs/1406.1078. \BibDash
+\newblock arXiv~: \href{http://arxiv.org/abs/1406.1078}{1406.1078}.
+
+\bibitem{lstm}
+\selectlanguageifdefined{english}
+Hochreiter~S., Schmidhuber~J. Long Short-term Memory~//
+  \href{https://doi.org/10.1162/neco.1997.9.8.1735}{\BibEmph{Neural
+  computation}}. \BibDash
+\newblock 1997. \BibDash 12. \BibDash
+\newblock Vol.~9. \BibDash
+\newblock P.~1735--80.
+
+\bibitem{SSA}
+\selectlanguageifdefined{english}
+Golyandina~N., Nekrutkin~V., Zhigljavsky~A. Analysis of Time Series Structure -
+  SSA and Related Techniques. \BibDash
+\newblock Boca Raton, FL~: Chapman and Hall/CRC, 2001.
+
+\end{thebibliography}
