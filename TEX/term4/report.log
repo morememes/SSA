@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.9)  25 MAY 2022 20:54
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.9)  26 MAY 2022 02:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -3970,7 +3970,7 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 
 [59] [60]
 
-LaTeX Warning: Float too large for page by 35.24333pt on input line 1147.
+LaTeX Warning: Float too large for page by 13.49335pt on input line 1146.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -3978,51 +3978,87 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 [61]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRG' on input line 1150.
+(hyperref)                removing `\CYRG' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1150.
+(hyperref)                removing `\cyrl' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1150.
+(hyperref)                removing `\cyra' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1150.
+(hyperref)                removing `\cyrv' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1150.
+(hyperref)                removing `\cyra' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRR' on input line 1150.
+(hyperref)                removing `\CYRR' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1150.
+(hyperref)                removing `\cyre' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1150.
+(hyperref)                removing `\cyra' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1150.
+(hyperref)                removing `\cyrl' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1150.
+(hyperref)                removing `\cyrsftsn' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1150.
+(hyperref)                removing `\cyrn' on input line 1149.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1150.
+(hyperref)                removing `\cyrery' on input line 1149.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1149.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrd' on input line 1149.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1149.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1149.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1149.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrery' on input line 1149.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1149.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRS' on input line 1150.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrr' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
@@ -4034,11 +4070,31 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1150.
+(hyperref)                removing `\cyrn' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1150.
+(hyperref)                removing `\cyre' on input line 1150.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrm' on input line 1150.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1150.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrs' on input line 1150.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrya' on input line 1150.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrch' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
@@ -4054,107 +4110,51 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 1151.
+(hyperref)                removing `\cyro' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1151.
+(hyperref)                removing `\cyrs' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1151.
+(hyperref)                removing `\cyra' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1151.
+(hyperref)                removing `\cyrd' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1151.
+(hyperref)                removing `\cyrk' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1151.
+(hyperref)                removing `\cyri' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1151.
+(hyperref)                removing `\cyrv' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1151.
+(hyperref)                removing `\CYRI' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1151.
+(hyperref)                removing `\cyrn' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrya' on input line 1151.
+(hyperref)                removing `\cyrd' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1151.
+(hyperref)                removing `\cyri' on input line 1150.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRI' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1151.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1151.
+(hyperref)                removing `\cyri' on input line 1150.
 
 <imgs/ts/indian_rain/indian_rain.png, id=908, 831.105pt x 576.65437pt>
 File: imgs/ts/indian_rain/indian_rain.png Graphic file (type png)
@@ -4166,7 +4166,7 @@ e 1157.
 File: imgs/ts/indian_rain/indian_rain_pgram.png Graphic file (type png)
 <use imgs/ts/indian_rain/indian_rain_pgram.png>
 Package pdftex.def Info: imgs/ts/indian_rain/indian_rain_pgram.png  used on inp
-ut line 1167.
+ut line 1168.
 (pdftex.def)             Requested size: 422.52057pt x 284.87144pt.
 [62
 
@@ -4175,1202 +4175,1222 @@ ut line 1167.
  <./imgs/ts/indian_rain/indian_rain.png>]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 1172.
+(hyperref)                removing `\CYRS' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1172.
+(hyperref)                removing `\cyrr' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1172.
+(hyperref)                removing `\cyra' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1172.
+(hyperref)                removing `\cyrv' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1172.
+(hyperref)                removing `\cyrn' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1172.
+(hyperref)                removing `\cyre' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1172.
+(hyperref)                removing `\cyrn' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1172.
+(hyperref)                removing `\cyri' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1172.
+(hyperref)                removing `\cyre' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1172.
+(hyperref)                removing `\cyrp' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1172.
+(hyperref)                removing `\cyrr' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1172.
+(hyperref)                removing `\cyrg' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1172.
+(hyperref)                removing `\cyrn' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrz' on input line 1172.
+(hyperref)                removing `\cyrz' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1172.
+(hyperref)                removing `\cyrv' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1172.
+(hyperref)                removing `\cyrp' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1172.
+(hyperref)                removing `\cyrl' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1172.
+(hyperref)                removing `\cyru' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1172.
+(hyperref)                removing `\cyrch' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1172.
+(hyperref)                removing `\cyre' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1172.
+(hyperref)                removing `\cyrn' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1172.
+(hyperref)                removing `\cyrn' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1172.
+(hyperref)                removing `\cyrery' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1172.
+(hyperref)                removing `\cyrh' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1172.
+(hyperref)                removing `\cyrs' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1172.
+(hyperref)                removing `\cyrp' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1172.
+(hyperref)                removing `\cyrm' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrshch' on input line 1172.
+(hyperref)                removing `\cyrshch' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1172.
+(hyperref)                removing `\cyrsftsn' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyryu' on input line 1172.
+(hyperref)                removing `\cyryu' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1172.
+(hyperref)                removing `\cyrm' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1172.
+(hyperref)                removing `\cyre' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1172.
+(hyperref)                removing `\cyrt' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1172.
+(hyperref)                removing `\cyrd' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1172.
+(hyperref)                removing `\cyra' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrb' on input line 1172.
+(hyperref)                removing `\cyrb' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1172.
+(hyperref)                removing `\cyrery' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1172.
+(hyperref)                removing `\cyrch' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1172.
+(hyperref)                removing `\cyrn' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1172.
+(hyperref)                removing `\cyrery' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1172.
+(hyperref)                removing `\cyrh' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1172.
+(hyperref)                removing `\cyri' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1172.
+(hyperref)                removing `\cyrg' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1172.
+(hyperref)                removing `\cyri' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrb' on input line 1172.
+(hyperref)                removing `\cyrb' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1172.
+(hyperref)                removing `\cyrr' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1172.
+(hyperref)                removing `\cyri' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1172.
+(hyperref)                removing `\cyrd' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1172.
+(hyperref)                removing `\cyrn' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1172.
+(hyperref)                removing `\cyrery' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1172.
+(hyperref)                removing `\cyrh' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1172.
+(hyperref)                removing `\cyrm' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1172.
+(hyperref)                removing `\cyre' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1172.
+(hyperref)                removing `\cyrt' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1172.
+(hyperref)                removing `\cyrd' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1172.
+(hyperref)                removing `\cyro' on input line 1173.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1172.
+(hyperref)                removing `\cyrv' on input line 1173.
 
 <imgs/comp/indian_rain/ssa_comp.png, id=922, 834.11626pt x 581.67313pt>
 File: imgs/comp/indian_rain/ssa_comp.png Graphic file (type png)
 <use imgs/comp/indian_rain/ssa_comp.png>
 Package pdftex.def Info: imgs/comp/indian_rain/ssa_comp.png  used on input line
- 1180.
+ 1182.
 (pdftex.def)             Requested size: 422.52057pt x 294.65236pt.
 [63 <./imgs/ts/indian_rain/indian_rain_pgram.png>]
-<imgs/comp/indian_rain/indian_rec_r7.png, id=934, 1687.30376pt x 619.31375pt>
+<imgs/comp/indian_rain/indian_rec_r7.png, id=933, 1687.30376pt x 619.31375pt>
 File: imgs/comp/indian_rain/indian_rec_r7.png Graphic file (type png)
 <use imgs/comp/indian_rain/indian_rec_r7.png>
 Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_r7.png  used on input
- line 1191.
+ line 1193.
 (pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
- [64 <./imgs/comp/indian_rain/ssa_comp.png>]
-<imgs/comp/indian_rain/indian_rec_r11.png, id=944, 1687.30376pt x 619.31375pt>
+<imgs/comp/indian_rain/indian_rec_r11.png, id=934, 1687.30376pt x 619.31375pt>
 File: imgs/comp/indian_rain/indian_rec_r11.png Graphic file (type png)
 <use imgs/comp/indian_rain/indian_rec_r11.png>
 Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_r11.png  used on inpu
-t line 1198.
+t line 1200.
 (pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
-<imgs/comp/indian_rain/indian_rec_rboth.png, id=945, 1687.30376pt x 619.31375pt
+ [64 <./imgs/comp/indian_rain/ssa_comp.png> <./imgs/comp/indian_rain/indian_rec
+_r7.png>]
+<imgs/comp/indian_rain/indian_rec_rboth.png, id=944, 1687.30376pt x 619.31375pt
 >
 File: imgs/comp/indian_rain/indian_rec_rboth.png Graphic file (type png)
 <use imgs/comp/indian_rain/indian_rec_rboth.png>
 Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_rboth.png  used on in
-put line 1205.
+put line 1207.
 (pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
- [65 <./imgs/comp/indian_rain/indian_rec_r7.png> <./imgs/comp/indian_rain/india
-n_rec_r11.png> <./imgs/comp/indian_rain/indian_rec_rboth.png>]
-<imgs/comp/indian_rain/first_comp.png, id=956, 861.71938pt x 600.2425pt>
+<imgs/comp/indian_rain/first_comp.png, id=948, 852.68562pt x 605.76312pt>
 File: imgs/comp/indian_rain/first_comp.png Graphic file (type png)
 <use imgs/comp/indian_rain/first_comp.png>
 Package pdftex.def Info: imgs/comp/indian_rain/first_comp.png  used on input li
-ne 1219.
-(pdftex.def)             Requested size: 422.52057pt x 294.31374pt.
-<imgs/comp/indian_rain/first_comp.h.png, id=957, 852.68562pt x 600.2425pt>
+ne 1220.
+(pdftex.def)             Requested size: 422.52057pt x 300.17256pt.
+ [65 <./imgs/comp/indian_rain/indian_rec_r11.png> <./imgs/comp/indian_rain/indi
+an_rec_rboth.png>]
+<imgs/comp/indian_rain/first_comp.h.png, id=959, 852.68562pt x 605.76312pt>
 File: imgs/comp/indian_rain/first_comp.h.png Graphic file (type png)
 <use imgs/comp/indian_rain/first_comp.h.png>
 Package pdftex.def Info: imgs/comp/indian_rain/first_comp.h.png  used on input 
-line 1225.
-(pdftex.def)             Requested size: 422.52057pt x 297.43694pt.
+line 1227.
+(pdftex.def)             Requested size: 422.52057pt x 300.17256pt.
 
 [66 <./imgs/comp/indian_rain/first_comp.png>]
-<imgs/comp/indian_rain/2.12.jpg, id=970, 1705.37125pt x 654.445pt>
+<imgs/comp/indian_rain/rain_res_ann.png, id=967, 843.65187pt x 313.67188pt>
+File: imgs/comp/indian_rain/rain_res_ann.png Graphic file (type png)
+<use imgs/comp/indian_rain/rain_res_ann.png>
+Package pdftex.def Info: imgs/comp/indian_rain/rain_res_ann.png  used on input 
+line 1238.
+(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+<imgs/comp/indian_rain/rain_res_rnn.png, id=968, 843.65187pt x 313.67188pt>
+File: imgs/comp/indian_rain/rain_res_rnn.png Graphic file (type png)
+<use imgs/comp/indian_rain/rain_res_rnn.png>
+Package pdftex.def Info: imgs/comp/indian_rain/rain_res_rnn.png  used on input 
+line 1245.
+(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+ [67 <./imgs/comp/indian_rain/first_comp.h.png> <./imgs/comp/indian_rain/rain_r
+es_ann.png>]
+<imgs/comp/indian_rain/rain_res_gru.png, id=979, 843.65187pt x 313.67188pt>
+File: imgs/comp/indian_rain/rain_res_gru.png Graphic file (type png)
+<use imgs/comp/indian_rain/rain_res_gru.png>
+Package pdftex.def Info: imgs/comp/indian_rain/rain_res_gru.png  used on input 
+line 1252.
+(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+<imgs/comp/indian_rain/rain_res_lstm.png, id=980, 843.65187pt x 313.67188pt>
+File: imgs/comp/indian_rain/rain_res_lstm.png Graphic file (type png)
+<use imgs/comp/indian_rain/rain_res_lstm.png>
+Package pdftex.def Info: imgs/comp/indian_rain/rain_res_lstm.png  used on input
+ line 1259.
+(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+ [68 <./imgs/comp/indian_rain/rain_res_rnn.png> <./imgs/comp/indian_rain/rain_r
+es_gru.png> <./imgs/comp/indian_rain/rain_res_lstm.png>]
+<imgs/comp/indian_rain/2.12.jpg, id=993, 1705.37125pt x 654.445pt>
 File: imgs/comp/indian_rain/2.12.jpg Graphic file (type jpg)
 <use imgs/comp/indian_rain/2.12.jpg>
-Package pdftex.def Info: imgs/comp/indian_rain/2.12.jpg  used on input line 124
-1.
+Package pdftex.def Info: imgs/comp/indian_rain/2.12.jpg  used on input line 127
+2.
 (pdftex.def)             Requested size: 422.52057pt x 162.1429pt.
- [67 <./imgs/comp/indian_rain/first_comp.h.png>]
-<imgs/comp/indian_rain/2.156.jpg, id=983, 1705.37125pt x 654.445pt>
+<imgs/comp/indian_rain/2.156.jpg, id=994, 1705.37125pt x 654.445pt>
 File: imgs/comp/indian_rain/2.156.jpg Graphic file (type jpg)
 <use imgs/comp/indian_rain/2.156.jpg>
 Package pdftex.def Info: imgs/comp/indian_rain/2.156.jpg  used on input line 12
-47.
+79.
 (pdftex.def)             Requested size: 422.52057pt x 162.1429pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[68 <./imgs/comp/indian_rain/2.12.jpg> <./imgs/comp/indian_rain/2.156.jpg>]
-[69]
-<imgs/ts/eop/x_pole.png, id=996, 842.14626pt x 326.21875pt>
+ [69 <./imgs/comp/indian_rain/2.12.jpg> <./imgs/comp/indian_rain/2.156.jpg>] [7
+0]
+<imgs/ts/eop/x_pole.png, id=1013, 842.14626pt x 326.21875pt>
 File: imgs/ts/eop/x_pole.png Graphic file (type png)
 <use imgs/ts/eop/x_pole.png>
-Package pdftex.def Info: imgs/ts/eop/x_pole.png  used on input line 1282.
+Package pdftex.def Info: imgs/ts/eop/x_pole.png  used on input line 1316.
 (pdftex.def)             Requested size: 469.47049pt x 181.85992pt.
-<imgs/ts/eop/x_pole.notrend.png, id=999, 842.14626pt x 308.65312pt>
+<imgs/ts/eop/x_pole.notrend.png, id=1016, 842.14626pt x 308.65312pt>
 File: imgs/ts/eop/x_pole.notrend.png Graphic file (type png)
 <use imgs/ts/eop/x_pole.notrend.png>
-Package pdftex.def Info: imgs/ts/eop/x_pole.notrend.png  used on input line 129
-0.
+Package pdftex.def Info: imgs/ts/eop/x_pole.notrend.png  used on input line 132
+4.
 (pdftex.def)             Requested size: 469.47049pt x 172.06746pt.
- [70
+ [71
 
  <./imgs/ts/eop/x_pole.png>]
-<imgs/ts/eop/x_pole_pgram.png, id=1009, 839.135pt x 581.67313pt>
+<imgs/ts/eop/x_pole_pgram.png, id=1026, 839.135pt x 581.67313pt>
 File: imgs/ts/eop/x_pole_pgram.png Graphic file (type png)
 <use imgs/ts/eop/x_pole_pgram.png>
-Package pdftex.def Info: imgs/ts/eop/x_pole_pgram.png  used on input line 1300.
+Package pdftex.def Info: imgs/ts/eop/x_pole_pgram.png  used on input line 1334.
 
 (pdftex.def)             Requested size: 422.52057pt x 292.88611pt.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 1305.
+(hyperref)                removing `\CYRS' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1305.
+(hyperref)                removing `\cyrr' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1305.
+(hyperref)                removing `\cyra' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1305.
+(hyperref)                removing `\cyrv' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1305.
+(hyperref)                removing `\cyrn' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1305.
+(hyperref)                removing `\cyre' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1305.
+(hyperref)                removing `\cyrn' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1305.
+(hyperref)                removing `\cyri' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1305.
+(hyperref)                removing `\cyre' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1305.
+(hyperref)                removing `\cyrp' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1305.
+(hyperref)                removing `\cyrr' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1305.
+(hyperref)                removing `\cyrg' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1305.
+(hyperref)                removing `\cyrn' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrz' on input line 1305.
+(hyperref)                removing `\cyrz' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1305.
+(hyperref)                removing `\cyrv' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1305.
+(hyperref)                removing `\cyrp' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1305.
+(hyperref)                removing `\cyrl' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1305.
+(hyperref)                removing `\cyru' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1305.
+(hyperref)                removing `\cyrch' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1305.
+(hyperref)                removing `\cyre' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1305.
+(hyperref)                removing `\cyrn' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1305.
+(hyperref)                removing `\cyrn' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1305.
+(hyperref)                removing `\cyrery' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1305.
+(hyperref)                removing `\cyrh' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1305.
+(hyperref)                removing `\cyrs' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1305.
+(hyperref)                removing `\cyrp' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1305.
+(hyperref)                removing `\cyrm' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrshch' on input line 1305.
+(hyperref)                removing `\cyrshch' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1305.
+(hyperref)                removing `\cyrsftsn' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyryu' on input line 1305.
+(hyperref)                removing `\cyryu' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1305.
+(hyperref)                removing `\cyrm' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1305.
+(hyperref)                removing `\cyre' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1305.
+(hyperref)                removing `\cyrt' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1305.
+(hyperref)                removing `\cyrd' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1305.
+(hyperref)                removing `\cyra' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrb' on input line 1305.
+(hyperref)                removing `\cyrb' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1305.
+(hyperref)                removing `\cyrery' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1305.
+(hyperref)                removing `\cyrch' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1305.
+(hyperref)                removing `\cyrn' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1305.
+(hyperref)                removing `\cyrery' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1305.
+(hyperref)                removing `\cyrh' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1305.
+(hyperref)                removing `\cyri' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1305.
+(hyperref)                removing `\cyrg' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1305.
+(hyperref)                removing `\cyri' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrb' on input line 1305.
+(hyperref)                removing `\cyrb' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1305.
+(hyperref)                removing `\cyrr' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1305.
+(hyperref)                removing `\cyri' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1305.
+(hyperref)                removing `\cyrd' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1305.
+(hyperref)                removing `\cyrn' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1305.
+(hyperref)                removing `\cyrery' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1305.
+(hyperref)                removing `\cyrh' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1305.
+(hyperref)                removing `\cyrm' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1305.
+(hyperref)                removing `\cyre' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1305.
+(hyperref)                removing `\cyrt' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1305.
+(hyperref)                removing `\cyrd' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1305.
+(hyperref)                removing `\cyro' on input line 1339.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1305.
+(hyperref)                removing `\cyrv' on input line 1339.
 
-[71 <./imgs/ts/eop/x_pole.notrend.png> <./imgs/ts/eop/x_pole_pgram.png>]
-<imgs/comp/eop/ssa_comp.png, id=1019, 848.67062pt x 581.67313pt>
+[72 <./imgs/ts/eop/x_pole.notrend.png> <./imgs/ts/eop/x_pole_pgram.png>]
+<imgs/comp/eop/ssa_comp.png, id=1036, 848.67062pt x 581.67313pt>
 File: imgs/comp/eop/ssa_comp.png Graphic file (type png)
 <use imgs/comp/eop/ssa_comp.png>
-Package pdftex.def Info: imgs/comp/eop/ssa_comp.png  used on input line 1315.
+Package pdftex.def Info: imgs/comp/eop/ssa_comp.png  used on input line 1349.
 (pdftex.def)             Requested size: 422.52057pt x 289.59326pt.
 
-[72]
-<imgs/comp/eop/eop_rec.png, id=1027, 842.14626pt x 308.65312pt>
+[73]
+<imgs/comp/eop/eop_rec.png, id=1045, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/eop_rec.png Graphic file (type png)
 <use imgs/comp/eop/eop_rec.png>
-Package pdftex.def Info: imgs/comp/eop/eop_rec.png  used on input line 1325.
+Package pdftex.def Info: imgs/comp/eop/eop_rec.png  used on input line 1359.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
 
-Overfull \hbox (16.58835pt too wide) in paragraph at lines 1332--1333
+Overfull \hbox (16.58835pt too wide) in paragraph at lines 1366--1367
 []\T2A/cmr/m/n/12 ѕусть задана следующа€ сетка параметров: $\OML/cmm/m
 /it/12 T \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 13\OML/cmm/m/it/12
- ; \OT1/cmr/m/n/12 42\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 143\OMS/cmsy/m/n/1
+ ; \OT1/cmr/m/n/12 42\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 130\OMS/cmsy/m/n/1
 2 g$\T2A/cmr/m/n/12 , $\OML/cmm/m/it/12 h \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\
 OT1/cmr/m/n/12 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 25\OML/cmm/m/it/12 ; [] ; \
-OT1/cmr/m/n/12 100\OMS/cmsy/m/n/12 g$\T2A/cmr/m/n/12 . 
+OT1/cmr/m/n/12 100\OMS/cmsy/m/n/12 g$\T2A/cmr/m/n/12 .
  []
 
-[73 <./imgs/comp/eop/ssa_comp.png> <./imgs/comp/eop/eop_rec.png>]
-<imgs/comp/eop/x_pole.comp.T.png, id=1038, 857.70438pt x 600.2425pt>
+<imgs/comp/eop/x_pole.comp.T.png, id=1046, 857.70438pt x 600.2425pt>
 File: imgs/comp/eop/x_pole.comp.T.png Graphic file (type png)
 <use imgs/comp/eop/x_pole.comp.T.png>
 Package pdftex.def Info: imgs/comp/eop/x_pole.comp.T.png  used on input line 13
-39.
+69.
 (pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
-<imgs/comp/eop/x_pole.comp.T.h.png, id=1039, 867.24pt x 604.2575pt>
+[74 <./imgs/comp/eop/ssa_comp.png> <./imgs/comp/eop/eop_rec.png>]
+<imgs/comp/eop/x_pole.comp.T.h.png, id=1055, 857.70438pt x 600.2425pt>
 File: imgs/comp/eop/x_pole.comp.T.h.png Graphic file (type png)
 <use imgs/comp/eop/x_pole.comp.T.h.png>
 Package pdftex.def Info: imgs/comp/eop/x_pole.comp.T.h.png  used on input line 
-1345.
-(pdftex.def)             Requested size: 422.52057pt x 294.40146pt.
- [74 <./imgs/comp/eop/x_pole.comp.T.png>]
-<imgs/comp/eop/xpole_res_ann.png, id=1050, 842.14626pt x 308.65312pt>
+1375.
+(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
+ [75 <./imgs/comp/eop/x_pole.comp.T.png>]
+<imgs/comp/eop/xpole_res_ann.png, id=1065, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/xpole_res_ann.png Graphic file (type png)
 <use imgs/comp/eop/xpole_res_ann.png>
 Package pdftex.def Info: imgs/comp/eop/xpole_res_ann.png  used on input line 13
-57.
+87.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
- [75 <./imgs/comp/eop/x_pole.comp.T.h.png>]
-<imgs/comp/eop/xpole_res_rnn.png, id=1059, 842.14626pt x 308.65312pt>
+ [76 <./imgs/comp/eop/x_pole.comp.T.h.png>]
+<imgs/comp/eop/xpole_res_rnn.png, id=1074, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/xpole_res_rnn.png Graphic file (type png)
 <use imgs/comp/eop/xpole_res_rnn.png>
 Package pdftex.def Info: imgs/comp/eop/xpole_res_rnn.png  used on input line 13
-63.
+93.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
-<imgs/comp/eop/xpole_res_gru.png, id=1060, 842.14626pt x 308.65312pt>
+<imgs/comp/eop/xpole_res_gru.png, id=1075, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/xpole_res_gru.png Graphic file (type png)
 <use imgs/comp/eop/xpole_res_gru.png>
 Package pdftex.def Info: imgs/comp/eop/xpole_res_gru.png  used on input line 13
-69.
+99.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
-<imgs/comp/eop/xpole_res_lstm.png, id=1061, 842.14626pt x 308.65312pt>
+<imgs/comp/eop/xpole_res_lstm.png, id=1076, 842.14626pt x 308.65312pt>
 File: imgs/comp/eop/xpole_res_lstm.png Graphic file (type png)
 <use imgs/comp/eop/xpole_res_lstm.png>
 Package pdftex.def Info: imgs/comp/eop/xpole_res_lstm.png  used on input line 1
-375.
+405.
 (pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
- [76 <./imgs/comp/eop/xpole_res_ann.png> <./imgs/comp/eop/xpole_res_rnn.png> <.
-/imgs/comp/eop/xpole_res_gru.png>] [77 <./imgs/comp/eop/xpole_res_lstm.png>] [7
-8]
+ [77 <./imgs/comp/eop/xpole_res_ann.png> <./imgs/comp/eop/xpole_res_rnn.png> <.
+/imgs/comp/eop/xpole_res_gru.png>] [78 <./imgs/comp/eop/xpole_res_lstm.png>] [7
+9]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRP' on input line 1409.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1409.
+(hyperref)                removing `\CYRP' on input line 1441.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1409.
+(hyperref)                removing `\cyro' on input line 1441.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1409.
+(hyperref)                removing `\cyrg' on input line 1441.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1409.
+(hyperref)                removing `\cyro' on input line 1441.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1409.
+(hyperref)                removing `\cyrd' on input line 1441.
 
-<imgs/ts/weather/weather4.png, id=1092, 818.05624pt x 576.65437pt>
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1441.
+
+<imgs/ts/weather/weather4.png, id=1109, 818.05624pt x 576.65437pt>
 File: imgs/ts/weather/weather4.png Graphic file (type png)
 <use imgs/ts/weather/weather4.png>
-Package pdftex.def Info: imgs/ts/weather/weather4.png  used on input line 1415.
+Package pdftex.def Info: imgs/ts/weather/weather4.png  used on input line 1447.
 
 (pdftex.def)             Requested size: 469.47049pt x 330.94016pt.
-<imgs/ts/weather/weather4_pgram.png, id=1094, 853.1875pt x 581.67313pt>
+<imgs/ts/weather/weather4_pgram.png, id=1111, 853.1875pt x 581.67313pt>
 File: imgs/ts/weather/weather4_pgram.png Graphic file (type png)
 <use imgs/ts/weather/weather4_pgram.png>
 Package pdftex.def Info: imgs/ts/weather/weather4_pgram.png  used on input line
- 1425.
+ 1457.
 (pdftex.def)             Requested size: 469.47049pt x 320.0721pt.
-[79
+[80
 
  <./imgs/ts/weather/weather4.png>]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 1430.
+(hyperref)                removing `\CYRS' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1430.
+(hyperref)                removing `\cyrr' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1430.
+(hyperref)                removing `\cyra' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1430.
+(hyperref)                removing `\cyrv' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1430.
+(hyperref)                removing `\cyrn' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1430.
+(hyperref)                removing `\cyre' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1430.
+(hyperref)                removing `\cyrn' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1430.
+(hyperref)                removing `\cyri' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1430.
+(hyperref)                removing `\cyre' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1430.
+(hyperref)                removing `\cyrp' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1430.
+(hyperref)                removing `\cyrr' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1430.
+(hyperref)                removing `\cyrg' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1430.
+(hyperref)                removing `\cyrn' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrz' on input line 1430.
+(hyperref)                removing `\cyrz' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1430.
+(hyperref)                removing `\cyrv' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1430.
+(hyperref)                removing `\cyrp' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1430.
+(hyperref)                removing `\cyrl' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1430.
+(hyperref)                removing `\cyru' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1430.
+(hyperref)                removing `\cyrch' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1430.
+(hyperref)                removing `\cyre' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1430.
+(hyperref)                removing `\cyrn' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1430.
+(hyperref)                removing `\cyrn' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1430.
+(hyperref)                removing `\cyrery' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1430.
+(hyperref)                removing `\cyrh' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1430.
+(hyperref)                removing `\cyrs' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1430.
+(hyperref)                removing `\cyrp' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1430.
+(hyperref)                removing `\cyrm' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrshch' on input line 1430.
+(hyperref)                removing `\cyrshch' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1430.
+(hyperref)                removing `\cyrsftsn' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyryu' on input line 1430.
+(hyperref)                removing `\cyryu' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1430.
+(hyperref)                removing `\cyrm' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1430.
+(hyperref)                removing `\cyre' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1430.
+(hyperref)                removing `\cyrt' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1430.
+(hyperref)                removing `\cyrd' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1430.
+(hyperref)                removing `\cyra' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrb' on input line 1430.
+(hyperref)                removing `\cyrb' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1430.
+(hyperref)                removing `\cyrery' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1430.
+(hyperref)                removing `\cyrch' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1430.
+(hyperref)                removing `\cyrn' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1430.
+(hyperref)                removing `\cyrery' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1430.
+(hyperref)                removing `\cyrh' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1430.
+(hyperref)                removing `\cyri' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 1430.
+(hyperref)                removing `\cyrg' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1430.
+(hyperref)                removing `\cyri' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrb' on input line 1430.
+(hyperref)                removing `\cyrb' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1430.
+(hyperref)                removing `\cyrr' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1430.
+(hyperref)                removing `\cyri' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1430.
+(hyperref)                removing `\cyrd' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1430.
+(hyperref)                removing `\cyrn' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1430.
+(hyperref)                removing `\cyrery' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrh' on input line 1430.
+(hyperref)                removing `\cyrh' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1430.
+(hyperref)                removing `\cyrm' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1430.
+(hyperref)                removing `\cyre' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1430.
+(hyperref)                removing `\cyrt' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1430.
+(hyperref)                removing `\cyrd' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1430.
+(hyperref)                removing `\cyro' on input line 1462.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1430.
+(hyperref)                removing `\cyrv' on input line 1462.
 
-<imgs/comp/weather/ssa_comp.png, id=1105, 824.58063pt x 581.67313pt>
+<imgs/comp/weather/ssa_comp.png, id=1121, 824.58063pt x 581.67313pt>
 File: imgs/comp/weather/ssa_comp.png Graphic file (type png)
 <use imgs/comp/weather/ssa_comp.png>
-Package pdftex.def Info: imgs/comp/weather/ssa_comp.png  used on input line 144
-1.
+Package pdftex.def Info: imgs/comp/weather/ssa_comp.png  used on input line 147
+3.
 (pdftex.def)             Requested size: 422.52057pt x 298.05171pt.
-[80 <./imgs/ts/weather/weather4_pgram.png>]
-<imgs/comp/weather/weather_rec.png, id=1114, 824.58063pt x 308.65312pt>
+[81 <./imgs/ts/weather/weather4_pgram.png>]
+<imgs/comp/weather/weather_rec.png, id=1130, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_rec.png Graphic file (type png)
 <use imgs/comp/weather/weather_rec.png>
 Package pdftex.def Info: imgs/comp/weather/weather_rec.png  used on input line 
-1452.
+1484.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
- [81 <./imgs/comp/weather/ssa_comp.png> <./imgs/comp/weather/weather_rec.png>]
-<imgs/comp/weather/weather4.comp.png, id=1128, 848.16875pt x 600.2425pt>
+ [82 <./imgs/comp/weather/ssa_comp.png> <./imgs/comp/weather/weather_rec.png>]
+<imgs/comp/weather/weather4.comp.png, id=1141, 848.16875pt x 600.2425pt>
 File: imgs/comp/weather/weather4.comp.png Graphic file (type png)
 <use imgs/comp/weather/weather4.comp.png>
 Package pdftex.def Info: imgs/comp/weather/weather4.comp.png  used on input lin
-e 1466.
+e 1497.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
-<imgs/comp/weather/weather4.comp.h.png, id=1129, 848.16875pt x 600.2425pt>
+<imgs/comp/weather/weather4.comp.h.png, id=1142, 848.16875pt x 600.2425pt>
 File: imgs/comp/weather/weather4.comp.h.png Graphic file (type png)
 <use imgs/comp/weather/weather4.comp.h.png>
 Package pdftex.def Info: imgs/comp/weather/weather4.comp.h.png  used on input l
-ine 1473.
+ine 1504.
 (pdftex.def)             Requested size: 422.52057pt x 299.01227pt.
- [82 <./imgs/comp/weather/weather4.comp.png>] [83 <./imgs/comp/weather/weather4
+ [83 <./imgs/comp/weather/weather4.comp.png>] [84 <./imgs/comp/weather/weather4
 .comp.h.png>]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 1507.
+(hyperref)                removing `\CYRS' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1507.
+(hyperref)                removing `\cyru' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1507.
+(hyperref)                removing `\cyrm' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1507.
+(hyperref)                removing `\cyrm' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1507.
+(hyperref)                removing `\cyra' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1507.
+(hyperref)                removing `\cyrr' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1507.
+(hyperref)                removing `\cyrn' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1507.
+(hyperref)                removing `\cyrery' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1507.
+(hyperref)                removing `\cyre' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1507.
+(hyperref)                removing `\cyrr' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1507.
+(hyperref)                removing `\cyre' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrz' on input line 1507.
+(hyperref)                removing `\cyrz' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1507.
+(hyperref)                removing `\cyru' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1507.
+(hyperref)                removing `\cyrl' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1507.
+(hyperref)                removing `\cyrsftsn' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1507.
+(hyperref)                removing `\cyrt' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1507.
+(hyperref)                removing `\cyra' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrt' on input line 1507.
+(hyperref)                removing `\cyrt' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1507.
+(hyperref)                removing `\cyrery' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1507.
+(hyperref)                removing `\cyrp' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1507.
+(hyperref)                removing `\cyro' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1507.
+(hyperref)                removing `\cyrr' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1507.
+(hyperref)                removing `\cyre' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1507.
+(hyperref)                removing `\cyra' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1507.
+(hyperref)                removing `\cyrl' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1507.
+(hyperref)                removing `\cyrsftsn' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1507.
+(hyperref)                removing `\cyrn' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1507.
+(hyperref)                removing `\cyrery' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1507.
+(hyperref)                removing `\cyrm' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1507.
+(hyperref)                removing `\cyrd' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1507.
+(hyperref)                removing `\cyra' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1507.
+(hyperref)                removing `\cyrn' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1507.
+(hyperref)                removing `\cyrn' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1507.
+(hyperref)                removing `\cyrery' on input line 1541.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1507.
+(hyperref)                removing `\cyrm' on input line 1541.
 
-
-LaTeX Warning: Reference `real_bigtable' on page 84 undefined on input line 150
-8.
-
-[84] [85
+[85] [86
 
 ]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRZ' on input line 1535.
+(hyperref)                removing `\CYRZ' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1535.
+(hyperref)                removing `\cyra' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 1535.
+(hyperref)                removing `\cyrk' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1535.
+(hyperref)                removing `\cyrl' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyryu' on input line 1535.
+(hyperref)                removing `\cyryu' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 1535.
+(hyperref)                removing `\cyrch' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1535.
+(hyperref)                removing `\cyre' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1535.
+(hyperref)                removing `\cyrn' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1535.
+(hyperref)                removing `\cyri' on input line 1568.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1535.
+(hyperref)                removing `\cyre' on input line 1568.
 
-[86
+[87
 
 
-] (report.bbl [87]
+] (report.bbl [88]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\CYRS' on input line 1.
@@ -5435,642 +5455,642 @@ Package hyperref Warning: Glyph not defined in PU encoding,
 Package hyperref Warning: Glyph not defined in PU encoding,
 (hyperref)                removing `\cyrery' on input line 1.
 
-) [88
+) [89
 
 ]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRP' on input line 1560.
+(hyperref)                removing `\CYRP' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1560.
+(hyperref)                removing `\cyrr' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1560.
+(hyperref)                removing `\cyri' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1560.
+(hyperref)                removing `\cyrl' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1560.
+(hyperref)                removing `\cyro' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrzh' on input line 1560.
+(hyperref)                removing `\cyrzh' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1560.
+(hyperref)                removing `\cyre' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1560.
+(hyperref)                removing `\cyrn' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1560.
+(hyperref)                removing `\cyri' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1560.
+(hyperref)                removing `\cyre' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRA' on input line 1560.
+(hyperref)                removing `\CYRA' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRM' on input line 1560.
+(hyperref)                removing `\CYRM' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1560.
+(hyperref)                removing `\cyro' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1560.
+(hyperref)                removing `\cyrd' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1560.
+(hyperref)                removing `\cyre' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1560.
+(hyperref)                removing `\cyrl' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1560.
+(hyperref)                removing `\cyrsftsn' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1560.
+(hyperref)                removing `\cyrn' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1560.
+(hyperref)                removing `\cyrery' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1560.
+(hyperref)                removing `\cyre' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1560.
+(hyperref)                removing `\cyrd' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1560.
+(hyperref)                removing `\cyra' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1560.
+(hyperref)                removing `\cyrn' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1560.
+(hyperref)                removing `\cyrn' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1560.
+(hyperref)                removing `\cyrery' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1560.
+(hyperref)                removing `\cyre' on input line 1593.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRA' on input line 1561.
+(hyperref)                removing `\CYRA' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 1561.
+(hyperref)                removing `\CYRS' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1561.
+(hyperref)                removing `\cyru' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1561.
+(hyperref)                removing `\cyrm' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1561.
+(hyperref)                removing `\cyrm' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1561.
+(hyperref)                removing `\cyra' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1561.
+(hyperref)                removing `\cyrs' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1561.
+(hyperref)                removing `\cyri' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1561.
+(hyperref)                removing `\cyrn' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1561.
+(hyperref)                removing `\cyru' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1561.
+(hyperref)                removing `\cyrs' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1561.
+(hyperref)                removing `\cyro' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 1561.
+(hyperref)                removing `\cyrv' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1561.
+(hyperref)                removing `\cyrs' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrb' on input line 1561.
+(hyperref)                removing `\cyrb' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1561.
+(hyperref)                removing `\cyre' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1561.
+(hyperref)                removing `\cyrl' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1561.
+(hyperref)                removing `\cyrery' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1561.
+(hyperref)                removing `\cyrm' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsh' on input line 1561.
+(hyperref)                removing `\cyrsh' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1561.
+(hyperref)                removing `\cyru' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1561.
+(hyperref)                removing `\cyrm' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1561.
+(hyperref)                removing `\cyro' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1561.
+(hyperref)                removing `\cyrm' on input line 1594.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRA' on input line 1563.
+(hyperref)                removing `\CYRA' on input line 1596.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRV' on input line 1563.
+(hyperref)                removing `\CYRV' on input line 1596.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1563.
+(hyperref)                removing `\cyrl' on input line 1596.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1563.
+(hyperref)                removing `\cyri' on input line 1596.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrya' on input line 1563.
+(hyperref)                removing `\cyrya' on input line 1596.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1563.
+(hyperref)                removing `\cyrn' on input line 1596.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1563.
+(hyperref)                removing `\cyri' on input line 1596.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1563.
+(hyperref)                removing `\cyre' on input line 1596.
 
 File: imgs/comp/edsine/r2.png Graphic file (type png)
 <use imgs/comp/edsine/r2.png>
-Package pdftex.def Info: imgs/comp/edsine/r2.png  used on input line 1573.
+Package pdftex.def Info: imgs/comp/edsine/r2.png  used on input line 1606.
 (pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
 File: imgs/comp/edsine/r4.png Graphic file (type png)
 <use imgs/comp/edsine/r4.png>
-Package pdftex.def Info: imgs/comp/edsine/r4.png  used on input line 1579.
+Package pdftex.def Info: imgs/comp/edsine/r4.png  used on input line 1612.
 (pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
-[89
+[90
 
 ]
 File: imgs/comp/edsine/r6.png Graphic file (type png)
 <use imgs/comp/edsine/r6.png>
-Package pdftex.def Info: imgs/comp/edsine/r6.png  used on input line 1585.
+Package pdftex.def Info: imgs/comp/edsine/r6.png  used on input line 1618.
 (pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
-<imgs/comp/edsine/r2.h.png, id=1195, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/r2.h.png, id=1213, 857.70438pt x 605.76312pt>
 File: imgs/comp/edsine/r2.h.png Graphic file (type png)
 <use imgs/comp/edsine/r2.h.png>
-Package pdftex.def Info: imgs/comp/edsine/r2.h.png  used on input line 1591.
+Package pdftex.def Info: imgs/comp/edsine/r2.h.png  used on input line 1624.
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
- [90]
-<imgs/comp/edsine/r4.h.png, id=1202, 857.70438pt x 605.76312pt>
+ [91]
+<imgs/comp/edsine/r4.h.png, id=1221, 857.70438pt x 605.76312pt>
 File: imgs/comp/edsine/r4.h.png Graphic file (type png)
 <use imgs/comp/edsine/r4.h.png>
-Package pdftex.def Info: imgs/comp/edsine/r4.h.png  used on input line 1598.
+Package pdftex.def Info: imgs/comp/edsine/r4.h.png  used on input line 1631.
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
- [91 <./imgs/comp/edsine/r2.h.png>]
-<imgs/comp/edsine/r6.h.png, id=1210, 857.70438pt x 605.76312pt>
+ [92 <./imgs/comp/edsine/r2.h.png>]
+<imgs/comp/edsine/r6.h.png, id=1228, 857.70438pt x 605.76312pt>
 File: imgs/comp/edsine/r6.h.png Graphic file (type png)
 <use imgs/comp/edsine/r6.h.png>
-Package pdftex.def Info: imgs/comp/edsine/r6.h.png  used on input line 1605.
+Package pdftex.def Info: imgs/comp/edsine/r6.h.png  used on input line 1638.
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
- [92 <./imgs/comp/edsine/r4.h.png>]
+ [93 <./imgs/comp/edsine/r4.h.png>]
 File: imgs/comp/edsine/edsinr_r2_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r2_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_ann.png  used on input 
-line 1615.
+line 1648.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/edsinr_r2_res_rnn.png, id=1217, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinr_r2_res_rnn.png, id=1235, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinr_r2_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r2_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_rnn.png  used on input 
-line 1623.
+line 1656.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-[93 <./imgs/comp/edsine/r6.h.png>]
-<imgs/comp/edsine/edsinr_r2_res_gru.png, id=1225, 827.59187pt x 309.155pt>
+[94 <./imgs/comp/edsine/r6.h.png>]
+<imgs/comp/edsine/edsinr_r2_res_gru.png, id=1243, 827.59187pt x 309.155pt>
 File: imgs/comp/edsine/edsinr_r2_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r2_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_gru.png  used on input 
-line 1630.
+line 1663.
 (pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
 File: imgs/comp/edsine/edsinr_r4_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r4_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_ann.png  used on input 
-line 1637.
+line 1670.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/edsinr_r2_res_lstm.png, id=1226, 827.59187pt x 309.65688pt>
+<imgs/comp/edsine/edsinr_r2_res_lstm.png, id=1244, 827.59187pt x 309.65688pt>
 File: imgs/comp/edsine/edsinr_r2_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r2_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_lstm.png  used on input
- line 1645.
+ line 1678.
 (pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
- [94 <./imgs/comp/edsine/edsinr_r2_res_rnn.png> <./imgs/comp/edsine/edsinr_r2_r
+ [95 <./imgs/comp/edsine/edsinr_r2_res_rnn.png> <./imgs/comp/edsine/edsinr_r2_r
 es_gru.png>]
-<imgs/comp/edsine/edsinr_r4_res_rnn.png, id=1236, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinr_r4_res_rnn.png, id=1254, 827.59187pt x 308.65312pt>
 File: imgs/comp/edsine/edsinr_r4_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r4_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_rnn.png  used on input 
-line 1652.
+line 1685.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/edsinr_r4_res_gru.png, id=1237, 827.59187pt x 309.155pt>
+<imgs/comp/edsine/edsinr_r4_res_gru.png, id=1255, 827.59187pt x 309.155pt>
 File: imgs/comp/edsine/edsinr_r4_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r4_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_gru.png  used on input 
-line 1659.
+line 1692.
 (pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
-<imgs/comp/edsine/edsinr_r4_res_lstm.png, id=1238, 827.59187pt x 309.65688pt>
+<imgs/comp/edsine/edsinr_r4_res_lstm.png, id=1256, 827.59187pt x 309.65688pt>
 File: imgs/comp/edsine/edsinr_r4_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r4_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_lstm.png  used on input
- line 1666.
+ line 1699.
 (pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
- [95 <./imgs/comp/edsine/edsinr_r2_res_lstm.png> <./imgs/comp/edsine/edsinr_r4_
+ [96 <./imgs/comp/edsine/edsinr_r2_res_lstm.png> <./imgs/comp/edsine/edsinr_r4_
 res_rnn.png> <./imgs/comp/edsine/edsinr_r4_res_gru.png>]
 File: imgs/comp/edsine/edsinr_r6_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r6_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_ann.png  used on input 
-line 1673.
+line 1706.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/edsinr_r6_res_rnn.png, id=1249, 827.59187pt x 312.66812pt>
+<imgs/comp/edsine/edsinr_r6_res_rnn.png, id=1267, 827.59187pt x 312.66812pt>
 File: imgs/comp/edsine/edsinr_r6_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r6_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_rnn.png  used on input 
-line 1680.
+line 1713.
 (pdftex.def)             Requested size: 422.52057pt x 159.63515pt.
-<imgs/comp/edsine/edsinr_r6_res_gru.png, id=1250, 827.59187pt x 309.155pt>
+<imgs/comp/edsine/edsinr_r6_res_gru.png, id=1268, 827.59187pt x 309.155pt>
 File: imgs/comp/edsine/edsinr_r6_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r6_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_gru.png  used on input 
-line 1687.
+line 1720.
 (pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
- [96 <./imgs/comp/edsine/edsinr_r4_res_lstm.png> <./imgs/comp/edsine/edsinr_r6_
+ [97 <./imgs/comp/edsine/edsinr_r4_res_lstm.png> <./imgs/comp/edsine/edsinr_r6_
 res_rnn.png>]
-<imgs/comp/edsine/edsinr_r6_res_lstm.png, id=1260, 827.59187pt x 309.65688pt>
+<imgs/comp/edsine/edsinr_r6_res_lstm.png, id=1279, 827.59187pt x 309.65688pt>
 File: imgs/comp/edsine/edsinr_r6_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/edsinr_r6_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_lstm.png  used on input
- line 1694.
+ line 1727.
 (pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
-<imgs/comp/edsine/loopr2.12.png, id=1263, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/loopr2.12.png, id=1282, 857.70438pt x 327.2225pt>
 File: imgs/comp/edsine/loopr2.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr2.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 170
-6.
+Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 173
+9.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr2.84.png, id=1264, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/loopr2.84.png, id=1283, 857.70438pt x 327.2225pt>
 File: imgs/comp/edsine/loopr2.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr2.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 171
-3.
+Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 174
+6.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr4.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr4.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 172
-0.
+Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 175
+3.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr4.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr4.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 172
+Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 176
+0.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/edsine/loopr6.12.png, id=1284, 857.70438pt x 327.2225pt>
+File: imgs/comp/edsine/loopr6.12.png Graphic file (type png)
+<use imgs/comp/edsine/loopr6.12.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 176
 7.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr6.12.png, id=1265, 857.70438pt x 327.2225pt>
-File: imgs/comp/edsine/loopr6.12.png Graphic file (type png)
-<use imgs/comp/edsine/loopr6.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 173
-4.
-(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/edsine/loopr6.84.png, id=1266, 848.16875pt x 327.2225pt>
+<imgs/comp/edsine/loopr6.84.png, id=1285, 848.16875pt x 327.2225pt>
 File: imgs/comp/edsine/loopr6.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr6.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 174
-1.
+Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 177
+4.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRA' on input line 1746.
+(hyperref)                removing `\CYRA' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRV' on input line 1746.
+(hyperref)                removing `\CYRV' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1746.
+(hyperref)                removing `\cyrl' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1746.
+(hyperref)                removing `\cyri' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrya' on input line 1746.
+(hyperref)                removing `\cyrya' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1746.
+(hyperref)                removing `\cyrn' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1746.
+(hyperref)                removing `\cyri' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1746.
+(hyperref)                removing `\cyre' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrp' on input line 1746.
+(hyperref)                removing `\cyrp' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1746.
+(hyperref)                removing `\cyrr' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1746.
+(hyperref)                removing `\cyri' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1746.
+(hyperref)                removing `\cyrm' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1746.
+(hyperref)                removing `\cyra' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1746.
+(hyperref)                removing `\cyrl' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1746.
+(hyperref)                removing `\cyre' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1746.
+(hyperref)                removing `\cyrn' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 1746.
+(hyperref)                removing `\cyrsftsn' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 1746.
+(hyperref)                removing `\cyrk' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 1746.
+(hyperref)                removing `\cyro' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1746.
+(hyperref)                removing `\cyrm' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsh' on input line 1746.
+(hyperref)                removing `\cyrsh' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1746.
+(hyperref)                removing `\cyru' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1746.
+(hyperref)                removing `\cyrm' on input line 1779.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1746.
+(hyperref)                removing `\cyre' on input line 1779.
 
 File: imgs/comp/edsine/N0.3/r2.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r2.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.png  used on input line 1756.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.png  used on input line 1789.
 
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
-[97 <./imgs/comp/edsine/edsinr_r6_res_gru.png> <./imgs/comp/edsine/edsinr_r6_re
+[98 <./imgs/comp/edsine/edsinr_r6_res_gru.png> <./imgs/comp/edsine/edsinr_r6_re
 s_lstm.png>]
 Overfull \vbox (94.41248pt too high) has occurred while \output is active []
 
 
-[98 <./imgs/comp/edsine/loopr2.12.png> <./imgs/comp/edsine/loopr2.84.png>]
+[99 <./imgs/comp/edsine/loopr2.12.png> <./imgs/comp/edsine/loopr2.84.png>]
 File: imgs/comp/edsine/N0.3/r4.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r4.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.png  used on input line 1763.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.png  used on input line 1796.
 
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
 
 Overfull \vbox (94.41248pt too high) has occurred while \output is active []
 
 
-[99]
+[100]
 File: imgs/comp/edsine/N0.3/r6.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r6.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.png  used on input line 1770.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.png  used on input line 1803.
 
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
 
 Overfull \vbox (96.22493pt too high) has occurred while \output is active []
 
 
-[100 <./imgs/comp/edsine/loopr6.12.png> <./imgs/comp/edsine/loopr6.84.png>]
-<imgs/comp/edsine/N0.3/r2.h.png, id=1303, 857.70438pt x 605.76312pt>
+[101 <./imgs/comp/edsine/loopr6.12.png> <./imgs/comp/edsine/loopr6.84.png>]
+<imgs/comp/edsine/N0.3/r2.h.png, id=1321, 857.70438pt x 605.76312pt>
 File: imgs/comp/edsine/N0.3/r2.h.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r2.h.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.h.png  used on input line 177
-7.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.h.png  used on input line 181
+0.
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
-<imgs/comp/edsine/N0.3/r4.h.png, id=1304, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/N0.3/r4.h.png, id=1322, 857.70438pt x 605.76312pt>
 File: imgs/comp/edsine/N0.3/r4.h.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r4.h.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.h.png  used on input line 178
-4.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.h.png  used on input line 181
+7.
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
 
-[101 <./imgs/comp/edsine/N0.3/r2.h.png>]
-<imgs/comp/edsine/N0.3/r6.h.png, id=1311, 857.70438pt x 605.76312pt>
+[102 <./imgs/comp/edsine/N0.3/r2.h.png>]
+<imgs/comp/edsine/N0.3/r6.h.png, id=1329, 857.70438pt x 605.76312pt>
 File: imgs/comp/edsine/N0.3/r6.h.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/r6.h.png>
-Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.h.png  used on input line 179
-1.
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.h.png  used on input line 182
+4.
 (pdftex.def)             Requested size: 422.52057pt x 298.4071pt.
- [102 <./imgs/comp/edsine/N0.3/r4.h.png>]
+ [103 <./imgs/comp/edsine/N0.3/r4.h.png>]
 File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png  used o
-n input line 1802.
+n input line 1835.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png, id=1319, 827.59187pt x 308.653
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png, id=1338, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png  used o
-n input line 1809.
+n input line 1842.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [103 <./imgs/comp/edsine/N0.3/r6.h.png>]
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png, id=1328, 827.59187pt x 308.653
+ [104 <./imgs/comp/edsine/N0.3/r6.h.png>]
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png, id=1346, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png  used o
-n input line 1816.
+n input line 1849.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png, id=1329, 827.59187pt x 308.65
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png, id=1347, 827.59187pt x 308.65
 312pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png  used 
-on input line 1823.
+on input line 1856.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
 File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png  used o
-n input line 1830.
+n input line 1863.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [104 <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png> <./imgs/comp/edsine/N0
+ [105 <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png> <./imgs/comp/edsine/N0
 .3/edsin0.3r_r2_res_gru.png> <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png
 >]
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png, id=1340, 827.59187pt x 308.653
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png, id=1358, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png  used o
-n input line 1837.
+n input line 1870.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png, id=1341, 827.59187pt x 308.653
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png, id=1359, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png  used o
-n input line 1844.
+n input line 1877.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png, id=1342, 827.59187pt x 308.65
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png, id=1360, 827.59187pt x 308.65
 312pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png  used 
-on input line 1851.
+on input line 1884.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [105 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png> <./imgs/comp/edsine/N0
+ [106 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png> <./imgs/comp/edsine/N0
 .3/edsin0.3r_r4_res_gru.png>]
 File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png  used o
-n input line 1858.
+n input line 1891.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png, id=1352, 827.59187pt x 308.653
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png, id=1370, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png  used o
-n input line 1865.
+n input line 1898.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png, id=1353, 827.59187pt x 308.653
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png, id=1371, 827.59187pt x 308.653
 12pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png  used o
-n input line 1872.
+n input line 1905.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
 
-[106 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png> <./imgs/comp/edsine/N0
+[107 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png> <./imgs/comp/edsine/N0
 .3/edsin0.3r_r6_res_rnn.png>]
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png, id=1363, 827.59187pt x 308.65
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png, id=1381, 827.59187pt x 308.65
 312pt>
 File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png Graphic file (type png)
 <use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png>
 Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png  used 
-on input line 1879.
+on input line 1912.
 (pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
 File: imgs/comp/edsine/loopr2.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr2.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 189
-0.
+Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 192
+3.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 
@@ -6078,381 +6098,381 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr2.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr2.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 189
-7.
+Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 193
+0.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr4.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr4.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 190
-4.
+Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 193
+7.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr4.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr4.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 191
-1.
+Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 194
+4.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr6.12.png Graphic file (type png)
 <use imgs/comp/edsine/loopr6.12.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 191
-8.
+Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 195
+1.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/edsine/loopr6.84.png Graphic file (type png)
 <use imgs/comp/edsine/loopr6.84.png>
-Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 192
-5.
-(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRA' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRV' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrya' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1930.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1930.
-
-[107 <./imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png> <./imgs/comp/edsine/N0.
-3/edsin0.3r_r6_res_lstm.png>]
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRA' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRK' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrishrt' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsh' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyru' on input line 1937.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 1937.
-
-File: imgs/comp/ser/serr_r2.png Graphic file (type png)
-<use imgs/comp/ser/serr_r2.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r2.png  used on input line 1948.
-(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
-[108] [109]
-Overfull \vbox (99.58022pt too high) has occurred while \output is active []
-
-
-[110]
-File: imgs/comp/ser/serr_r4.png Graphic file (type png)
-<use imgs/comp/ser/serr_r4.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r4.png  used on input line 1955.
-(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
-File: imgs/comp/ser/serr_r14.png Graphic file (type png)
-<use imgs/comp/ser/serr_r14.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r14.png  used on input line 1962.
-(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
- [111]
-<imgs/comp/ser/serr_r2.h.png, id=1405, 848.16875pt x 605.76312pt>
-File: imgs/comp/ser/serr_r2.h.png Graphic file (type png)
-<use imgs/comp/ser/serr_r2.h.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r2.h.png  used on input line 1970.
-(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
- [112]
-<imgs/comp/ser/serr_r4.h.png, id=1411, 848.16875pt x 605.76312pt>
-File: imgs/comp/ser/serr_r4.h.png Graphic file (type png)
-<use imgs/comp/ser/serr_r4.h.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r4.h.png  used on input line 1977.
-(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
- [113 <./imgs/comp/ser/serr_r2.h.png>]
-<imgs/comp/ser/serr_r14.h.png, id=1418, 848.16875pt x 605.76312pt>
-File: imgs/comp/ser/serr_r14.h.png Graphic file (type png)
-<use imgs/comp/ser/serr_r14.h.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r14.h.png  used on input line 1984.
-
-(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
- [114 <./imgs/comp/ser/serr_r4.h.png>]
-File: imgs/comp/ser/sigserr_r2.png Graphic file (type png)
-<use imgs/comp/ser/sigserr_r2.png>
-Package pdftex.def Info: imgs/comp/ser/sigserr_r2.png  used on input line 1991.
-
-(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [115 <./imgs/comp/ser/serr_r14.h.png>]
-File: imgs/comp/ser/sigserr_r4.png Graphic file (type png)
-<use imgs/comp/ser/sigserr_r4.png>
-Package pdftex.def Info: imgs/comp/ser/sigserr_r4.png  used on input line 1998.
-
-(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [116]
-File: imgs/comp/ser/sigserr_r14.png Graphic file (type png)
-<use imgs/comp/ser/sigserr_r14.png>
-Package pdftex.def Info: imgs/comp/ser/sigserr_r14.png  used on input line 2005
-.
-(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [117]
-<imgs/comp/ser/sigserr_r2.h.png, id=1442, 857.70438pt x 600.2425pt>
-File: imgs/comp/ser/sigserr_r2.h.png Graphic file (type png)
-<use imgs/comp/ser/sigserr_r2.h.png>
-Package pdftex.def Info: imgs/comp/ser/sigserr_r2.h.png  used on input line 201
-2.
-(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [118]
-<imgs/comp/ser/sigserr_r4.h.png, id=1448, 857.70438pt x 600.2425pt>
-File: imgs/comp/ser/sigserr_r4.h.png Graphic file (type png)
-<use imgs/comp/ser/sigserr_r4.h.png>
-Package pdftex.def Info: imgs/comp/ser/sigserr_r4.h.png  used on input line 201
-9.
-(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
-
-[119 <./imgs/comp/ser/sigserr_r2.h.png>]
-<imgs/comp/ser/sigserr_r14.h.png, id=1455, 857.70438pt x 600.2425pt>
-File: imgs/comp/ser/sigserr_r14.h.png Graphic file (type png)
-<use imgs/comp/ser/sigserr_r14.h.png>
-Package pdftex.def Info: imgs/comp/ser/sigserr_r14.h.png  used on input line 20
-26.
-(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
- [120 <./imgs/comp/ser/sigserr_r4.h.png>]
-File: imgs/comp/ser/serr_r2_res_ann.png Graphic file (type png)
-<use imgs/comp/ser/serr_r2_res_ann.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r2_res_ann.png  used on input line 
-2038.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-File: imgs/comp/ser/serr_r2_res_rnn.png Graphic file (type png)
-<use imgs/comp/ser/serr_r2_res_rnn.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r2_res_rnn.png  used on input line 
-2045.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [121 <./imgs/comp/ser/sigserr_r14.h.png>]
-<imgs/comp/ser/serr_r2_res_gru.png, id=1471, 827.59187pt x 308.65312pt>
-File: imgs/comp/ser/serr_r2_res_gru.png Graphic file (type png)
-<use imgs/comp/ser/serr_r2_res_gru.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r2_res_gru.png  used on input line 
-2052.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r2_res_lstm.png, id=1472, 827.59187pt x 308.65312pt>
-File: imgs/comp/ser/serr_r2_res_lstm.png Graphic file (type png)
-<use imgs/comp/ser/serr_r2_res_lstm.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r2_res_lstm.png  used on input line
- 2059.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-File: imgs/comp/ser/serr_r4_res_ann.png Graphic file (type png)
-<use imgs/comp/ser/serr_r4_res_ann.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r4_res_ann.png  used on input line 
-2066.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [122 <./imgs/comp/ser/serr_r2_res_gru.png> <./imgs/comp/ser/serr_r2_res_lstm.p
-ng>]
-File: imgs/comp/ser/serr_r4_res_rnn.png Graphic file (type png)
-<use imgs/comp/ser/serr_r4_res_rnn.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r4_res_rnn.png  used on input line 
-2073.
-(pdftex.def)             Requested size: 422.52057pt x 159.37892pt.
-<imgs/comp/ser/serr_r4_res_gru.png, id=1482, 827.59187pt x 308.65312pt>
-File: imgs/comp/ser/serr_r4_res_gru.png Graphic file (type png)
-<use imgs/comp/ser/serr_r4_res_gru.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r4_res_gru.png  used on input line 
-2080.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r4_res_lstm.png, id=1483, 827.59187pt x 308.65312pt>
-File: imgs/comp/ser/serr_r4_res_lstm.png Graphic file (type png)
-<use imgs/comp/ser/serr_r4_res_lstm.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r4_res_lstm.png  used on input line
- 2087.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [123 <./imgs/comp/ser/serr_r4_res_gru.png>]
-File: imgs/comp/ser/serr_r14_res_ann.png Graphic file (type png)
-<use imgs/comp/ser/serr_r14_res_ann.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r14_res_ann.png  used on input line
- 2094.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-File: imgs/comp/ser/serr_r14_res_rnn.png Graphic file (type png)
-<use imgs/comp/ser/serr_r14_res_rnn.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r14_res_rnn.png  used on input line
- 2101.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/serr_r14_res_gru.png, id=1492, 827.59187pt x 308.65312pt>
-File: imgs/comp/ser/serr_r14_res_gru.png Graphic file (type png)
-<use imgs/comp/ser/serr_r14_res_gru.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r14_res_gru.png  used on input line
- 2108.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
- [124 <./imgs/comp/ser/serr_r4_res_lstm.png>]
-<imgs/comp/ser/serr_r14_res_lstm.png, id=1501, 827.59187pt x 308.65312pt>
-File: imgs/comp/ser/serr_r14_res_lstm.png Graphic file (type png)
-<use imgs/comp/ser/serr_r14_res_lstm.png>
-Package pdftex.def Info: imgs/comp/ser/serr_r14_res_lstm.png  used on input lin
-e 2115.
-(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
-<imgs/comp/ser/sigloopr2.12.png, id=1504, 848.16875pt x 327.2225pt>
-File: imgs/comp/ser/sigloopr2.12.png Graphic file (type png)
-<use imgs/comp/ser/sigloopr2.12.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr2.12.png  used on input line 212
-7.
-(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/ser/sigloopr2.84.png, id=1505, 848.16875pt x 327.2225pt>
-File: imgs/comp/ser/sigloopr2.84.png Graphic file (type png)
-<use imgs/comp/ser/sigloopr2.84.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr2.84.png  used on input line 213
-4.
-(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/ser/sigloopr4.12.png, id=1506, 848.16875pt x 327.2225pt>
-File: imgs/comp/ser/sigloopr4.12.png Graphic file (type png)
-<use imgs/comp/ser/sigloopr4.12.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr4.12.png  used on input line 214
-1.
-(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/ser/sigloopr4.84.png, id=1507, 848.16875pt x 327.2225pt>
-File: imgs/comp/ser/sigloopr4.84.png Graphic file (type png)
-<use imgs/comp/ser/sigloopr4.84.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr4.84.png  used on input line 214
+Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 195
 8.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/ser/sigloopr14.12.png, id=1508, 848.16875pt x 327.2225pt>
-File: imgs/comp/ser/sigloopr14.12.png Graphic file (type png)
-<use imgs/comp/ser/sigloopr14.12.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr14.12.png  used on input line 21
-55.
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRA' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRV' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrya' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrd' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1963.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrery' on input line 1963.
+
+[108 <./imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png> <./imgs/comp/edsine/N0.
+3/edsin0.3r_r6_res_lstm.png>]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRA' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRK' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrr' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrs' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrery' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrishrt' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrsh' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyru' on input line 1970.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrm' on input line 1970.
+
+File: imgs/comp/ser/serr_r2.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2.png  used on input line 1981.
+(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
+[109] [110]
+Overfull \vbox (99.58022pt too high) has occurred while \output is active []
+
+
+[111]
+File: imgs/comp/ser/serr_r4.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4.png  used on input line 1988.
+(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
+File: imgs/comp/ser/serr_r14.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14.png  used on input line 1995.
+(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
+ [112]
+<imgs/comp/ser/serr_r2.h.png, id=1423, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r2.h.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2.h.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2.h.png  used on input line 2003.
+(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
+ [113]
+<imgs/comp/ser/serr_r4.h.png, id=1429, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r4.h.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4.h.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4.h.png  used on input line 2010.
+(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
+ [114 <./imgs/comp/ser/serr_r2.h.png>]
+<imgs/comp/ser/serr_r14.h.png, id=1436, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r14.h.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14.h.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14.h.png  used on input line 2017.
+
+(pdftex.def)             Requested size: 422.52057pt x 301.76239pt.
+ [115 <./imgs/comp/ser/serr_r4.h.png>]
+File: imgs/comp/ser/sigserr_r2.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r2.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r2.png  used on input line 2024.
+
+(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
+ [116 <./imgs/comp/ser/serr_r14.h.png>]
+File: imgs/comp/ser/sigserr_r4.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r4.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r4.png  used on input line 2031.
+
+(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
+ [117]
+File: imgs/comp/ser/sigserr_r14.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r14.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r14.png  used on input line 2038
+.
+(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
+ [118]
+<imgs/comp/ser/sigserr_r2.h.png, id=1460, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r2.h.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r2.h.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r2.h.png  used on input line 204
+5.
+(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
+ [119]
+<imgs/comp/ser/sigserr_r4.h.png, id=1466, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r4.h.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r4.h.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r4.h.png  used on input line 205
+2.
+(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
+
+[120 <./imgs/comp/ser/sigserr_r2.h.png>]
+<imgs/comp/ser/sigserr_r14.h.png, id=1473, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r14.h.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r14.h.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r14.h.png  used on input line 20
+59.
+(pdftex.def)             Requested size: 422.52057pt x 295.68758pt.
+ [121 <./imgs/comp/ser/sigserr_r4.h.png>]
+File: imgs/comp/ser/serr_r2_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_ann.png  used on input line 
+2071.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+File: imgs/comp/ser/serr_r2_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_rnn.png  used on input line 
+2078.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [122 <./imgs/comp/ser/sigserr_r14.h.png>]
+<imgs/comp/ser/serr_r2_res_gru.png, id=1489, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r2_res_gru.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_gru.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_gru.png  used on input line 
+2085.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/serr_r2_res_lstm.png, id=1490, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r2_res_lstm.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_lstm.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_lstm.png  used on input line
+ 2092.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+File: imgs/comp/ser/serr_r4_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_ann.png  used on input line 
+2099.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [123 <./imgs/comp/ser/serr_r2_res_gru.png> <./imgs/comp/ser/serr_r2_res_lstm.p
+ng>]
+File: imgs/comp/ser/serr_r4_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_rnn.png  used on input line 
+2106.
+(pdftex.def)             Requested size: 422.52057pt x 159.37892pt.
+<imgs/comp/ser/serr_r4_res_gru.png, id=1500, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r4_res_gru.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_gru.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_gru.png  used on input line 
+2113.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/serr_r4_res_lstm.png, id=1501, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r4_res_lstm.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_lstm.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_lstm.png  used on input line
+ 2120.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [124 <./imgs/comp/ser/serr_r4_res_gru.png>]
+File: imgs/comp/ser/serr_r14_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_ann.png  used on input line
+ 2127.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+File: imgs/comp/ser/serr_r14_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_rnn.png  used on input line
+ 2134.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/serr_r14_res_gru.png, id=1510, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r14_res_gru.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_gru.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_gru.png  used on input line
+ 2141.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [125 <./imgs/comp/ser/serr_r4_res_lstm.png>]
+<imgs/comp/ser/serr_r14_res_lstm.png, id=1519, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r14_res_lstm.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_lstm.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_lstm.png  used on input lin
+e 2148.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/sigloopr2.12.png, id=1522, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr2.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr2.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr2.12.png  used on input line 216
+0.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr2.84.png, id=1523, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr2.84.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr2.84.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr2.84.png  used on input line 216
+7.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/ser/sigloopr14.84.png, id=1509, 848.16875pt x 327.2225pt>
+<imgs/comp/ser/sigloopr4.12.png, id=1524, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr4.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr4.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr4.12.png  used on input line 217
+4.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr4.84.png, id=1525, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr4.84.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr4.84.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr4.84.png  used on input line 218
+1.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr14.12.png, id=1526, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr14.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr14.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr14.12.png  used on input line 21
+88.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr14.84.png, id=1527, 848.16875pt x 327.2225pt>
 File: imgs/comp/ser/sigloopr14.84.png Graphic file (type png)
 <use imgs/comp/ser/sigloopr14.84.png>
 Package pdftex.def Info: imgs/comp/ser/sigloopr14.84.png  used on input line 21
-62.
+95.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/ser/sigloopr2.12.png Graphic file (type png)
 <use imgs/comp/ser/sigloopr2.12.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr2.12.png  used on input line 216
-9.
+Package pdftex.def Info: imgs/comp/ser/sigloopr2.12.png  used on input line 220
+2.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/ser/sigloopr2.84.png Graphic file (type png)
 <use imgs/comp/ser/sigloopr2.84.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr2.84.png  used on input line 217
-6.
+Package pdftex.def Info: imgs/comp/ser/sigloopr2.84.png  used on input line 220
+9.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/ser/sigloopr4.12.png Graphic file (type png)
 <use imgs/comp/ser/sigloopr4.12.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr4.12.png  used on input line 218
-3.
+Package pdftex.def Info: imgs/comp/ser/sigloopr4.12.png  used on input line 221
+6.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/ser/sigloopr4.84.png Graphic file (type png)
 <use imgs/comp/ser/sigloopr4.84.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr4.84.png  used on input line 219
-0.
+Package pdftex.def Info: imgs/comp/ser/sigloopr4.84.png  used on input line 222
+3.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: imgs/comp/ser/sigloopr14.12.png Graphic file (type png)
 <use imgs/comp/ser/sigloopr14.12.png>
-Package pdftex.def Info: imgs/comp/ser/sigloopr14.12.png  used on input line 21
-97.
+Package pdftex.def Info: imgs/comp/ser/sigloopr14.12.png  used on input line 22
+30.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
@@ -6460,349 +6480,318 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 File: imgs/comp/ser/sigloopr14.84.png Graphic file (type png)
 <use imgs/comp/ser/sigloopr14.84.png>
 Package pdftex.def Info: imgs/comp/ser/sigloopr14.84.png  used on input line 22
-04.
+37.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[125 <./imgs/comp/ser/serr_r14_res_gru.png> <./imgs/comp/ser/serr_r14_res_lstm.
-png>] [126 <./imgs/comp/ser/sigloopr2.12.png> <./imgs/comp/ser/sigloopr2.84.png
-> <./imgs/comp/ser/sigloopr4.12.png>] [127 <./imgs/comp/ser/sigloopr4.84.png> <
+[126 <./imgs/comp/ser/serr_r14_res_gru.png> <./imgs/comp/ser/serr_r14_res_lstm.
+png>] [127 <./imgs/comp/ser/sigloopr2.12.png> <./imgs/comp/ser/sigloopr2.84.png
+> <./imgs/comp/ser/sigloopr4.12.png>] [128 <./imgs/comp/ser/sigloopr4.84.png> <
 ./imgs/comp/ser/sigloopr14.12.png> <./imgs/comp/ser/sigloopr14.84.png>]
-[128] [129]
+[129] [130]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRP' on input line 2209.
-
-
-Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 2209.
+(hyperref)                removing `\CYRP' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 2209.
+(hyperref)                removing `\cyrr' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 2209.
+(hyperref)                removing `\cyri' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 2209.
+(hyperref)                removing `\cyrl' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrzh' on input line 2209.
+(hyperref)                removing `\cyro' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2209.
+(hyperref)                removing `\cyrzh' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 2209.
+(hyperref)                removing `\cyre' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 2209.
+(hyperref)                removing `\cyrn' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2209.
+(hyperref)                removing `\cyri' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRB' on input line 2209.
+(hyperref)                removing `\cyre' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRR' on input line 2209.
+(hyperref)                removing `\CYRB' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2209.
+(hyperref)                removing `\CYRR' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 2209.
+(hyperref)                removing `\cyre' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrl' on input line 2209.
+(hyperref)                removing `\cyra' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrsftsn' on input line 2209.
+(hyperref)                removing `\cyrl' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 2209.
+(hyperref)                removing `\cyrsftsn' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 2209.
+(hyperref)                removing `\cyrn' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2209.
+(hyperref)                removing `\cyrery' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 2209.
+(hyperref)                removing `\cyre' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 2209.
+(hyperref)                removing `\cyrd' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 2209.
+(hyperref)                removing `\cyra' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 2209.
+(hyperref)                removing `\cyrn' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 2209.
+(hyperref)                removing `\cyrn' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2209.
+(hyperref)                removing `\cyrery' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRB' on input line 2211.
+(hyperref)                removing `\cyre' on input line 2242.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRS' on input line 2211.
+(hyperref)                removing `\CYRB' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrr' on input line 2211.
+(hyperref)                removing `\CYRS' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2211.
+(hyperref)                removing `\cyrr' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 2211.
+(hyperref)                removing `\cyre' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 2211.
+(hyperref)                removing `\cyrd' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2211.
+(hyperref)                removing `\cyrn' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrm' on input line 2211.
+(hyperref)                removing `\cyre' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2211.
+(hyperref)                removing `\cyrm' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 2211.
+(hyperref)                removing `\cyre' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrya' on input line 2211.
+(hyperref)                removing `\cyrs' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrch' on input line 2211.
+(hyperref)                removing `\cyrya' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 2211.
+(hyperref)                removing `\cyrch' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrery' on input line 2211.
+(hyperref)                removing `\cyrn' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyre' on input line 2211.
+(hyperref)                removing `\cyrery' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 2211.
+(hyperref)                removing `\cyre' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrs' on input line 2211.
+(hyperref)                removing `\cyro' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 2211.
+(hyperref)                removing `\cyrs' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 2211.
+(hyperref)                removing `\cyra' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrk' on input line 2211.
+(hyperref)                removing `\cyrd' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 2211.
+(hyperref)                removing `\cyrk' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrv' on input line 2211.
+(hyperref)                removing `\cyri' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRI' on input line 2211.
+(hyperref)                removing `\cyrv' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrn' on input line 2211.
+(hyperref)                removing `\CYRI' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 2211.
+(hyperref)                removing `\cyrn' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 2211.
+(hyperref)                removing `\cyrd' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyri' on input line 2211.
-
-<imgs/comp/indian_rain/rain_res_ann.png, id=1551, 843.65187pt x 313.67188pt>
-File: imgs/comp/indian_rain/rain_res_ann.png Graphic file (type png)
-<use imgs/comp/indian_rain/rain_res_ann.png>
-Package pdftex.def Info: imgs/comp/indian_rain/rain_res_ann.png  used on input 
-line 2216.
-(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
-<imgs/comp/indian_rain/rain_res_rnn.png, id=1552, 843.65187pt x 313.67188pt>
-File: imgs/comp/indian_rain/rain_res_rnn.png Graphic file (type png)
-<use imgs/comp/indian_rain/rain_res_rnn.png>
-Package pdftex.def Info: imgs/comp/indian_rain/rain_res_rnn.png  used on input 
-line 2222.
-(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
-<imgs/comp/indian_rain/rain_res_gru.png, id=1553, 843.65187pt x 313.67188pt>
-File: imgs/comp/indian_rain/rain_res_gru.png Graphic file (type png)
-<use imgs/comp/indian_rain/rain_res_gru.png>
-Package pdftex.def Info: imgs/comp/indian_rain/rain_res_gru.png  used on input 
-line 2228.
-(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
-[130
-
- <./imgs/comp/indian_rain/rain_res_ann.png> <./imgs/comp/indian_rain/rain_res_r
-nn.png>]
-<imgs/comp/indian_rain/rain_res_lstm.png, id=1562, 843.65187pt x 313.67188pt>
-File: imgs/comp/indian_rain/rain_res_lstm.png Graphic file (type png)
-<use imgs/comp/indian_rain/rain_res_lstm.png>
-Package pdftex.def Info: imgs/comp/indian_rain/rain_res_lstm.png  used on input
- line 2234.
-(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+(hyperref)                removing `\cyri' on input line 2244.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRB' on input line 2239.
+(hyperref)                removing `\cyri' on input line 2244.
 
-<imgs/comp/eop/loop13.png, id=1563, 867.24pt x 327.2225pt>
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRB' on input line 2248.
+
+<imgs/comp/eop/loop13.png, id=1569, 867.24pt x 327.2225pt>
 File: imgs/comp/eop/loop13.png Graphic file (type png)
 <use imgs/comp/eop/loop13.png>
-Package pdftex.def Info: imgs/comp/eop/loop13.png  used on input line 2243.
+Package pdftex.def Info: imgs/comp/eop/loop13.png  used on input line 2252.
 (pdftex.def)             Requested size: 422.52057pt x 159.4267pt.
-<imgs/comp/eop/loop91.png, id=1564, 857.70438pt x 327.2225pt>
+<imgs/comp/eop/loop91.png, id=1570, 857.70438pt x 327.2225pt>
 File: imgs/comp/eop/loop91.png Graphic file (type png)
 <use imgs/comp/eop/loop91.png>
-Package pdftex.def Info: imgs/comp/eop/loop91.png  used on input line 2249.
+Package pdftex.def Info: imgs/comp/eop/loop91.png  used on input line 2258.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
-[131 <./imgs/comp/indian_rain/rain_res_gru.png> <./imgs/comp/indian_rain/rain_r
-es_lstm.png> <./imgs/comp/eop/loop13.png>]
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRB' on input line 2254.
+(hyperref)                removing `\CYRB' on input line 2263.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\CYRP' on input line 2254.
+(hyperref)                removing `\CYRP' on input line 2263.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 2254.
+(hyperref)                removing `\cyro' on input line 2263.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrg' on input line 2254.
+(hyperref)                removing `\cyrg' on input line 2263.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyro' on input line 2254.
+(hyperref)                removing `\cyro' on input line 2263.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyrd' on input line 2254.
+(hyperref)                removing `\cyrd' on input line 2263.
 
 
 Package hyperref Warning: Glyph not defined in PU encoding,
-(hyperref)                removing `\cyra' on input line 2254.
+(hyperref)                removing `\cyra' on input line 2263.
 
-<imgs/comp/weather/weather_res_ann.png, id=1574, 824.58063pt x 308.65312pt>
+<imgs/comp/weather/weather_res_ann.png, id=1571, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_res_ann.png Graphic file (type png)
 <use imgs/comp/weather/weather_res_ann.png>
 Package pdftex.def Info: imgs/comp/weather/weather_res_ann.png  used on input l
-ine 2257.
+ine 2268.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
-<imgs/comp/weather/weather_res_rnn.png, id=1575, 824.58063pt x 308.65312pt>
+[131
+
+ <./imgs/comp/eop/loop13.png> <./imgs/comp/eop/loop91.png>]
+<imgs/comp/weather/weather_res_rnn.png, id=1580, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_res_rnn.png Graphic file (type png)
 <use imgs/comp/weather/weather_res_rnn.png>
 Package pdftex.def Info: imgs/comp/weather/weather_res_rnn.png  used on input l
-ine 2263.
+ine 2274.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
-<imgs/comp/weather/weather_res_gru.png, id=1576, 824.58063pt x 308.65312pt>
+<imgs/comp/weather/weather_res_gru.png, id=1581, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_res_gru.png Graphic file (type png)
 <use imgs/comp/weather/weather_res_gru.png>
 Package pdftex.def Info: imgs/comp/weather/weather_res_gru.png  used on input l
-ine 2269.
+ine 2280.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
-[132 <./imgs/comp/eop/loop91.png> <./imgs/comp/weather/weather_res_ann.png> <./
-imgs/comp/weather/weather_res_rnn.png>]
-<imgs/comp/weather/weather_res_lstm.png, id=1586, 824.58063pt x 308.65312pt>
+<imgs/comp/weather/weather_res_lstm.png, id=1582, 824.58063pt x 308.65312pt>
 File: imgs/comp/weather/weather_res_lstm.png Graphic file (type png)
 <use imgs/comp/weather/weather_res_lstm.png>
 Package pdftex.def Info: imgs/comp/weather/weather_res_lstm.png  used on input 
-line 2275.
+line 2286.
 (pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
-<imgs/comp/weather/loops.12.png, id=1587, 848.16875pt x 327.2225pt>
+ [132 <./imgs/comp/weather/weather_res_ann.png> <./imgs/comp/weather/weather_re
+s_rnn.png> <./imgs/comp/weather/weather_res_gru.png>]
+<imgs/comp/weather/loops.12.png, id=1592, 848.16875pt x 327.2225pt>
 File: imgs/comp/weather/loops.12.png Graphic file (type png)
 <use imgs/comp/weather/loops.12.png>
-Package pdftex.def Info: imgs/comp/weather/loops.12.png  used on input line 228
-4.
+Package pdftex.def Info: imgs/comp/weather/loops.12.png  used on input line 229
+5.
 (pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
-<imgs/comp/weather/loops.84.png, id=1588, 857.70438pt x 327.2225pt>
+<imgs/comp/weather/loops.84.png, id=1593, 857.70438pt x 327.2225pt>
 File: imgs/comp/weather/loops.84.png Graphic file (type png)
 <use imgs/comp/weather/loops.84.png>
-Package pdftex.def Info: imgs/comp/weather/loops.84.png  used on input line 229
-1.
+Package pdftex.def Info: imgs/comp/weather/loops.84.png  used on input line 230
+2.
 (pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
- [133 <./imgs/comp/weather/weather_res_gru.png> <./imgs/comp/weather/weather_re
-s_lstm.png> <./imgs/comp/weather/loops.12.png>] [134 <./imgs/comp/weather/loops
-.84.png>] (report.aux)
-
-LaTeX Warning: There were undefined references.
-
+ [133 <./imgs/comp/weather/weather_res_lstm.png> <./imgs/comp/weather/loops.12.
+png> <./imgs/comp/weather/loops.84.png>]
+(report.aux)
 Package rerunfilecheck Info: File `report.out' has not changed.
-(rerunfilecheck)             Checksum: 28F88C3457AD55ED9E495A2A8ACC268E;6870.
+(rerunfilecheck)             Checksum: B6BC57C6B412980E10E741505F99CD7F;6870.
  ) 
 Here is how much of TeX's memory you used:
- 18749 strings out of 478582
- 347357 string characters out of 2843873
- 601424 words of memory out of 3000000
- 35924 multiletter control sequences out of 15000+600000
+ 18751 strings out of 478582
+ 347402 string characters out of 2843873
+ 605664 words of memory out of 3000000
+ 35929 multiletter control sequences out of 15000+600000
  495397 words of font info for 100 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,77p,1480b,474s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -6836,9 +6825,9 @@ Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1095.pfb><C:/Users/Fridge
 rs/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm1728.pf
 b><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sf
 xc1440.pfb>
-Output written on report.pdf (134 pages, 23602471 bytes).
+Output written on report.pdf (133 pages, 23516103 bytes).
 PDF statistics:
- 1790 PDF objects out of 2073 (max. 8388607)
- 488 named destinations out of 1000 (max. 500000)
+ 1787 PDF objects out of 2073 (max. 8388607)
+ 485 named destinations out of 1000 (max. 500000)
  1115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
