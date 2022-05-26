@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.9)  26 MAY 2022 20:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.9)  26 MAY 2022 22:31
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -909,209 +909,203 @@ Overfull \hbox (1.92305pt too wide) detected at line 122
 \tf@toc=\write3
 \openout3 = `report.toc'.
 
- [4] [5
+ [4]
+Overfull \hbox (0.79195pt too wide) in paragraph at lines 128--129
+[]\T2A/cmr/m/n/12 Также были рассмотрены данные характеристики пого
+ды в Санкт-Петербурге (дан|
+ []
+
+[5
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 144--146
+] [6]
+Underfull \hbox (badness 10000) in paragraph at lines 149--151
 
  []
 
-[6
+[7
 
-] [7] [8] [9
+] [8] [9] [10
 
-] [10] [11] [12
+] [11] [12] [13
 
-] [13] [14] [15] [16] [17] [18]
-<imgs/ts/edsine/edsine_graph.png, id=85, 827.59187pt x 308.65312pt>
+] [14] [15] [16] [17] [18] [19]
+<imgs/ts/edsine/edsine_graph.png, id=89, 827.59187pt x 308.65312pt>
 LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-472.
+477.
 
 (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
 File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )
-[19
+[20
 
 ]
-<imgs/ts/edsine/edsine_pgram.png, id=91, 843.65187pt x 581.67313pt>
- [20]
-<imgs/comp/edsine/ssa_comp.png, id=97, 830.10126pt x 581.67313pt>
+<imgs/ts/edsine/edsine_pgram.png, id=94, 843.65187pt x 581.67313pt>
  [21]
-<imgs/comp/edsine/edsinerec2.png, id=101, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/edsinerec4.png, id=102, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/edsinerec6.png, id=103, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/ssa_comp.png, id=100, 830.10126pt x 581.67313pt>
  [22]
-<imgs/comp/edsine/r2.png, id=109, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/edsinerec2.png, id=104, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinerec4.png, id=105, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinerec6.png, id=106, 827.59187pt x 308.65312pt>
  [23]
-<imgs/comp/edsine/r4.png, id=113, 857.70438pt x 605.76312pt>
-<imgs/comp/edsine/r6.png, id=114, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/r2.png, id=112, 857.70438pt x 605.76312pt>
  [24]
-<imgs/comp/edsine/edsinr_r2_res_ann.png, id=118, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/edsinr_r4_res_ann.png, id=119, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/r4.png, id=116, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/r6.png, id=117, 857.70438pt x 605.76312pt>
  [25]
-<imgs/comp/edsine/edsinr_r6_res_ann.png, id=124, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/loopr4.12.png, id=125, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/edsinr_r2_res_ann.png, id=122, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/edsinr_r4_res_ann.png, id=123, 827.59187pt x 308.65312pt>
+ [26]
+<imgs/comp/edsine/edsinr_r6_res_ann.png, id=127, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/loopr4.12.png, id=128, 857.70438pt x 327.2225pt>
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr4.84.png, id=126, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/loopr4.84.png, id=129, 857.70438pt x 327.2225pt>
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[26] [27]
-<imgs/comp/edsine/N0.3/ssa_comp.png, id=133, 830.10126pt x 581.67313pt>
- [28]
-<imgs/comp/edsine/N0.3/edsinerec2.png, id=137, 827.59187pt x 308.65312pt>
+[27] [28]
+<imgs/comp/edsine/N0.3/ssa_comp.png, id=136, 830.10126pt x 581.67313pt>
  [29]
-<imgs/comp/edsine/N0.3/edsinerec4.png, id=141, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/N0.3/edsinerec6.png, id=142, 827.59187pt x 311.1625pt>
+<imgs/comp/edsine/N0.3/edsinerec2.png, id=140, 827.59187pt x 308.65312pt>
  [30]
-<imgs/comp/edsine/N0.3/r2.png, id=146, 857.70438pt x 605.76312pt>
-<imgs/comp/edsine/N0.3/r4.png, id=147, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/N0.3/edsinerec4.png, id=144, 827.59187pt x 308.65312pt>
+<imgs/comp/edsine/N0.3/edsinerec6.png, id=145, 827.59187pt x 311.1625pt>
  [31]
-<imgs/comp/edsine/N0.3/r6.png, id=152, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/N0.3/r2.png, id=150, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/N0.3/r4.png, id=151, 857.70438pt x 605.76312pt>
  [32]
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png, id=156, 827.59187pt x 308.6531
-2pt>
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png, id=157, 827.59187pt x 308.6531
-2pt>
+<imgs/comp/edsine/N0.3/r6.png, id=155, 857.70438pt x 605.76312pt>
  [33]
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png, id=161, 827.59187pt x 308.6531
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png, id=159, 827.59187pt x 308.6531
 2pt>
- [34] [35]
-<imgs/comp/edsine/len/ssa_comp.png, id=168, 839.135pt x 581.67313pt>
-<imgs/comp/edsine/len/edsinerec4.png, id=169, 827.59187pt x 310.15875pt>
- [36]
-<imgs/comp/edsine/len/r4.png, id=173, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png, id=160, 827.59187pt x 308.6531
+2pt>
+ [34]
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png, id=164, 827.59187pt x 308.6531
+2pt>
+ [35] [36]
+<imgs/comp/edsine/len/ssa_comp.png, id=171, 839.135pt x 581.67313pt>
+<imgs/comp/edsine/len/edsinerec4.png, id=172, 827.59187pt x 310.15875pt>
  [37]
-<imgs/comp/edsine/len/r4.h.png, id=178, 857.70438pt x 605.76312pt>
+<imgs/comp/edsine/len/r4.png, id=177, 857.70438pt x 605.76312pt>
  [38]
-<imgs/comp/edsine/len/edsinlen_r4_res_ann.png, id=182, 827.59187pt x 308.65312p
-t>
-<imgs/comp/edsine/len/edsinlen_r4_res_rnn.png, id=183, 827.59187pt x 308.65312p
-t>
+<imgs/comp/edsine/len/r4.h.png, id=181, 857.70438pt x 605.76312pt>
  [39]
-<imgs/comp/edsine/len/edsinlen_r4_res_gru.png, id=187, 827.59187pt x 308.65312p
+<imgs/comp/edsine/len/edsinlen_r4_res_ann.png, id=185, 827.59187pt x 308.65312p
 t>
-<imgs/comp/edsine/len/edsinlen_r4_res_lstm.png, id=188, 827.59187pt x 308.65312
-pt>
+<imgs/comp/edsine/len/edsinlen_r4_res_rnn.png, id=186, 827.59187pt x 308.65312p
+t>
  [40]
-<imgs/comp/edsine/len/loopr4.12.png, id=192, 867.24pt x 328.72812pt>
-<imgs/comp/edsine/len/loopr4.156.png, id=193, 857.70438pt x 327.2225pt>
+<imgs/comp/edsine/len/edsinlen_r4_res_gru.png, id=190, 827.59187pt x 308.65312p
+t>
+<imgs/comp/edsine/len/edsinlen_r4_res_lstm.png, id=191, 827.59187pt x 308.65312
+pt>
+ [41]
+<imgs/comp/edsine/len/loopr4.12.png, id=195, 867.24pt x 328.72812pt>
+<imgs/comp/edsine/len/loopr4.156.png, id=196, 857.70438pt x 327.2225pt>
 
-[41] [42]
-<imgs/ts/ser/ser.png, id=200, 827.59187pt x 308.65312pt>
-<imgs/ts/ser/ser_pgram.png, id=201, 834.11626pt x 581.67313pt>
- [43
+[42] [43]
+<imgs/ts/ser/ser.png, id=204, 827.59187pt x 308.65312pt>
+<imgs/ts/ser/ser_pgram.png, id=205, 834.11626pt x 581.67313pt>
+ [44
 
-]
-Overfull \hbox (8.56306pt too wide) in paragraph at lines 908--909
-[]\T2A/cmr/m/n/12 Зададим следующую сетку параметров $\OML/cmm/m/it/12 L
- \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/m/n/12 12\OML/cmm/m/it/12 ; \OT1/
-cmr/m/n/12 24\OML/cmm/m/it/12 ; [] ; \OT1/cmr/m/n/12 175\OMS/cmsy/m/n/12 g$\T2A
-/cmr/m/n/12 , $\OML/cmm/m/it/12 r \OT1/cmr/m/n/12 = \OMS/cmsy/m/n/12 f\OT1/cmr/
-m/n/12 2\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 4\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 
-6\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 8\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 10\OML/
-cmm/m/it/12 ; \OT1/cmr/m/n/12 12\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 16\OMS/cmsy/
-m/n/12 g$\T2A/cmr/m/n/12 . |
- []
-
-[44]
-<imgs/comp/ser/ssa_comp.png, id=209, 1678.27pt x 1164.35pt>
-<imgs/comp/ser/ssa_reconstruct.png, id=210, 830.10126pt x 581.67313pt>
- [45]
-<imgs/comp/ser/ssa_LH_r2.png, id=214, 827.59187pt x 308.65312pt>
+] [45]
+<imgs/comp/ser/ssa_comp.png, id=212, 1678.27pt x 1164.35pt>
+<imgs/comp/ser/ssa_reconstruct.png, id=213, 830.10126pt x 581.67313pt>
  [46]
-<imgs/comp/ser/ssa_LH_r6.png, id=218, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/ssa_LH_r4.png, id=219, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/ssa_L36_r16.png, id=220, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_LH_r2.png, id=217, 827.59187pt x 308.65312pt>
  [47]
-<imgs/comp/ser/ssa_L84_r14.png, id=224, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/ssa_r4_r6.png, id=225, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/ssa_r16_r14.png, id=226, 827.59187pt x 308.65312pt>
- [48] [49]
-<imgs/comp/ser/serr_r2.png, id=234, 848.16875pt x 605.76312pt>
- [50]
-<imgs/comp/ser/serr_r4.png, id=238, 848.16875pt x 605.76312pt>
+<imgs/comp/ser/ssa_LH_r6.png, id=221, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_LH_r4.png, id=222, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_L36_r16.png, id=223, 827.59187pt x 308.65312pt>
+ [48]
+<imgs/comp/ser/ssa_L84_r14.png, id=227, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_r4_r6.png, id=228, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_r16_r14.png, id=229, 827.59187pt x 308.65312pt>
+ [49] [50]
+<imgs/comp/ser/serr_r2.png, id=237, 848.16875pt x 605.76312pt>
  [51]
-<imgs/comp/ser/serr_r14.png, id=242, 848.16875pt x 605.76312pt>
+<imgs/comp/ser/serr_r4.png, id=241, 848.16875pt x 605.76312pt>
  [52]
-<imgs/comp/ser/sigserr_r2.png, id=246, 857.70438pt x 600.2425pt>
+<imgs/comp/ser/serr_r14.png, id=245, 848.16875pt x 605.76312pt>
  [53]
-<imgs/comp/ser/sigserr_r4.png, id=250, 857.70438pt x 600.2425pt>
+<imgs/comp/ser/sigserr_r2.png, id=249, 857.70438pt x 600.2425pt>
  [54]
-<imgs/comp/ser/sigserr_r14.png, id=254, 857.70438pt x 600.2425pt>
+<imgs/comp/ser/sigserr_r4.png, id=253, 857.70438pt x 600.2425pt>
  [55]
-<imgs/comp/ser/serr_r2_res_ann.png, id=259, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/sigserr_r14.png, id=258, 857.70438pt x 600.2425pt>
  [56]
-<imgs/comp/ser/serr_r2_res_rnn.png, id=263, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/serr_r4_res_ann.png, id=264, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/serr_r4_res_rnn.png, id=265, 827.59187pt x 312.16624pt>
- [57]
-<imgs/comp/ser/serr_r14_res_ann.png, id=269, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/serr_r14_res_rnn.png, id=270, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r2_res_ann.png, id=262, 827.59187pt x 308.65312pt>
+
+[57]
+<imgs/comp/ser/serr_r2_res_rnn.png, id=266, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r4_res_ann.png, id=267, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r4_res_rnn.png, id=268, 827.59187pt x 312.16624pt>
  [58]
+<imgs/comp/ser/serr_r14_res_ann.png, id=272, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/serr_r14_res_rnn.png, id=273, 827.59187pt x 308.65312pt>
+ [59]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[59] [60]
+[60] [61]
 
-LaTeX Warning: Float too large for page by 13.49335pt on input line 1162.
+LaTeX Warning: Float too large for page by 13.49335pt on input line 1165.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[61]
-<imgs/ts/indian_rain/indian_rain.png, id=284, 831.105pt x 576.65437pt>
-<imgs/ts/indian_rain/indian_rain_pgram.png, id=285, 862.72313pt x 581.67313pt>
- [62
+[62]
+<imgs/ts/indian_rain/indian_rain.png, id=287, 831.105pt x 576.65437pt>
+<imgs/ts/indian_rain/indian_rain_pgram.png, id=288, 862.72313pt x 581.67313pt>
+ [63
 
 
 
 ]
-<imgs/comp/indian_rain/ssa_comp.png, id=289, 834.11626pt x 581.67313pt>
- [63]
-<imgs/comp/indian_rain/indian_rec_r7.png, id=293, 1687.30376pt x 619.31375pt>
-<imgs/comp/indian_rain/indian_rec_r11.png, id=294, 1687.30376pt x 619.31375pt>
+<imgs/comp/indian_rain/ssa_comp.png, id=292, 834.11626pt x 581.67313pt>
  [64]
-<imgs/comp/indian_rain/indian_rec_rboth.png, id=298, 1687.30376pt x 619.31375pt
->
-<imgs/comp/indian_rain/first_comp.png, id=299, 852.68562pt x 605.76312pt>
+<imgs/comp/indian_rain/indian_rec_r7.png, id=296, 1687.30376pt x 619.31375pt>
+<imgs/comp/indian_rain/indian_rec_r11.png, id=297, 1687.30376pt x 619.31375pt>
  [65]
-<imgs/comp/indian_rain/first_comp.h.png, id=303, 852.68562pt x 605.76312pt>
+<imgs/comp/indian_rain/indian_rec_rboth.png, id=301, 1687.30376pt x 619.31375pt
+>
+<imgs/comp/indian_rain/first_comp.png, id=302, 852.68562pt x 605.76312pt>
  [66]
-<imgs/comp/indian_rain/rain_res_ann.png, id=307, 843.65187pt x 313.67188pt>
-<imgs/comp/indian_rain/rain_res_rnn.png, id=308, 843.65187pt x 313.67188pt>
+<imgs/comp/indian_rain/first_comp.h.png, id=306, 852.68562pt x 605.76312pt>
  [67]
-<imgs/comp/indian_rain/rain_res_gru.png, id=313, 843.65187pt x 313.67188pt>
-<imgs/comp/indian_rain/rain_res_lstm.png, id=314, 843.65187pt x 313.67188pt>
+<imgs/comp/indian_rain/rain_res_ann.png, id=311, 843.65187pt x 313.67188pt>
+<imgs/comp/indian_rain/rain_res_rnn.png, id=312, 843.65187pt x 313.67188pt>
  [68]
-<imgs/comp/indian_rain/2.12.jpg, id=318, 1705.37125pt x 654.445pt>
-<imgs/comp/indian_rain/2.156.jpg, id=319, 1705.37125pt x 654.445pt>
- [69] [70]
-<imgs/ts/eop/x_pole.png, id=326, 842.14626pt x 326.21875pt>
-<imgs/ts/eop/x_pole.notrend.png, id=327, 842.14626pt x 308.65312pt>
- [71
+<imgs/comp/indian_rain/rain_res_gru.png, id=316, 843.65187pt x 313.67188pt>
+<imgs/comp/indian_rain/rain_res_lstm.png, id=317, 843.65187pt x 313.67188pt>
+ [69]
+<imgs/comp/indian_rain/2.12.jpg, id=321, 1705.37125pt x 654.445pt>
+<imgs/comp/indian_rain/2.156.jpg, id=322, 1705.37125pt x 654.445pt>
+ [70] [71]
+<imgs/ts/eop/x_pole.png, id=329, 842.14626pt x 326.21875pt>
+<imgs/ts/eop/x_pole.notrend.png, id=330, 842.14626pt x 308.65312pt>
+ [72
 
 ]
-<imgs/ts/eop/x_pole_pgram.png, id=331, 839.135pt x 581.67313pt>
- [72]
-<imgs/comp/eop/ssa_comp.png, id=335, 848.67062pt x 581.67313pt>
+<imgs/ts/eop/x_pole_pgram.png, id=334, 839.135pt x 581.67313pt>
  [73]
+<imgs/comp/eop/ssa_comp.png, id=339, 848.67062pt x 581.67313pt>
 <imgs/comp/eop/eop_rec.png, id=340, 842.14626pt x 308.65312pt>
-<imgs/comp/eop/x_pole.comp.T.png, id=341, 857.70438pt x 600.2425pt>
  [74]
+<imgs/comp/eop/x_pole.comp.T.png, id=344, 857.70438pt x 600.2425pt>
 <imgs/comp/eop/x_pole.comp.T.h.png, id=345, 857.70438pt x 600.2425pt>
  [75]
 <imgs/comp/eop/xpole_res_ann.png, id=349, 842.14626pt x 308.65312pt>
-
-[76]
+ [76]
 <imgs/comp/eop/xpole_res_rnn.png, id=353, 842.14626pt x 308.65312pt>
 <imgs/comp/eop/xpole_res_gru.png, id=354, 842.14626pt x 308.65312pt>
 <imgs/comp/eop/xpole_res_lstm.png, id=355, 842.14626pt x 308.65312pt>
- [77] [78] [79]
+
+[77] [78] [79]
 <imgs/ts/weather/weather4.png, id=366, 818.05624pt x 576.65437pt>
 <imgs/ts/weather/weather4_pgram.png, id=367, 853.1875pt x 581.67313pt>
  [80
@@ -1128,8 +1122,8 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ] [87
 
 
-] (report.bbl
-[88]) [89
+] (report.bbl [88])
+[89
 
 ] [90
 
@@ -1322,7 +1316,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 Here is how much of TeX's memory you used:
  18018 strings out of 478582
  334811 string characters out of 2843873
- 601870 words of memory out of 3000000
+ 601873 words of memory out of 3000000
  35674 multiletter control sequences out of 15000+600000
  498479 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1358,7 +1352,7 @@ frm1200.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/c
 m-super/sfrm1728.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1
 /public/cm-super/sftt1200.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/cm-super/sfxc1440.pfb>
-Output written on report.pdf (133 pages, 627373 bytes).
+Output written on report.pdf (133 pages, 620655 bytes).
 PDF statistics:
  684 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
