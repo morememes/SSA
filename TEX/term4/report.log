@@ -1,42 +1,43 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2022.1.20)  26 MAY 2022 23:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.1) (preloaded format=pdflatex 2022.3.9)  27 MAY 2022 15:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **./report.tex
 (report.tex
 LaTeX2e <2021-11-15> patch level 1
-L3 programming layer <2021-11-22>
-(C:\Program Files\MiKTeX\tex/latex/disser\disser.cls
+L3 programming layer <2022-02-24>
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/disser\disser.cls
 Document Class: disser 2017/03/03 1.4.1 Document class for dissertations
-(C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty
-Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 
-(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.st
+y
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+ (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
-)
-(C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+) (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.st
+y
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
-(C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.
+sty
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 ))
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifpdf.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 
-(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
-Package: iftex 2020/03/06 v1.0d TeX engine tests
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
-(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(C:\Program Files\MiKTeX\tex/latex/textcase\textcase.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
 Package: textcase 2019/09/14 v1.00 Text only upper/lower case changing (DPC)
+) (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/extsizes\size14.clo
+File: size14.clo 1999/11/11 v1.4a NON-Standard LaTeX file (size option)
 )
-(C:\Program Files\MiKTeX\tex/latex/base\size12.clo
-File: size12.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
-)
-(C:\Program Files\MiKTeX\tex/latex/base\exscale.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/base\exscale.sty
 Package: exscale 2018/09/24 v2.1i Standard LaTeX package exscale
 LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 57.
 LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
@@ -45,179 +46,182 @@ LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
 (Font)                  OMX/cmex/m/n --> OMX/cmex/m/n on input line 57.
 \big@size=\dimen138
 )
-\c@part=\count183
-\c@chapter=\count184
-\c@section=\count185
-\c@subsection=\count186
-\c@subsubsection=\count187
-\c@paragraph=\count188
-\c@subparagraph=\count189
-\c@figure=\count190
-\c@table=\count191
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
 \chapterindent=\skip47
 \schapterindent=\skip48
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \footnoteindent=\skip51
 
-(C:\Program Files\MiKTeX\tex/latex/disser\titledefs.rtx
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/disser\titledefs.rtx
 File: titledefs.rtx 
 \fieldhshift=\skip52
 )
 \bibindent=\dimen139
 \bibsep=\skip53
 
-(C:\Program Files\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/02/28 v3.6a Customizing captions (AR)
 
-(C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen140
-\captionmargin@=\dimen141
-\captionwidth=\dimen142
-\caption@tempdima=\dimen143
-\caption@indent=\dimen144
-\caption@parindent=\dimen145
-\caption@hangindent=\dimen146
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/02/28 v2.3a caption3 kernel (AR)
+\caption@tempdima=\dimen140
+\captionmargin=\dimen141
+\caption@leftmargin=\dimen142
+\caption@rightmargin=\dimen143
+\caption@width=\dimen144
+\caption@indent=\dimen145
+\caption@parindent=\dimen146
+\caption@hangindent=\dimen147
 Package caption Info: Unknown document class (or package),
 (caption)             standard defaults will be used.
 Package caption Info: \@makecaption = \long macro:#1#2->\vskip \abovecaptionski
 p \sbox \@tempboxa {{\captionlabelfont #1\captionlabeldelim } {\captionfont #2}
 }\ifdim \wd \@tempboxa >\hsize {{\captionlabelfont #1\captionlabeldelim } {\cap
 tionfont #2}}\par \else \global \@minipagefalse \hb@xt@ \hsize {\hfil \box \@te
-mpboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1139.
+mpboxa \hfil }\fi \vskip \belowcaptionskip  on input line 1176.
 )
 
 Package caption Warning: Unknown document class (or package),
 (caption)                standard defaults will be used.
 See the caption package documentation for explanation.
 
-\c@caption@flags=\count192
-\c@continuedfloat=\count193
-) (C:\Program Files\MiKTeX\tex/latex/caption\subcaption.sty
-Package: subcaption 2020/10/07 v1.3j Sub-captions (AR)
-\c@subfigure=\count194
-\c@subtable=\count195
+\c@caption@flags=\count194
+\c@continuedfloat=\count195
 )
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
-Package: hyperref 2021-06-07 v7.00m Hypertext links for LaTeX
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2022/01/07 v1.5 Sub-captions (AR)
+\c@subfigure=\count196
+\c@subtable=\count197
+)
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
 
-(C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmd
+s.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.
+sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-(C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefin
+ekeys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
 )
-(C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.
+sty
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
 )
-(C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 )
-(C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacr
+o.sty
 Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
 )
-(C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
 Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
 )
-\@linkdim=\dimen147
-\Hy@linkcounter=\count196
-\Hy@pagecounter=\count197
+\@linkdim=\dimen148
+\Hy@linkcounter=\count198
+\Hy@pagecounter=\count199
 
-(C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def
-File: pd1enc.def 2021-06-07 v7.00m Hyperref: PDFDocEncoding definition (HO)
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref-langpatches.def
-File: hyperref-langpatches.def 2021-06-07 v7.00m Hyperref: patches for babel la
-nguages
-)
-(C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
-(C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.st
+y
 Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )
-\Hy@SavedSpaceFactor=\count198
-
-(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
-File: puenc.def 2021-06-07 v7.00m Hyperref: PDF Unicode definition (HO)
+\Hy@SavedSpaceFactor=\count266
+ (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 4073.
-Package hyperref Info: Option `draft' set `true' on input line 4073.
-Package hyperref Info: Option `unicode' set `true' on input line 4073.
-Package hyperref Info: Hyper figures OFF on input line 4192.
-Package hyperref Info: Link nesting OFF on input line 4197.
-Package hyperref Info: Hyper index ON on input line 4200.
-Package hyperref Info: Plain pages OFF on input line 4207.
-Package hyperref Info: Backreferencing OFF on input line 4212.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4018.
+Package hyperref Info: Option `unicode' set `true' on input line 4018.
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
 Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
-Package hyperref Info: Bookmarks ON on input line 4445.
-\c@Hy@tempcnt=\count199
-
-(C:\Program Files\MiKTeX\tex/latex/url\url.sty
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count267
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-LaTeX Info: Redefining \url on input line 4804.
-\XeTeXLinkMargin=\dimen148
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen149
 
-(C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
 
-(C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcal
+c.sty
 Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
 )
 ))
-\Fld@menulength=\count266
-\Field@Width=\dimen149
-\Fld@charsize=\dimen150
-Package hyperref Info: Hyper figures OFF on input line 6076.
-Package hyperref Info: Link nesting OFF on input line 6081.
-Package hyperref Info: Hyper index ON on input line 6084.
-Package hyperref Info: backreferencing OFF on input line 6091.
-Package hyperref Info: Link coloring ON on input line 6094.
-Package hyperref Info: Link coloring with OCG OFF on input line 6101.
-Package hyperref Info: PDF/A mode OFF on input line 6106.
-LaTeX Info: Redefining \ref on input line 6146.
-LaTeX Info: Redefining \pageref on input line 6150.
+\Fld@menulength=\count268
+\Field@Width=\dimen150
+\Fld@charsize=\dimen151
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring ON on input line 6045.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
 
-(C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
 Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
 package with kernel methods
 )
-\Hy@abspage=\count267
-\c@Item=\count268
-\c@Hfootnote=\count269
+\Hy@abspage=\count269
+\c@Item=\count270
+\c@Hfootnote=\count271
 )
 Package hyperref Info: Driver: hpdftex.
+ (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
 
-(C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def
-File: hpdftex.def 2021-06-07 v7.00m Hyperref driver for pdfTeX
-
-(C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
 Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
 kage
 with kernel methods
 )
-\Fld@listcount=\count270
-\c@bookmark@seq@number=\count271
+\Fld@listcount=\count272
+\c@bookmark@seq@number=\count273
 
-(C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfi
+lecheck.sty
 Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
 
-(C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\unique
+counter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -230,60 +234,62 @@ Package hyperref Info: Option `bookmarksopen' set `true' on input line 1453.
 Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 1453
 .
 
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.
+cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.de
+f
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen151
-\Gin@req@width=\dimen152
-)
-(C:\Program Files\MiKTeX\tex/latex/cmap\cmap.sty
+\Gin@req@height=\dimen152
+\Gin@req@width=\dimen153
+) (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/cmap\cmap.sty
 Package: cmap 2021/02/06 v1.0j CMap support: searchable PDF
-)) (spbu.rtx
+))
+(spbu.rtx
 File: spbu.rtx 
 )
-(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
 
-(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count272
-\Gm@cntv=\count273
-\c@Gm@tempcnt=\count274
-\Gm@bindingoffset=\dimen153
-\Gm@wd@mp=\dimen154
-\Gm@odd@mp=\dimen155
-\Gm@even@mp=\dimen156
-\Gm@layoutwidth=\dimen157
-\Gm@layoutheight=\dimen158
-\Gm@layouthoffset=\dimen159
-\Gm@layoutvoffset=\dimen160
+\Gm@cnth=\count274
+\Gm@cntv=\count275
+\c@Gm@tempcnt=\count276
+\Gm@bindingoffset=\dimen154
+\Gm@wd@mp=\dimen155
+\Gm@odd@mp=\dimen156
+\Gm@even@mp=\dimen157
+\Gm@layoutwidth=\dimen158
+\Gm@layoutheight=\dimen159
+\Gm@layouthoffset=\dimen160
+\Gm@layoutvoffset=\dimen161
 \Gm@dimlist=\toks17
 
-(C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg))
-(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)
+) (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 
-(C:\Program Files\MiKTeX\tex/latex/cyrillic\t2aenc.def
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2aenc.def
 File: t2aenc.def 2005/09/27 v1.0i Cyrillic encoding definition file
 Now handling font encoding T2A ...
 ... processing UTF-8 mapping file for font encoding T2A
 
-(C:\Program Files\MiKTeX\tex/latex/base\t2aenc.dfu
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/base\t2aenc.dfu
 File: t2aenc.dfu 2021/06/21 v1.2n UTF-8 support
    defining Unicode char U+00A4 (decimal 164)
    defining Unicode char U+00A7 (decimal 167)
@@ -485,56 +491,56 @@ File: t2aenc.dfu 2021/06/21 v1.2n UTF-8 support
 LaTeX Font Info:    Trying to load font information for T2A+cmr on input line 1
 12.
 
-(C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmr.fd
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmr.fd
 File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 )<<t2a.cmap>>)
-(C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
+)
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count277
+\U@D=\dimen162
+\l@unhyphenated=\language79
 
-(C:\Program Files\MiKTeX\tex/latex/cyrillic\cp1251.def
-File: cp1251.def 2014/10/28 v1.0d Input encoding file
-))
-(C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2021/12/30 3.69 The Babel package
-\babel@savecnt=\count275
-\U@D=\dimen161
-\l@unhyphenated=\language84
-
-(C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count276
+\bbl@dirlevel=\count278
 
 *************************************
 * Local config file bblopts.cfg used
 *
-(C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
  babel
 )
-(C:\Program Files\MiKTeX\tex/latex/babel-english\english.ldf
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.
+ldf
 Language: english 2017/06/06 v3.3r English support from the babel system
 Package babel Info: Hyphen rules for 'canadian' set to \l@english
 (babel)             (\language0). Reported on input line 102.
 Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
-(babel)             (\language78). Reported on input line 105.
+(babel)             (\language73). Reported on input line 105.
 Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
-(babel)             (\language78). Reported on input line 108.
+(babel)             (\language73). Reported on input line 108.
 )
-(C:\Program Files\MiKTeX\tex/latex/babel-russian\russianb.ldf
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/babel-russian\russianb
+.ldf
 File: russianb.ldf 2021/01/10 1.3m Russian support for the Babel system
 Language: russian 2020/09/09 1.3k Russian support for the Babel system
 Package babel Info: Making " an active character on input line 124.
 Package babel Info: Default for \cyrdash is provided on input line 163.
 ))
-(C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf.
+sty
 Package: epstopdf 2020-01-24 v2.11 Conversion with epstopdf on the fly (HO)
-
-(C:\Program Files\MiKTeX\tex/latex/grfext\grfext.sty
+ (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
 Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
 )
-(C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-
+base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
@@ -543,13 +549,14 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 504.
 
-(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.
+cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 )))
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks20
 \symAMSa=\mathgroup4
@@ -557,58 +564,57 @@ Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-))
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+)) (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2021/10/15 v2.17l AMS math features
 \@mathmargin=\skip55
 
 For additional information on amsmath, use the `?' option.
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2021/08/26 v2.01 AMS text
 
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks21
-\ex@=\dimen162
+\ex@=\dimen163
 ))
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen163
+\pmbraise@=\dimen164
 )
-(C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2021/08/26 v2.02 operator names
 )
-\inf@bad=\count277
+\inf@bad=\count279
 LaTeX Info: Redefining \frac on input line 234.
-\uproot@=\count278
-\leftroot@=\count279
+\uproot@=\count280
+\leftroot@=\count281
 LaTeX Info: Redefining \overline on input line 399.
-\classnum@=\count280
-\DOTSCASE@=\count281
+\classnum@=\count282
+\DOTSCASE@=\count283
 LaTeX Info: Redefining \ldots on input line 496.
 LaTeX Info: Redefining \dots on input line 499.
 LaTeX Info: Redefining \cdots on input line 620.
 \Mathstrutbox@=\box50
 \strutbox@=\box51
-\big@size=\dimen164
+\big@size=\dimen165
 LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
-\macc@depth=\count282
-\c@MaxMatrixCols=\count283
+\macc@depth=\count284
+\c@MaxMatrixCols=\count285
 \dotsspace@=\muskip17
-\c@parentequation=\count284
-\dspbrk@lvl=\count285
+\c@parentequation=\count286
+\dspbrk@lvl=\count287
 \tag@help=\toks22
-\row@=\count286
-\column@=\count287
-\maxfields@=\count288
+\row@=\count288
+\column@=\count289
+\maxfields@=\count290
 \andhelp@=\toks23
-\eqnshift@=\dimen165
-\alignsep@=\dimen166
-\tagshift@=\dimen167
-\tagwidth@=\dimen168
-\totwidth@=\dimen169
-\lineht@=\dimen170
+\eqnshift@=\dimen166
+\alignsep@=\dimen167
+\tagshift@=\dimen168
+\tagwidth@=\dimen169
+\totwidth@=\dimen170
+\lineht@=\dimen171
 \@envbody=\toks24
 \multlinegap=\skip56
 \multlinetaggap=\skip57
@@ -616,7 +622,7 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
 LaTeX Info: Redefining \[ on input line 2938.
 LaTeX Info: Redefining \] on input line 2939.
 )
-(C:\Program Files\MiKTeX\tex/latex/amscls\amsthm.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks26
 \thm@bodyfont=\toks27
@@ -628,7 +634,7 @@ Package: amsthm 2020/05/29 v2.20.6
 \thm@headsep=\skip60
 \dth@everypar=\toks31
 )
-(C:\Program Files\MiKTeX\tex/latex/tools\bm.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/tools\bm.sty
 Package: bm 2021/04/25 v1.2e Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup6
 \symboldletters=\mathgroup7
@@ -638,15 +644,15 @@ Package bm Info: No bold for \U/msa/m/n, using \pmb.
 Package bm Info: No bold for \U/msb/m/n, using \pmb.
 LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 149.
 )
-(C:\Program Files\MiKTeX\tex/latex/float\float.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count289
+\c@float@type=\count291
 \float@exts=\toks32
 \float@box=\box52
 \@float@everytoks=\toks33
 \@floatcapt=\box53
 )
-(C:\Program Files\MiKTeX\tex/latex/cleveref\cleveref.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/cleveref\cleveref.sty
 Package: cleveref 2018/03/27 v0.21.4 Intelligent cross-referencing
 Package cleveref Info: `hyperref' support loaded on input line 2370.
 LaTeX Info: Redefining \cref on input line 2370.
@@ -660,69 +666,69 @@ LaTeX Info: Redefining \Cpagerefrange on input line 2370.
 LaTeX Info: Redefining \labelcref on input line 2370.
 LaTeX Info: Redefining \labelcpageref on input line 2370.
 Package cleveref Info: `amsthm' support loaded on input line 3026.
-)
-(C:\Program Files\MiKTeX\tex/latex/booktabs\booktabs.sty
+) (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.st
+y
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen171
-\lightrulewidth=\dimen172
-\cmidrulewidth=\dimen173
-\belowrulesep=\dimen174
-\belowbottomsep=\dimen175
-\aboverulesep=\dimen176
-\abovetopsep=\dimen177
-\cmidrulesep=\dimen178
-\cmidrulekern=\dimen179
-\defaultaddspace=\dimen180
-\@cmidla=\count290
-\@cmidlb=\count291
-\@aboverulesep=\dimen181
-\@belowrulesep=\dimen182
-\@thisruleclass=\count292
-\@lastruleclass=\count293
-\@thisrulewidth=\dimen183
+\heavyrulewidth=\dimen172
+\lightrulewidth=\dimen173
+\cmidrulewidth=\dimen174
+\belowrulesep=\dimen175
+\belowbottomsep=\dimen176
+\aboverulesep=\dimen177
+\abovetopsep=\dimen178
+\cmidrulesep=\dimen179
+\cmidrulekern=\dimen180
+\defaultaddspace=\dimen181
+\@cmidla=\count292
+\@cmidlb=\count293
+\@aboverulesep=\dimen182
+\@belowrulesep=\dimen183
+\@thisruleclass=\count294
+\@lastruleclass=\count295
+\@thisrulewidth=\dimen184
 )
-(C:\Program Files\MiKTeX\tex/latex/multirow\multirow.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
 \multirow@colwidth=\skip61
-\multirow@cntb=\count294
+\multirow@cntb=\count296
 \multirow@dima=\skip62
-\bigstrutjot=\dimen184
+\bigstrutjot=\dimen185
 )
-(C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.st
+y
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
-
-(C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+ (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
-(C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty
+) (C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LTleft=\skip63
 \LTright=\skip64
 \LTpre=\skip65
 \LTpost=\skip66
-\LTchunksize=\count295
-\LTcapwidth=\dimen185
+\LTchunksize=\count297
+\LTcapwidth=\dimen186
 \LT@head=\box54
 \LT@firsthead=\box55
 \LT@foot=\box56
 \LT@lastfoot=\box57
 \LT@gbox=\box58
-\LT@cols=\count296
-\LT@rows=\count297
-\c@LT@tables=\count298
-\c@LT@chunks=\count299
+\LT@cols=\count298
+\LT@rows=\count299
+\c@LT@tables=\count300
+\c@LT@chunks=\count301
 \LT@p@ftn=\toks34
 )
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2021-12-14 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count300
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pd
+ftex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count302
 \l__pdf_internal_box=\box59
 )
 
 LaTeX Warning: Unused global option(s):
-    [substylefile,colorlinks].
+    [substylefile,colorlinks,12p].
 
 (report.aux)
 \openout1 = `report.aux'.
@@ -751,42 +757,45 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Program Files\MiKTeX\tex/latex/caption\ltcaption.sty
-Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 )
 Package caption Info: End \AtBeginDocument code.
-
-
-Package hyperref Warning: Draft mode on.
-
 Package hyperref Info: Link coloring OFF on input line 44.
-(C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
-(C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 )
-(C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\getti
+tlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count301
+\c@section@level=\count303
 )
 LaTeX Info: Redefining \ref on input line 44.
 LaTeX Info: Redefining \pageref on input line 44.
 LaTeX Info: Redefining \nameref on input line 44.
+ (report.out) (report.out)
+\@outlinefile=\write3
+\openout3 = `report.out'.
 
-(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.m
+kii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count302
-\scratchdimen=\dimen186
+\scratchcounter=\count304
+\scratchdimen=\dimen187
 \scratchbox=\box60
-\nofMPsegments=\count303
-\nofMParguments=\count304
+\nofMPsegments=\count305
+\nofMParguments=\count306
 \everyMPshowfont=\toks35
-\MPscratchCnt=\count305
-\MPscratchDim=\dimen187
-\MPnumerator=\count306
-\makeMPintoPDFobject=\count307
+\MPscratchCnt=\count307
+\MPscratchDim=\dimen188
+\MPnumerator=\count308
+\makeMPintoPDFobject=\count309
 \everyMPtoPDFconversion=\toks36
 )
 *geometry* driver: auto-detecting
@@ -805,15 +814,15 @@ LaTeX Info: Redefining \nameref on input line 44.
 * \textheight=702.7831pt
 * \oddsidemargin=13.08827pt
 * \evensidemargin=13.08827pt
-* \topmargin=-55.81723pt
-* \headheight=12.0pt
+* \topmargin=-57.81723pt
+* \headheight=14.0pt
 * \headsep=28.45274pt
-* \topskip=12.0pt
+* \topskip=14.0pt
 * \footskip=28.45274pt
-* \marginparwidth=35.0pt
+* \marginparwidth=15.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \skip\footins=12.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
@@ -836,511 +845,1710 @@ LaTeX Info: Redefining \th on input line 44.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 82.
 
 
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 82.
 
 
-(C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+[1
 
-{C:/Users/neg99/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
+{C:/Users/Fridge/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2
 
-] (report.toc [3
+]
+(report.toc [3
 
 
 ]
-Overfull \hbox (2.41043pt too wide) detected at line 101
-\T2A/cmr/m/n/12 А.1.  |
+Overfull \hbox (2.81201pt too wide) detected at line 109
+\T2A/cmr/m/n/14.4 А.1.  
  []
 
 
-Overfull \hbox (0.97472pt too wide) detected at line 102
-\T2A/cmr/m/n/12 А.1.1.  |
+Overfull \hbox (2.81201pt too wide) detected at line 118
+\T2A/cmr/m/n/14.4 А.2.  
  []
 
 
-Overfull \hbox (0.97472pt too wide) detected at line 106
-\T2A/cmr/m/n/12 А.1.2.  |
+Overfull \hbox (2.24168pt too wide) detected at line 123
+\T2A/cmr/m/n/14.4 Б.1.  
  []
 
 
-Overfull \hbox (0.97472pt too wide) detected at line 110
-\T2A/cmr/m/n/12 А.1.3.  |
- []
-
-
-Overfull \hbox (2.41043pt too wide) detected at line 113
-\T2A/cmr/m/n/12 А.2.  |
- []
-
-
-Overfull \hbox (1.92305pt too wide) detected at line 118
-\T2A/cmr/m/n/12 Б.1.  |
- []
-
-
-Overfull \hbox (1.92305pt too wide) detected at line 120
-\T2A/cmr/m/n/12 Б.2.  |
- []
-
-
-Overfull \hbox (1.92305pt too wide) detected at line 122
-\T2A/cmr/m/n/12 Б.3.  |
+Overfull \hbox (2.24168pt too wide) detected at line 125
+\T2A/cmr/m/n/14.4 Б.2.  
  []
 
 )
-\tf@toc=\write3
-\openout3 = `report.toc'.
+\tf@toc=\write4
+\openout4 = `report.toc'.
 
- [4]
+ [4] [5
 
-LaTeX Warning: Citation `...' on page 5 undefined on input line 122.
-
-
-Overfull \hbox (2.15407pt too wide) in paragraph at lines 126--129
-[]\T2A/cmr/m/n/12 Кроме данных <<Indian Rain>> рассмотрим также данные Ear
-th orientation parameters|
- []
-
-[5
-
-
-] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 152--154
-
- []
-
-[7
-
-] [8] [9] [10
-
-] [11] [12] [13
-
-] [14] [15] [16] [17] [18] [19]
-<imgs/ts/edsine/edsine_graph.png, id=89, 827.59187pt x 308.65312pt>
-LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
-480.
-
-(C:\Program Files\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
-File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) [20
 
 ]
-<imgs/ts/edsine/edsine_pgram.png, id=94, 843.65187pt x 581.67313pt>
- [21]
-<imgs/comp/edsine/ssa_comp.png, id=100, 830.10126pt x 581.67313pt>
- [22]
-<imgs/comp/edsine/edsinerec2.png, id=104, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/edsinerec4.png, id=105, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/edsinerec6.png, id=106, 827.59187pt x 308.65312pt>
- [23]
-<imgs/comp/edsine/r2.png, id=112, 857.70438pt x 605.76312pt>
+Underfull \hbox (badness 2237) in paragraph at lines 125--127
+[]\T2A/cmr/m/n/14.4 Кроме данных <<Indian Rain>> рассмотрим также данные E
+arth
+ []
 
-[24]
-<imgs/comp/edsine/r4.png, id=116, 857.70438pt x 605.76312pt>
-<imgs/comp/edsine/r6.png, id=117, 857.70438pt x 605.76312pt>
- [25]
-<imgs/comp/edsine/edsinr_r2_res_ann.png, id=122, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/edsinr_r4_res_ann.png, id=123, 827.59187pt x 308.65312pt>
- [26]
-<imgs/comp/edsine/edsinr_r6_res_ann.png, id=127, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/loopr4.12.png, id=128, 857.70438pt x 327.2225pt>
+[6] [7]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRG' on input line 137.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 137.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 137.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrv' on input line 137.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 137.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 149--150
+
+ []
+
+[8
+
+]
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 181.
+
+
+Package hyperref Warning: Token not allowed in a PDF string (Unicode):
+(hyperref)                removing `math shift' on input line 181.
+
+[9] [10]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRG' on input line 202.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 202.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 202.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrv' on input line 202.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 202.
+
+[11
+
+] [12] [13] [14] [15]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRG' on input line 301.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 301.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 301.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrv' on input line 301.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 301.
+
+[16
+
+]
+Overfull \hbox (1.67891pt too wide) in paragraph at lines 333--334
+[]\T2A/cmr/m/n/14.4 Преобразуем train часть матрицы $\OT1/cmr/bx/n/14.4 Z$ \T
+2A/cmr/m/n/14.4 во временной ряд $[] \OT1/cmr/m/n/14.4 = \OMS/cmsy/m/n/14.4 T
+[]\OT1/cmr/m/n/14.4 (\OT1/cmr/bx/n/14.4 Z[]\OT1/cmr/m/n/14.4 )$\T2A/cmr/m/n/14.
+4 . 
+ []
+
+[17] [18] [19]
+Underfull \hbox (badness 10000) in paragraph at lines 384--385
+\T2A/cmr/m/n/14.4 ченной модели. Запишем результат прогноза как
+ []
+
+[20] [21]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[22] [23] [24] [25]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRG' on input line 461.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 461.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 461.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrv' on input line 461.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 461.
+
+[26
+
+]
+<imgs/ts/edsine/edsine_graph.png, id=402, 827.59187pt x 308.65312pt>
+File: imgs/ts/edsine/edsine_graph.png Graphic file (type png)
+<use imgs/ts/edsine/edsine_graph.png>
+Package pdftex.def Info: imgs/ts/edsine/edsine_graph.png  used on input line 48
+3.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/ts/edsine/edsine_pgram.png, id=404, 843.65187pt x 581.67313pt>
+File: imgs/ts/edsine/edsine_pgram.png Graphic file (type png)
+<use imgs/ts/edsine/edsine_pgram.png>
+Package pdftex.def Info: imgs/ts/edsine/edsine_pgram.png  used on input line 49
+0.
+(pdftex.def)             Requested size: 422.52057pt x 291.324pt.
+ [27 <./imgs/ts/edsine/edsine_graph.png> <./imgs/ts/edsine/edsine_pgram.png>]
+<imgs/comp/edsine/ssa_comp.png, id=414, 830.10126pt x 581.67313pt>
+File: imgs/comp/edsine/ssa_comp.png Graphic file (type png)
+<use imgs/comp/edsine/ssa_comp.png>
+Package pdftex.def Info: imgs/comp/edsine/ssa_comp.png  used on input line 507.
+
+(pdftex.def)             Requested size: 422.52057pt x 296.07245pt.
+ [28]
+<imgs/comp/edsine/edsinerec2.png, id=427, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/edsinerec2.png Graphic file (type png)
+<use imgs/comp/edsine/edsinerec2.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinerec2.png  used on input line 52
+1.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [29 <./imgs/comp/edsine/ssa_comp.png>]
+<imgs/comp/edsine/edsinerec4.png, id=437, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/edsinerec4.png Graphic file (type png)
+<use imgs/comp/edsine/edsinerec4.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinerec4.png  used on input line 52
+8.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/edsinerec6.png, id=438, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/edsinerec6.png Graphic file (type png)
+<use imgs/comp/edsine/edsinerec6.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinerec6.png  used on input line 53
+5.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [30 <./imgs/comp/edsine/edsinerec2.png> <./imgs/comp/edsine/edsinerec4.png> <.
+/imgs/comp/edsine/edsinerec6.png>]
+<imgs/comp/edsine/r2.png, id=449, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/r2.png Graphic file (type png)
+<use imgs/comp/edsine/r2.png>
+Package pdftex.def Info: imgs/comp/edsine/r2.png  used on input line 550.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+<imgs/comp/edsine/r4.png, id=450, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/r4.png Graphic file (type png)
+<use imgs/comp/edsine/r4.png>
+Package pdftex.def Info: imgs/comp/edsine/r4.png  used on input line 557.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [31 <./imgs/comp/edsine/r2.png>]
+<imgs/comp/edsine/r6.png, id=461, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/r6.png Graphic file (type png)
+<use imgs/comp/edsine/r6.png>
+Package pdftex.def Info: imgs/comp/edsine/r6.png  used on input line 564.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [32 <./imgs/comp/edsine/r4.png> <./imgs/comp/edsine/r6.png>]
+<imgs/comp/edsine/edsinr_r2_res_ann.png, id=472, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/edsinr_r2_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r2_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_ann.png  used on input 
+line 578.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/edsinr_r4_res_ann.png, id=473, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/edsinr_r4_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r4_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_ann.png  used on input 
+line 585.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/edsinr_r6_res_ann.png, id=474, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/edsinr_r6_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r6_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_ann.png  used on input 
+line 592.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [33 <./imgs/comp/edsine/edsinr_r2_res_ann.png> <./imgs/comp/edsine/edsinr_r4_r
+es_ann.png>]
+<imgs/comp/edsine/loopr4.12.png, id=489, 857.70438pt x 327.2225pt>
+File: imgs/comp/edsine/loopr4.12.png Graphic file (type png)
+<use imgs/comp/edsine/loopr4.12.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 604
+.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
+<imgs/comp/edsine/loopr4.84.png, id=490, 857.70438pt x 327.2225pt>
+File: imgs/comp/edsine/loopr4.84.png Graphic file (type png)
+<use imgs/comp/edsine/loopr4.84.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 611
+.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<imgs/comp/edsine/loopr4.84.png, id=129, 857.70438pt x 327.2225pt>
+[34 <./imgs/comp/edsine/edsinr_r6_res_ann.png> <./imgs/comp/edsine/loopr4.12.pn
+g>]
+Overfull \hbox (1.12599pt too wide) in paragraph at lines 621--622
+[]\T2A/cmr/m/n/14.4 Гибридные методы показали наилучшую точность. Наиб
+ольшую ошиб
+ []
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+[35 <./imgs/comp/edsine/loopr4.84.png>]
+<imgs/comp/edsine/N0.3/ssa_comp.png, id=513, 830.10126pt x 581.67313pt>
+File: imgs/comp/edsine/N0.3/ssa_comp.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/ssa_comp.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/ssa_comp.png  used on input line
+ 655.
+(pdftex.def)             Requested size: 422.52057pt x 296.07245pt.
+ [36]
+<imgs/comp/edsine/N0.3/edsinerec2.png, id=526, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/N0.3/edsinerec2.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsinerec2.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsinerec2.png  used on input li
+ne 667.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [37 <./imgs/comp/edsine/N0.3/ssa_comp.png>]
+<imgs/comp/edsine/N0.3/edsinerec4.png, id=537, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/N0.3/edsinerec4.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsinerec4.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsinerec4.png  used on input li
+ne 674.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsinerec6.png, id=538, 827.59187pt x 311.1625pt>
+File: imgs/comp/edsine/N0.3/edsinerec6.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsinerec6.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsinerec6.png  used on input li
+ne 681.
+(pdftex.def)             Requested size: 422.52057pt x 158.86644pt.
+ [38 <./imgs/comp/edsine/N0.3/edsinerec2.png> <./imgs/comp/edsine/N0.3/edsinere
+c4.png> <./imgs/comp/edsine/N0.3/edsinerec6.png>]
+<imgs/comp/edsine/N0.3/r2.png, id=550, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/N0.3/r2.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r2.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.png  used on input line 695.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+<imgs/comp/edsine/N0.3/r4.png, id=551, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/N0.3/r4.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r4.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.png  used on input line 702.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [39 <./imgs/comp/edsine/N0.3/r2.png>]
+<imgs/comp/edsine/N0.3/r6.png, id=561, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/N0.3/r6.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r6.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.png  used on input line 709.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [40 <./imgs/comp/edsine/N0.3/r4.png> <./imgs/comp/edsine/N0.3/r6.png>]
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png, id=572, 827.59187pt x 308.6531
+2pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png  used o
+n input line 721.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png, id=573, 827.59187pt x 308.6531
+2pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png  used o
+n input line 728.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png, id=574, 827.59187pt x 308.6531
+2pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png  used o
+n input line 735.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [41 <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png> <./imgs/comp/edsine/N0.
+3/edsin0.3r_r4_res_ann.png>] [42 <./imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.
+png>] [43]
+<imgs/comp/edsine/len/ssa_comp.png, id=615, 839.135pt x 581.67313pt>
+File: imgs/comp/edsine/len/ssa_comp.png Graphic file (type png)
+<use imgs/comp/edsine/len/ssa_comp.png>
+Package pdftex.def Info: imgs/comp/edsine/len/ssa_comp.png  used on input line 
+778.
+(pdftex.def)             Requested size: 422.52057pt x 292.88611pt.
+ [44 <./imgs/comp/edsine/len/ssa_comp.png>]
+<imgs/comp/edsine/len/edsinerec4.png, id=625, 827.59187pt x 310.15875pt>
+File: imgs/comp/edsine/len/edsinerec4.png Graphic file (type png)
+<use imgs/comp/edsine/len/edsinerec4.png>
+Package pdftex.def Info: imgs/comp/edsine/len/edsinerec4.png  used on input lin
+e 790.
+(pdftex.def)             Requested size: 422.52057pt x 158.35397pt.
+<imgs/comp/edsine/len/r4.png, id=630, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/len/r4.png Graphic file (type png)
+<use imgs/comp/edsine/len/r4.png>
+Package pdftex.def Info: imgs/comp/edsine/len/r4.png  used on input line 803.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [45 <./imgs/comp/edsine/len/edsinerec4.png>]
+<imgs/comp/edsine/len/r4.h.png, id=639, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/len/r4.h.png Graphic file (type png)
+<use imgs/comp/edsine/len/r4.h.png>
+Package pdftex.def Info: imgs/comp/edsine/len/r4.h.png  used on input line 810.
 
-[27] [28]
-<imgs/comp/edsine/N0.3/ssa_comp.png, id=136, 830.10126pt x 581.67313pt>
- [29]
-<imgs/comp/edsine/N0.3/edsinerec2.png, id=140, 827.59187pt x 308.65312pt>
- [30]
-<imgs/comp/edsine/N0.3/edsinerec4.png, id=144, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/N0.3/edsinerec6.png, id=145, 827.59187pt x 311.1625pt>
- [31]
-<imgs/comp/edsine/N0.3/r2.png, id=150, 857.70438pt x 605.76312pt>
-<imgs/comp/edsine/N0.3/r4.png, id=151, 857.70438pt x 605.76312pt>
- [32]
-<imgs/comp/edsine/N0.3/r6.png, id=155, 857.70438pt x 605.76312pt>
- [33]
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png, id=159, 827.59187pt x 308.6531
-2pt>
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png, id=160, 827.59187pt x 308.6531
-2pt>
- [34]
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png, id=164, 827.59187pt x 308.6531
-2pt>
- [35] [36]
-<imgs/comp/edsine/len/ssa_comp.png, id=171, 839.135pt x 581.67313pt>
-<imgs/comp/edsine/len/edsinerec4.png, id=172, 827.59187pt x 310.15875pt>
- [37]
-<imgs/comp/edsine/len/r4.png, id=177, 857.70438pt x 605.76312pt>
- [38]
-<imgs/comp/edsine/len/r4.h.png, id=181, 857.70438pt x 605.76312pt>
- [39]
-<imgs/comp/edsine/len/edsinlen_r4_res_ann.png, id=185, 827.59187pt x 308.65312p
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [46 <./imgs/comp/edsine/len/r4.png> <./imgs/comp/edsine/len/r4.h.png>]
+<imgs/comp/edsine/len/edsinlen_r4_res_ann.png, id=646, 827.59187pt x 308.65312p
 t>
-<imgs/comp/edsine/len/edsinlen_r4_res_rnn.png, id=186, 827.59187pt x 308.65312p
+File: imgs/comp/edsine/len/edsinlen_r4_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/len/edsinlen_r4_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/len/edsinlen_r4_res_ann.png  used on 
+input line 821.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/len/edsinlen_r4_res_rnn.png, id=647, 827.59187pt x 308.65312p
 t>
- [40]
-<imgs/comp/edsine/len/edsinlen_r4_res_gru.png, id=190, 827.59187pt x 308.65312p
+File: imgs/comp/edsine/len/edsinlen_r4_res_rnn.png Graphic file (type png)
+<use imgs/comp/edsine/len/edsinlen_r4_res_rnn.png>
+Package pdftex.def Info: imgs/comp/edsine/len/edsinlen_r4_res_rnn.png  used on 
+input line 828.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/len/edsinlen_r4_res_gru.png, id=648, 827.59187pt x 308.65312p
 t>
-<imgs/comp/edsine/len/edsinlen_r4_res_lstm.png, id=191, 827.59187pt x 308.65312
+File: imgs/comp/edsine/len/edsinlen_r4_res_gru.png Graphic file (type png)
+<use imgs/comp/edsine/len/edsinlen_r4_res_gru.png>
+Package pdftex.def Info: imgs/comp/edsine/len/edsinlen_r4_res_gru.png  used on 
+input line 835.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [47 <./imgs/comp/edsine/len/edsinlen_r4_res_ann.png> <./imgs/comp/edsine/len/e
+dsinlen_r4_res_rnn.png>]
+<imgs/comp/edsine/len/edsinlen_r4_res_lstm.png, id=658, 827.59187pt x 308.65312
 pt>
- [41]
-<imgs/comp/edsine/len/loopr4.12.png, id=195, 867.24pt x 328.72812pt>
-<imgs/comp/edsine/len/loopr4.156.png, id=196, 857.70438pt x 327.2225pt>
+File: imgs/comp/edsine/len/edsinlen_r4_res_lstm.png Graphic file (type png)
+<use imgs/comp/edsine/len/edsinlen_r4_res_lstm.png>
+Package pdftex.def Info: imgs/comp/edsine/len/edsinlen_r4_res_lstm.png  used on
+ input line 842.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/len/loopr4.12.png, id=661, 867.24pt x 328.72812pt>
+File: imgs/comp/edsine/len/loopr4.12.png Graphic file (type png)
+<use imgs/comp/edsine/len/loopr4.12.png>
+Package pdftex.def Info: imgs/comp/edsine/len/loopr4.12.png  used on input line
+ 852.
+(pdftex.def)             Requested size: 422.52057pt x 160.16026pt.
 
-[42] [43]
-<imgs/ts/ser/ser.png, id=204, 827.59187pt x 308.65312pt>
-<imgs/ts/ser/ser_pgram.png, id=205, 834.11626pt x 581.67313pt>
- [44
 
-] [45]
-<imgs/comp/ser/ssa_comp.png, id=212, 1678.27pt x 1164.35pt>
-<imgs/comp/ser/ssa_reconstruct.png, id=213, 830.10126pt x 581.67313pt>
- [46]
-<imgs/comp/ser/ssa_LH_r2.png, id=217, 827.59187pt x 308.65312pt>
- [47]
-<imgs/comp/ser/ssa_LH_r6.png, id=221, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/ssa_LH_r4.png, id=222, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/ssa_L36_r16.png, id=223, 827.59187pt x 308.65312pt>
- [48]
-<imgs/comp/ser/ssa_L84_r14.png, id=227, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/ssa_r4_r6.png, id=228, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/ssa_r16_r14.png, id=229, 827.59187pt x 308.65312pt>
- [49] [50]
-<imgs/comp/ser/serr_r2.png, id=237, 848.16875pt x 605.76312pt>
- [51]
-<imgs/comp/ser/serr_r4.png, id=241, 848.16875pt x 605.76312pt>
- [52]
-<imgs/comp/ser/serr_r14.png, id=245, 848.16875pt x 605.76312pt>
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/edsine/len/loopr4.156.png, id=662, 857.70438pt x 327.2225pt>
+File: imgs/comp/edsine/len/loopr4.156.png Graphic file (type png)
+<use imgs/comp/edsine/len/loopr4.156.png>
+Package pdftex.def Info: imgs/comp/edsine/len/loopr4.156.png  used on input lin
+e 859.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[48 <./imgs/comp/edsine/len/edsinlen_r4_res_gru.png> <./imgs/comp/edsine/len/ed
+sinlen_r4_res_lstm.png>] [49 <./imgs/comp/edsine/len/loopr4.12.png> <./imgs/com
+p/edsine/len/loopr4.156.png>] [50]
+<imgs/ts/ser/ser.png, id=695, 827.59187pt x 308.65312pt>
+File: imgs/ts/ser/ser.png Graphic file (type png)
+<use imgs/ts/ser/ser.png>
+Package pdftex.def Info: imgs/ts/ser/ser.png  used on input line 902.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [51
+
+]
+<imgs/ts/ser/ser_pgram.png, id=702, 834.11626pt x 581.67313pt>
+File: imgs/ts/ser/ser_pgram.png Graphic file (type png)
+<use imgs/ts/ser/ser_pgram.png>
+Package pdftex.def Info: imgs/ts/ser/ser_pgram.png  used on input line 908.
+(pdftex.def)             Requested size: 422.52057pt x 294.65236pt.
+ [52 <./imgs/ts/ser/ser.png> <./imgs/ts/ser/ser_pgram.png>]
+<imgs/comp/ser/ssa_comp.png, id=712, 1678.27pt x 1164.35pt>
+File: imgs/comp/ser/ssa_comp.png Graphic file (type png)
+<use imgs/comp/ser/ssa_comp.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_comp.png  used on input line 925.
+(pdftex.def)             Requested size: 422.52057pt x 293.12993pt.
  [53]
-<imgs/comp/ser/sigserr_r2.png, id=249, 857.70438pt x 600.2425pt>
- [54]
-<imgs/comp/ser/sigserr_r4.png, id=253, 857.70438pt x 600.2425pt>
- [55]
-<imgs/comp/ser/sigserr_r14.png, id=258, 857.70438pt x 600.2425pt>
- [56]
-<imgs/comp/ser/serr_r2_res_ann.png, id=262, 827.59187pt x 308.65312pt>
+<imgs/comp/ser/ssa_reconstruct.png, id=721, 830.10126pt x 581.67313pt>
+File: imgs/comp/ser/ssa_reconstruct.png Graphic file (type png)
+<use imgs/comp/ser/ssa_reconstruct.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_reconstruct.png  used on input line 
+937.
+(pdftex.def)             Requested size: 422.52057pt x 296.07245pt.
+ [54 <./imgs/comp/ser/ssa_comp.png>]
+<imgs/comp/ser/ssa_LH_r2.png, id=734, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/ssa_LH_r2.png Graphic file (type png)
+<use imgs/comp/ser/ssa_LH_r2.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_LH_r2.png  used on input line 948.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [55 <./imgs/comp/ser/ssa_reconstruct.png>]
+<imgs/comp/ser/ssa_LH_r6.png, id=746, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/ssa_LH_r6.png Graphic file (type png)
+<use imgs/comp/ser/ssa_LH_r6.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_LH_r6.png  used on input line 955.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/ssa_LH_r4.png, id=747, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/ssa_LH_r4.png Graphic file (type png)
+<use imgs/comp/ser/ssa_LH_r4.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_LH_r4.png  used on input line 962.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/ssa_L36_r16.png, id=748, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/ssa_L36_r16.png Graphic file (type png)
+<use imgs/comp/ser/ssa_L36_r16.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_L36_r16.png  used on input line 969.
 
-[57]
-<imgs/comp/ser/serr_r2_res_rnn.png, id=266, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/serr_r4_res_ann.png, id=267, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/serr_r4_res_rnn.png, id=268, 827.59187pt x 312.16624pt>
- [58]
-<imgs/comp/ser/serr_r14_res_ann.png, id=272, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/serr_r14_res_rnn.png, id=273, 827.59187pt x 308.65312pt>
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [56 <./imgs/comp/ser/ssa_LH_r2.png> <./imgs/comp/ser/ssa_LH_r6.png> <./imgs/co
+mp/ser/ssa_LH_r4.png>]
+<imgs/comp/ser/ssa_L84_r14.png, id=757, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/ssa_L84_r14.png Graphic file (type png)
+<use imgs/comp/ser/ssa_L84_r14.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_L84_r14.png  used on input line 976.
+
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/ssa_r4_r6.png, id=758, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/ssa_r4_r6.png Graphic file (type png)
+<use imgs/comp/ser/ssa_r4_r6.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_r4_r6.png  used on input line 983.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/ssa_r16_r14.png, id=759, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/ssa_r16_r14.png Graphic file (type png)
+<use imgs/comp/ser/ssa_r16_r14.png>
+Package pdftex.def Info: imgs/comp/ser/ssa_r16_r14.png  used on input line 990.
+
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [57 <./imgs/comp/ser/ssa_L36_r16.png> <./imgs/comp/ser/ssa_L84_r14.png> <./img
+s/comp/ser/ssa_r4_r6.png>]
+Overfull \hbox (3.01476pt too wide) in paragraph at lines 1002--1003
+[]\T2A/cmr/m/n/14.4 4.49[]---[]4.51[] результаты сравнения относительн
+о сигнала ряда, диапазон ошиб
+ []
+
+[58 <./imgs/comp/ser/ssa_r16_r14.png>]
+<imgs/comp/ser/serr_r2.png, id=791, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r2.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2.png  used on input line 1014.
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
  [59]
+<imgs/comp/ser/serr_r4.png, id=797, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r4.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4.png  used on input line 1021.
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
+<imgs/comp/ser/serr_r14.png, id=798, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r14.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14.png  used on input line 1028.
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
+ [60 <./imgs/comp/ser/serr_r2.png> <./imgs/comp/ser/serr_r4.png>]
+<imgs/comp/ser/sigserr_r2.png, id=805, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r2.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r2.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r2.png  used on input line 1035.
+
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+<imgs/comp/ser/sigserr_r4.png, id=806, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r4.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r4.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r4.png  used on input line 1042.
+
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+ [61 <./imgs/comp/ser/serr_r14.png> <./imgs/comp/ser/sigserr_r2.png>]
+<imgs/comp/ser/sigserr_r14.png, id=814, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r14.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r14.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r14.png  used on input line 1049
+.
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+ [62 <./imgs/comp/ser/sigserr_r4.png> <./imgs/comp/ser/sigserr_r14.png>]
+<imgs/comp/ser/serr_r2_res_ann.png, id=824, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r2_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_ann.png  used on input line 
+1061.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/serr_r2_res_rnn.png, id=825, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r2_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_rnn.png  used on input line 
+1068.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [63 <./imgs/comp/ser/serr_r2_res_ann.png>]
+<imgs/comp/ser/serr_r4_res_ann.png, id=835, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r4_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_ann.png  used on input line 
+1075.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/serr_r4_res_rnn.png, id=836, 827.59187pt x 312.16624pt>
+File: imgs/comp/ser/serr_r4_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_rnn.png  used on input line 
+1082.
+(pdftex.def)             Requested size: 422.52057pt x 159.37892pt.
+<imgs/comp/ser/serr_r14_res_ann.png, id=837, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r14_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_ann.png  used on input line
+ 1089.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [64 <./imgs/comp/ser/serr_r2_res_rnn.png> <./imgs/comp/ser/serr_r4_res_ann.png
+> <./imgs/comp/ser/serr_r4_res_rnn.png>]
+<imgs/comp/ser/serr_r14_res_rnn.png, id=848, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r14_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_rnn.png  used on input line
+ 1096.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [65 <./imgs/comp/ser/serr_r14_res_ann.png> <./imgs/comp/ser/serr_r14_res_rnn.p
+ng>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[60] [61]
+[66] [67]
 
-LaTeX Warning: Float too large for page by 13.49335pt on input line 1168.
+LaTeX Warning: Float too large for page by 8.42302pt on input line 1175.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[62]
-<imgs/ts/indian_rain/indian_rain.png, id=287, 831.105pt x 576.65437pt>
-<imgs/ts/indian_rain/indian_rain_pgram.png, id=288, 862.72313pt x 581.67313pt>
- [63
+[68]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRG' on input line 1178.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 1178.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1178.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrv' on input line 1178.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1178.
+
+LaTeX Font Info:    Trying to load font information for T2A+cmtt on input line 
+1183.
+(C:\Users\Fridge\AppData\Local\Programs\MiKTeX\tex/latex/cyrillic\t2acmtt.fd
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
+<imgs/ts/indian_rain/indian_rain.png, id=887, 843.65187pt x 618.81187pt>
+File: imgs/ts/indian_rain/indian_rain.png Graphic file (type png)
+<use imgs/ts/indian_rain/indian_rain.png>
+Package pdftex.def Info: imgs/ts/indian_rain/indian_rain.png  used on input lin
+e 1187.
+(pdftex.def)             Requested size: 422.52057pt x 309.9245pt.
+
+[69
 
 
 
-]
-<imgs/comp/indian_rain/ssa_comp.png, id=292, 834.11626pt x 581.67313pt>
- [64]
-<imgs/comp/indian_rain/indian_rec_r7.png, id=296, 1687.30376pt x 619.31375pt>
-<imgs/comp/indian_rain/indian_rec_r11.png, id=297, 1687.30376pt x 619.31375pt>
- [65]
-<imgs/comp/indian_rain/indian_rec_rboth.png, id=301, 1687.30376pt x 619.31375pt
+ <./imgs/ts/indian_rain/indian_rain.png>]
+<imgs/ts/indian_rain/indian_rain_pgram.png, id=902, 862.72313pt x 579.16376pt>
+File: imgs/ts/indian_rain/indian_rain_pgram.png Graphic file (type png)
+<use imgs/ts/indian_rain/indian_rain_pgram.png>
+Package pdftex.def Info: imgs/ts/indian_rain/indian_rain_pgram.png  used on inp
+ut line 1198.
+(pdftex.def)             Requested size: 422.52057pt x 283.64249pt.
+ [70 <./imgs/ts/indian_rain/indian_rain_pgram.png>]
+<imgs/comp/indian_rain/ssa_comp.png, id=911, 834.11626pt x 581.67313pt>
+File: imgs/comp/indian_rain/ssa_comp.png Graphic file (type png)
+<use imgs/comp/indian_rain/ssa_comp.png>
+Package pdftex.def Info: imgs/comp/indian_rain/ssa_comp.png  used on input line
+ 1211.
+(pdftex.def)             Requested size: 422.52057pt x 294.65236pt.
+<imgs/comp/indian_rain/indian_rec_r7.png, id=914, 1687.30376pt x 619.31375pt>
+File: imgs/comp/indian_rain/indian_rec_r7.png Graphic file (type png)
+<use imgs/comp/indian_rain/indian_rec_r7.png>
+Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_r7.png  used on input
+ line 1222.
+(pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
+ [71 <./imgs/comp/indian_rain/ssa_comp.png>]
+<imgs/comp/indian_rain/indian_rec_r11.png, id=925, 1687.30376pt x 619.31375pt>
+File: imgs/comp/indian_rain/indian_rec_r11.png Graphic file (type png)
+<use imgs/comp/indian_rain/indian_rec_r11.png>
+Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_r11.png  used on inpu
+t line 1229.
+(pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
+<imgs/comp/indian_rain/indian_rec_rboth.png, id=926, 1687.30376pt x 619.31375pt
 >
-<imgs/comp/indian_rain/first_comp.png, id=302, 852.68562pt x 605.76312pt>
- [66]
-<imgs/comp/indian_rain/first_comp.h.png, id=306, 852.68562pt x 605.76312pt>
- [67]
-<imgs/comp/indian_rain/rain_res_ann.png, id=311, 843.65187pt x 313.67188pt>
-<imgs/comp/indian_rain/rain_res_rnn.png, id=312, 843.65187pt x 313.67188pt>
- [68]
-<imgs/comp/indian_rain/rain_res_gru.png, id=316, 843.65187pt x 313.67188pt>
-<imgs/comp/indian_rain/rain_res_lstm.png, id=317, 843.65187pt x 313.67188pt>
- [69]
-<imgs/comp/indian_rain/2.12.jpg, id=321, 1705.37125pt x 654.445pt>
-<imgs/comp/indian_rain/2.156.jpg, id=322, 1705.37125pt x 654.445pt>
- [70] [71]
-<imgs/ts/eop/x_pole.png, id=329, 842.14626pt x 326.21875pt>
-<imgs/ts/eop/x_pole.notrend.png, id=330, 842.14626pt x 308.65312pt>
- [72
+File: imgs/comp/indian_rain/indian_rec_rboth.png Graphic file (type png)
+<use imgs/comp/indian_rain/indian_rec_rboth.png>
+Package pdftex.def Info: imgs/comp/indian_rain/indian_rec_rboth.png  used on in
+put line 1236.
+(pdftex.def)             Requested size: 422.52057pt x 155.0832pt.
+ [72 <./imgs/comp/indian_rain/indian_rec_r7.png> <./imgs/comp/indian_rain/india
+n_rec_r11.png> <./imgs/comp/indian_rain/indian_rec_rboth.png>]
+<imgs/comp/indian_rain/first_comp.png, id=938, 852.68562pt x 605.76312pt>
+File: imgs/comp/indian_rain/first_comp.png Graphic file (type png)
+<use imgs/comp/indian_rain/first_comp.png>
+Package pdftex.def Info: imgs/comp/indian_rain/first_comp.png  used on input li
+ne 1249.
+(pdftex.def)             Requested size: 422.52957pt x 281.68619pt.
+<imgs/comp/indian_rain/first_comp.h.png, id=939, 852.68562pt x 605.76312pt>
+File: imgs/comp/indian_rain/first_comp.h.png Graphic file (type png)
+<use imgs/comp/indian_rain/first_comp.h.png>
+Package pdftex.def Info: imgs/comp/indian_rain/first_comp.h.png  used on input 
+line 1256.
+(pdftex.def)             Requested size: 422.52957pt x 281.68619pt.
+ [73 <./imgs/comp/indian_rain/first_comp.png>]
+<imgs/comp/indian_rain/rain_res_ann.png, id=951, 843.65187pt x 313.67188pt>
+File: imgs/comp/indian_rain/rain_res_ann.png Graphic file (type png)
+<use imgs/comp/indian_rain/rain_res_ann.png>
+Package pdftex.def Info: imgs/comp/indian_rain/rain_res_ann.png  used on input 
+line 1267.
+(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+<imgs/comp/indian_rain/rain_res_rnn.png, id=952, 843.65187pt x 313.67188pt>
+File: imgs/comp/indian_rain/rain_res_rnn.png Graphic file (type png)
+<use imgs/comp/indian_rain/rain_res_rnn.png>
+Package pdftex.def Info: imgs/comp/indian_rain/rain_res_rnn.png  used on input 
+line 1274.
+(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+ [74 <./imgs/comp/indian_rain/first_comp.h.png> <./imgs/comp/indian_rain/rain_r
+es_ann.png>]
+<imgs/comp/indian_rain/rain_res_gru.png, id=962, 843.65187pt x 313.67188pt>
+File: imgs/comp/indian_rain/rain_res_gru.png Graphic file (type png)
+<use imgs/comp/indian_rain/rain_res_gru.png>
+Package pdftex.def Info: imgs/comp/indian_rain/rain_res_gru.png  used on input 
+line 1281.
+(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+<imgs/comp/indian_rain/rain_res_lstm.png, id=963, 843.65187pt x 313.67188pt>
+File: imgs/comp/indian_rain/rain_res_lstm.png Graphic file (type png)
+<use imgs/comp/indian_rain/rain_res_lstm.png>
+Package pdftex.def Info: imgs/comp/indian_rain/rain_res_lstm.png  used on input
+ line 1288.
+(pdftex.def)             Requested size: 422.52057pt x 157.09879pt.
+ [75 <./imgs/comp/indian_rain/rain_res_rnn.png> <./imgs/comp/indian_rain/rain_r
+es_gru.png> <./imgs/comp/indian_rain/rain_res_lstm.png>]
+<imgs/comp/indian_rain/2.12.jpg, id=975, 1705.37125pt x 654.445pt>
+File: imgs/comp/indian_rain/2.12.jpg Graphic file (type jpg)
+<use imgs/comp/indian_rain/2.12.jpg>
+Package pdftex.def Info: imgs/comp/indian_rain/2.12.jpg  used on input line 130
+1.
+(pdftex.def)             Requested size: 422.52057pt x 162.1429pt.
+<imgs/comp/indian_rain/2.156.jpg, id=976, 1705.37125pt x 654.445pt>
+File: imgs/comp/indian_rain/2.156.jpg Graphic file (type jpg)
+<use imgs/comp/indian_rain/2.156.jpg>
+Package pdftex.def Info: imgs/comp/indian_rain/2.156.jpg  used on input line 13
+08.
+(pdftex.def)             Requested size: 422.52057pt x 162.1429pt.
+
+[76 <./imgs/comp/indian_rain/2.12.jpg> <./imgs/comp/indian_rain/2.156.jpg>]
+[77]
+Underfull \hbox (badness 10000) in paragraph at lines 1341--1341
+ [][][]\T2A/cmr/m/n/10 Данные доступны для скачивания по ссылке []$\T2A/c
+mtt/m/n/10 https : / / datacenter . iers . org / data /
+ []
+
+<imgs/ts/eop/x_pole.png, id=996, 842.14626pt x 345.79187pt>
+File: imgs/ts/eop/x_pole.png Graphic file (type png)
+<use imgs/ts/eop/x_pole.png>
+Package pdftex.def Info: imgs/ts/eop/x_pole.png  used on input line 1345.
+(pdftex.def)             Requested size: 469.47049pt x 192.77151pt.
+<imgs/ts/eop/x_pole.notrend.png, id=999, 842.14626pt x 308.65312pt>
+File: imgs/ts/eop/x_pole.notrend.png Graphic file (type png)
+<use imgs/ts/eop/x_pole.notrend.png>
+Package pdftex.def Info: imgs/ts/eop/x_pole.notrend.png  used on input line 135
+3.
+(pdftex.def)             Requested size: 469.47049pt x 172.06746pt.
+[78
+
+ <./imgs/ts/eop/x_pole.png>]
+<imgs/ts/eop/x_pole_pgram.png, id=1010, 832.61063pt x 579.16376pt>
+File: imgs/ts/eop/x_pole_pgram.png Graphic file (type png)
+<use imgs/ts/eop/x_pole_pgram.png>
+Package pdftex.def Info: imgs/ts/eop/x_pole_pgram.png  used on input line 1363.
+
+(pdftex.def)             Requested size: 422.52057pt x 293.9026pt.
+ [79 <./imgs/ts/eop/x_pole.notrend.png> <./imgs/ts/eop/x_pole_pgram.png>]
+<imgs/comp/eop/ssa_comp.png, id=1021, 848.67062pt x 581.67313pt>
+File: imgs/comp/eop/ssa_comp.png Graphic file (type png)
+<use imgs/comp/eop/ssa_comp.png>
+Package pdftex.def Info: imgs/comp/eop/ssa_comp.png  used on input line 1378.
+(pdftex.def)             Requested size: 422.52057pt x 289.59326pt.
+ [80]
+<imgs/comp/eop/eop_rec.png, id=1030, 842.14626pt x 308.65312pt>
+File: imgs/comp/eop/eop_rec.png Graphic file (type png)
+<use imgs/comp/eop/eop_rec.png>
+Package pdftex.def Info: imgs/comp/eop/eop_rec.png  used on input line 1388.
+(pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
+ [81 <./imgs/comp/eop/ssa_comp.png> <./imgs/comp/eop/eop_rec.png>]
+<imgs/comp/eop/x_pole.comp.T.png, id=1039, 857.70438pt x 600.2425pt>
+File: imgs/comp/eop/x_pole.comp.T.png Graphic file (type png)
+<use imgs/comp/eop/x_pole.comp.T.png>
+Package pdftex.def Info: imgs/comp/eop/x_pole.comp.T.png  used on input line 13
+99.
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+<imgs/comp/eop/x_pole.comp.T.h.png, id=1040, 857.70438pt x 600.2425pt>
+File: imgs/comp/eop/x_pole.comp.T.h.png Graphic file (type png)
+<use imgs/comp/eop/x_pole.comp.T.h.png>
+Package pdftex.def Info: imgs/comp/eop/x_pole.comp.T.h.png  used on input line 
+1406.
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+ [82 <./imgs/comp/eop/x_pole.comp.T.png>]
+<imgs/comp/eop/xpole_res_ann.png, id=1050, 842.14626pt x 308.65312pt>
+File: imgs/comp/eop/xpole_res_ann.png Graphic file (type png)
+<use imgs/comp/eop/xpole_res_ann.png>
+Package pdftex.def Info: imgs/comp/eop/xpole_res_ann.png  used on input line 14
+18.
+(pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
+ [83 <./imgs/comp/eop/x_pole.comp.T.h.png>]
+<imgs/comp/eop/xpole_res_rnn.png, id=1059, 842.14626pt x 308.65312pt>
+File: imgs/comp/eop/xpole_res_rnn.png Graphic file (type png)
+<use imgs/comp/eop/xpole_res_rnn.png>
+Package pdftex.def Info: imgs/comp/eop/xpole_res_rnn.png  used on input line 14
+24.
+(pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
+<imgs/comp/eop/xpole_res_gru.png, id=1060, 842.14626pt x 308.65312pt>
+File: imgs/comp/eop/xpole_res_gru.png Graphic file (type png)
+<use imgs/comp/eop/xpole_res_gru.png>
+Package pdftex.def Info: imgs/comp/eop/xpole_res_gru.png  used on input line 14
+30.
+(pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
+<imgs/comp/eop/xpole_res_lstm.png, id=1061, 842.14626pt x 308.65312pt>
+File: imgs/comp/eop/xpole_res_lstm.png Graphic file (type png)
+<use imgs/comp/eop/xpole_res_lstm.png>
+Package pdftex.def Info: imgs/comp/eop/xpole_res_lstm.png  used on input line 1
+436.
+(pdftex.def)             Requested size: 422.52057pt x 154.85837pt.
+ [84 <./imgs/comp/eop/xpole_res_ann.png> <./imgs/comp/eop/xpole_res_rnn.png> <.
+/imgs/comp/eop/xpole_res_gru.png>] [85 <./imgs/comp/eop/xpole_res_lstm.png>]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[86] [87]
+<imgs/ts/weather/weather4.png, id=1100, 820.56563pt x 579.16376pt>
+File: imgs/ts/weather/weather4.png Graphic file (type png)
+<use imgs/ts/weather/weather4.png>
+Package pdftex.def Info: imgs/ts/weather/weather4.png  used on input line 1477.
+
+(pdftex.def)             Requested size: 469.47049pt x 331.35515pt.
+ [88
+
+ <./imgs/ts/weather/weather4.png>]
+<imgs/ts/weather/weather4_pgram.png, id=1110, 844.15375pt x 579.16376pt>
+File: imgs/ts/weather/weather4_pgram.png Graphic file (type png)
+<use imgs/ts/weather/weather4_pgram.png>
+Package pdftex.def Info: imgs/ts/weather/weather4_pgram.png  used on input line
+ 1487.
+(pdftex.def)             Requested size: 469.47049pt x 322.10248pt.
+ [89 <./imgs/ts/weather/weather4_pgram.png>]
+<imgs/comp/weather/ssa_comp.png, id=1120, 824.58063pt x 581.67313pt>
+File: imgs/comp/weather/ssa_comp.png Graphic file (type png)
+<use imgs/comp/weather/ssa_comp.png>
+Package pdftex.def Info: imgs/comp/weather/ssa_comp.png  used on input line 150
+3.
+(pdftex.def)             Requested size: 422.52057pt x 298.05171pt.
+<imgs/comp/weather/weather_rec.png, id=1122, 824.58063pt x 308.65312pt>
+File: imgs/comp/weather/weather_rec.png Graphic file (type png)
+<use imgs/comp/weather/weather_rec.png>
+Package pdftex.def Info: imgs/comp/weather/weather_rec.png  used on input line 
+1514.
+(pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
+ [90 <./imgs/comp/weather/ssa_comp.png>]
+<imgs/comp/weather/weather4.comp.png, id=1133, 848.16875pt x 600.2425pt>
+File: imgs/comp/weather/weather4.comp.png Graphic file (type png)
+<use imgs/comp/weather/weather4.comp.png>
+Package pdftex.def Info: imgs/comp/weather/weather4.comp.png  used on input lin
+e 1527.
+(pdftex.def)             Requested size: 422.51735pt x 281.6927pt.
+ [91 <./imgs/comp/weather/weather_rec.png>]
+<imgs/comp/weather/weather4.comp.h.png, id=1143, 848.16875pt x 600.2425pt>
+File: imgs/comp/weather/weather4.comp.h.png Graphic file (type png)
+<use imgs/comp/weather/weather4.comp.h.png>
+Package pdftex.def Info: imgs/comp/weather/weather4.comp.h.png  used on input l
+ine 1534.
+(pdftex.def)             Requested size: 422.51735pt x 281.6927pt.
+ [92 <./imgs/comp/weather/weather4.comp.png> <./imgs/comp/weather/weather4.comp
+.h.png>] [93] [94] [95
+
+] [96
+
+
+] [97] (report.bbl [98]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRS' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrp' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrs' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyro' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrk' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrt' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrr' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyra' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrt' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyru' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrr' on input line 1.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrery' on input line 1.
+
+[99
+
+]<<ot1tt.cmap>>) [100]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRP' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrr' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyro' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrzh' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRA' on input line 1629.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRA' on input line 1630.
+
+File: imgs/comp/edsine/r2.png Graphic file (type png)
+<use imgs/comp/edsine/r2.png>
+Package pdftex.def Info: imgs/comp/edsine/r2.png  used on input line 1642.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+File: imgs/comp/edsine/r4.png Graphic file (type png)
+<use imgs/comp/edsine/r4.png>
+Package pdftex.def Info: imgs/comp/edsine/r4.png  used on input line 1648.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+[101
 
 ]
-<imgs/ts/eop/x_pole_pgram.png, id=334, 839.135pt x 581.67313pt>
- [73]
-<imgs/comp/eop/ssa_comp.png, id=339, 848.67062pt x 581.67313pt>
-<imgs/comp/eop/eop_rec.png, id=340, 842.14626pt x 308.65312pt>
- [74]
-<imgs/comp/eop/x_pole.comp.T.png, id=344, 857.70438pt x 600.2425pt>
-<imgs/comp/eop/x_pole.comp.T.h.png, id=345, 857.70438pt x 600.2425pt>
- [75]
-<imgs/comp/eop/xpole_res_ann.png, id=349, 842.14626pt x 308.65312pt>
- [76]
-<imgs/comp/eop/xpole_res_rnn.png, id=353, 842.14626pt x 308.65312pt>
-<imgs/comp/eop/xpole_res_gru.png, id=354, 842.14626pt x 308.65312pt>
-<imgs/comp/eop/xpole_res_lstm.png, id=355, 842.14626pt x 308.65312pt>
-
-[77] [78] [79]
-<imgs/ts/weather/weather4.png, id=366, 818.05624pt x 576.65437pt>
-<imgs/ts/weather/weather4_pgram.png, id=367, 853.1875pt x 581.67313pt>
- [80
-
-]
-<imgs/comp/weather/ssa_comp.png, id=371, 824.58063pt x 581.67313pt>
- [81]
-<imgs/comp/weather/weather_rec.png, id=375, 824.58063pt x 308.65312pt>
- [82]
-<imgs/comp/weather/weather4.comp.png, id=379, 848.16875pt x 600.2425pt>
-<imgs/comp/weather/weather4.comp.h.png, id=380, 848.16875pt x 600.2425pt>
- [83] [84] [85] [86
-
-] [87
-
-
-] (report.bbl [88])
-[89
-
-] [90
-
-]
-<imgs/comp/edsine/r2.h.png, id=406, 857.70438pt x 605.76312pt>
- [91]
-<imgs/comp/edsine/r4.h.png, id=411, 857.70438pt x 605.76312pt>
- [92]
-<imgs/comp/edsine/r6.h.png, id=415, 857.70438pt x 605.76312pt>
- [93]
-<imgs/comp/edsine/edsinr_r2_res_rnn.png, id=419, 827.59187pt x 308.65312pt>
- [94]
-<imgs/comp/edsine/edsinr_r2_res_gru.png, id=423, 827.59187pt x 309.155pt>
-<imgs/comp/edsine/edsinr_r2_res_lstm.png, id=424, 827.59187pt x 309.65688pt>
- [95]
-<imgs/comp/edsine/edsinr_r4_res_rnn.png, id=428, 827.59187pt x 308.65312pt>
-<imgs/comp/edsine/edsinr_r4_res_gru.png, id=429, 827.59187pt x 309.155pt>
-<imgs/comp/edsine/edsinr_r4_res_lstm.png, id=430, 827.59187pt x 309.65688pt>
- [96]
-<imgs/comp/edsine/edsinr_r6_res_rnn.png, id=434, 827.59187pt x 312.66812pt>
-<imgs/comp/edsine/edsinr_r6_res_gru.png, id=435, 827.59187pt x 309.155pt>
- [97]
-<imgs/comp/edsine/edsinr_r6_res_lstm.png, id=440, 827.59187pt x 309.65688pt>
-<imgs/comp/edsine/loopr2.12.png, id=441, 857.70438pt x 327.2225pt>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/edsine/loopr2.84.png, id=442, 857.70438pt x 327.2225pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/edsine/loopr6.12.png, id=443, 857.70438pt x 327.2225pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/edsine/loopr6.84.png, id=444, 848.16875pt x 327.2225pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[98]
-Overfull \vbox (94.41248pt too high) has occurred while \output is active []
-
-
-[99]
-Overfull \vbox (94.41248pt too high) has occurred while \output is active []
-
-
-[100]
-Overfull \vbox (96.22493pt too high) has occurred while \output is active []
-
-
-[101]
-<imgs/comp/edsine/N0.3/r2.h.png, id=457, 857.70438pt x 605.76312pt>
-<imgs/comp/edsine/N0.3/r4.h.png, id=458, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/r6.png Graphic file (type png)
+<use imgs/comp/edsine/r6.png>
+Package pdftex.def Info: imgs/comp/edsine/r6.png  used on input line 1654.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+<imgs/comp/edsine/r2.h.png, id=1226, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/r2.h.png Graphic file (type png)
+<use imgs/comp/edsine/r2.h.png>
+Package pdftex.def Info: imgs/comp/edsine/r2.h.png  used on input line 1660.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
  [102]
-<imgs/comp/edsine/N0.3/r6.h.png, id=462, 857.70438pt x 605.76312pt>
- [103]
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png, id=467, 827.59187pt x 308.6531
-2pt>
- [104]
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png, id=471, 827.59187pt x 308.6531
-2pt>
-<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png, id=472, 827.59187pt x 308.653
-12pt>
- [105]
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png, id=476, 827.59187pt x 308.6531
-2pt>
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png, id=477, 827.59187pt x 308.6531
-2pt>
-<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png, id=478, 827.59187pt x 308.653
-12pt>
- [106]
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png, id=482, 827.59187pt x 308.6531
-2pt>
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png, id=483, 827.59187pt x 308.6531
-2pt>
- [107]
-<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png, id=487, 827.59187pt x 308.653
-12pt>
+<imgs/comp/edsine/r4.h.png, id=1233, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/r4.h.png Graphic file (type png)
+<use imgs/comp/edsine/r4.h.png>
+Package pdftex.def Info: imgs/comp/edsine/r4.h.png  used on input line 1667.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+<imgs/comp/edsine/r6.h.png, id=1234, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/r6.h.png Graphic file (type png)
+<use imgs/comp/edsine/r6.h.png>
+Package pdftex.def Info: imgs/comp/edsine/r6.h.png  used on input line 1674.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [103 <./imgs/comp/edsine/r2.h.png> <./imgs/comp/edsine/r4.h.png>]
+File: imgs/comp/edsine/edsinr_r2_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r2_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_ann.png  used on input 
+line 1684.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/edsinr_r2_res_rnn.png, id=1245, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/edsinr_r2_res_rnn.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r2_res_rnn.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_rnn.png  used on input 
+line 1692.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+
+[104 <./imgs/comp/edsine/r6.h.png>]
+<imgs/comp/edsine/edsinr_r2_res_gru.png, id=1253, 827.59187pt x 309.155pt>
+File: imgs/comp/edsine/edsinr_r2_res_gru.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r2_res_gru.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_gru.png  used on input 
+line 1699.
+(pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
+File: imgs/comp/edsine/edsinr_r4_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r4_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_ann.png  used on input 
+line 1706.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/edsinr_r2_res_lstm.png, id=1254, 827.59187pt x 309.65688pt>
+File: imgs/comp/edsine/edsinr_r2_res_lstm.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r2_res_lstm.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r2_res_lstm.png  used on input
+ line 1714.
+(pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
+ [105 <./imgs/comp/edsine/edsinr_r2_res_rnn.png> <./imgs/comp/edsine/edsinr_r2_
+res_gru.png>]
+<imgs/comp/edsine/edsinr_r4_res_rnn.png, id=1264, 827.59187pt x 308.65312pt>
+File: imgs/comp/edsine/edsinr_r4_res_rnn.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r4_res_rnn.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_rnn.png  used on input 
+line 1721.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/edsinr_r4_res_gru.png, id=1265, 827.59187pt x 309.155pt>
+File: imgs/comp/edsine/edsinr_r4_res_gru.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r4_res_gru.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_gru.png  used on input 
+line 1728.
+(pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
+<imgs/comp/edsine/edsinr_r4_res_lstm.png, id=1266, 827.59187pt x 309.65688pt>
+File: imgs/comp/edsine/edsinr_r4_res_lstm.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r4_res_lstm.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r4_res_lstm.png  used on input
+ line 1735.
+(pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
+ [106 <./imgs/comp/edsine/edsinr_r2_res_lstm.png> <./imgs/comp/edsine/edsinr_r4
+_res_rnn.png> <./imgs/comp/edsine/edsinr_r4_res_gru.png>]
+File: imgs/comp/edsine/edsinr_r6_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r6_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_ann.png  used on input 
+line 1742.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/edsinr_r6_res_rnn.png, id=1277, 827.59187pt x 312.66812pt>
+File: imgs/comp/edsine/edsinr_r6_res_rnn.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r6_res_rnn.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_rnn.png  used on input 
+line 1749.
+(pdftex.def)             Requested size: 422.52057pt x 159.63515pt.
+<imgs/comp/edsine/edsinr_r6_res_gru.png, id=1278, 827.59187pt x 309.155pt>
+File: imgs/comp/edsine/edsinr_r6_res_gru.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r6_res_gru.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_gru.png  used on input 
+line 1756.
+(pdftex.def)             Requested size: 422.52057pt x 157.84149pt.
+ [107 <./imgs/comp/edsine/edsinr_r4_res_lstm.png> <./imgs/comp/edsine/edsinr_r6
+_res_rnn.png>]
+<imgs/comp/edsine/edsinr_r6_res_lstm.png, id=1288, 827.59187pt x 309.65688pt>
+File: imgs/comp/edsine/edsinr_r6_res_lstm.png Graphic file (type png)
+<use imgs/comp/edsine/edsinr_r6_res_lstm.png>
+Package pdftex.def Info: imgs/comp/edsine/edsinr_r6_res_lstm.png  used on input
+ line 1763.
+(pdftex.def)             Requested size: 422.52057pt x 158.09773pt.
+<imgs/comp/edsine/loopr2.12.png, id=1291, 857.70438pt x 327.2225pt>
+File: imgs/comp/edsine/loopr2.12.png Graphic file (type png)
+<use imgs/comp/edsine/loopr2.12.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 177
+5.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<imgs/comp/edsine/loopr2.84.png, id=1292, 857.70438pt x 327.2225pt>
+File: imgs/comp/edsine/loopr2.84.png Graphic file (type png)
+<use imgs/comp/edsine/loopr2.84.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 178
+2.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: imgs/comp/edsine/loopr4.12.png Graphic file (type png)
+<use imgs/comp/edsine/loopr4.12.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 178
+9.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+File: imgs/comp/edsine/loopr4.84.png Graphic file (type png)
+<use imgs/comp/edsine/loopr4.84.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 179
+6.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<imgs/comp/edsine/loopr6.12.png, id=1293, 857.70438pt x 327.2225pt>
+File: imgs/comp/edsine/loopr6.12.png Graphic file (type png)
+<use imgs/comp/edsine/loopr6.12.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 180
+3.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+<imgs/comp/edsine/loopr6.84.png, id=1294, 848.16875pt x 327.2225pt>
+File: imgs/comp/edsine/loopr6.84.png Graphic file (type png)
+<use imgs/comp/edsine/loopr6.84.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 181
+0.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[108] [109] [110]
-Overfull \vbox (99.58022pt too high) has occurred while \output is active []
+[108 <./imgs/comp/edsine/edsinr_r6_res_gru.png> <./imgs/comp/edsine/edsinr_r6_r
+es_lstm.png>] [109 <./imgs/comp/edsine/loopr2.12.png> <./imgs/comp/edsine/loopr
+2.84.png>] [110 <./imgs/comp/edsine/loopr6.12.png> <./imgs/comp/edsine/loopr6.8
+4.png>]
+File: imgs/comp/edsine/N0.3/r2.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r2.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.png  used on input line 1827.
 
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+File: imgs/comp/edsine/N0.3/r4.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r4.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.png  used on input line 1834.
 
-[111] [112]
-<imgs/comp/ser/serr_r2.h.png, id=504, 848.16875pt x 605.76312pt>
- [113]
-<imgs/comp/ser/serr_r4.h.png, id=508, 848.16875pt x 605.76312pt>
- [114]
-<imgs/comp/ser/serr_r14.h.png, id=512, 848.16875pt x 605.76312pt>
- [115] [116] [117] [118]
-<imgs/comp/ser/sigserr_r2.h.png, id=526, 857.70438pt x 600.2425pt>
- [119]
-<imgs/comp/ser/sigserr_r4.h.png, id=530, 857.70438pt x 600.2425pt>
- [120]
-<imgs/comp/ser/sigserr_r14.h.png, id=534, 857.70438pt x 600.2425pt>
- [121] [122]
-<imgs/comp/ser/serr_r2_res_gru.png, id=542, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/serr_r2_res_lstm.png, id=543, 827.59187pt x 308.65312pt>
-
-[123]
-<imgs/comp/ser/serr_r4_res_gru.png, id=547, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/serr_r4_res_lstm.png, id=548, 827.59187pt x 308.65312pt>
- [124]
-<imgs/comp/ser/serr_r14_res_gru.png, id=552, 827.59187pt x 308.65312pt>
- [125]
-<imgs/comp/ser/serr_r14_res_lstm.png, id=556, 827.59187pt x 308.65312pt>
-<imgs/comp/ser/sigloopr2.12.png, id=557, 848.16875pt x 327.2225pt>
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/ser/sigloopr2.84.png, id=558, 848.16875pt x 327.2225pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/ser/sigloopr4.12.png, id=559, 848.16875pt x 327.2225pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/ser/sigloopr4.84.png, id=560, 848.16875pt x 327.2225pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/ser/sigloopr14.12.png, id=561, 848.16875pt x 327.2225pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<imgs/comp/ser/sigloopr14.84.png, id=562, 848.16875pt x 327.2225pt>
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[126] [127] [128] [129] [130]
-<imgs/comp/eop/loop13.png, id=579, 867.24pt x 327.2225pt>
-<imgs/comp/eop/loop91.png, id=580, 857.70438pt x 327.2225pt>
-<imgs/comp/weather/weather_res_ann.png, id=581, 824.58063pt x 308.65312pt>
- [131
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [111
 
 ]
-<imgs/comp/weather/weather_res_rnn.png, id=585, 824.58063pt x 308.65312pt>
-<imgs/comp/weather/weather_res_gru.png, id=586, 824.58063pt x 308.65312pt>
-<imgs/comp/weather/weather_res_lstm.png, id=587, 824.58063pt x 308.65312pt>
- [132]
-<imgs/comp/weather/loops.12.png, id=591, 840.13875pt x 322.20375pt>
-<imgs/comp/weather/loops.84.png, id=592, 846.16125pt x 322.20375pt>
- [133] (report.aux)
+File: imgs/comp/edsine/N0.3/r6.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r6.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.png  used on input line 1841.
 
-LaTeX Warning: There were undefined references.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+<imgs/comp/edsine/N0.3/r2.h.png, id=1330, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/N0.3/r2.h.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r2.h.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r2.h.png  used on input line 184
+8.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [112]
+<imgs/comp/edsine/N0.3/r4.h.png, id=1337, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/N0.3/r4.h.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r4.h.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r4.h.png  used on input line 185
+5.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+<imgs/comp/edsine/N0.3/r6.h.png, id=1338, 857.70438pt x 605.76312pt>
+File: imgs/comp/edsine/N0.3/r6.h.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/r6.h.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/r6.h.png  used on input line 186
+2.
+(pdftex.def)             Requested size: 422.51678pt x 281.68619pt.
+ [113 <./imgs/comp/edsine/N0.3/r2.h.png> <./imgs/comp/edsine/N0.3/r4.h.png>]
+File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_ann.png  used o
+n input line 1873.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png, id=1348, 827.59187pt x 308.653
+12pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png  used o
+n input line 1880.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [114 <./imgs/comp/edsine/N0.3/r6.h.png>]
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png, id=1356, 827.59187pt x 308.653
+12pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_gru.png  used o
+n input line 1887.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png, id=1357, 827.59187pt x 308.65
+312pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png  used 
+on input line 1894.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_ann.png  used o
+n input line 1901.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [115 <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_rnn.png> <./imgs/comp/edsine/N0
+.3/edsin0.3r_r2_res_gru.png> <./imgs/comp/edsine/N0.3/edsin0.3r_r2_res_lstm.png
+>]
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png, id=1369, 827.59187pt x 308.653
+12pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png  used o
+n input line 1908.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png, id=1370, 827.59187pt x 308.653
+12pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_gru.png  used o
+n input line 1915.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png, id=1371, 827.59187pt x 308.65
+312pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png  used 
+on input line 1922.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [116 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_rnn.png> <./imgs/comp/edsine/N0
+.3/edsin0.3r_r4_res_gru.png>]
+File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_ann.png  used o
+n input line 1929.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png, id=1381, 827.59187pt x 308.653
+12pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_rnn.png  used o
+n input line 1936.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png, id=1382, 827.59187pt x 308.653
+12pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png  used o
+n input line 1943.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [117 <./imgs/comp/edsine/N0.3/edsin0.3r_r4_res_lstm.png> <./imgs/comp/edsine/N
+0.3/edsin0.3r_r6_res_rnn.png>]
+<imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png, id=1392, 827.59187pt x 308.65
+312pt>
+File: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png Graphic file (type png)
+<use imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png>
+Package pdftex.def Info: imgs/comp/edsine/N0.3/edsin0.3r_r6_res_lstm.png  used 
+on input line 1950.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+File: imgs/comp/edsine/loopr2.12.png Graphic file (type png)
+<use imgs/comp/edsine/loopr2.12.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr2.12.png  used on input line 196
+1.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
 
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/edsine/loopr2.84.png Graphic file (type png)
+<use imgs/comp/edsine/loopr2.84.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr2.84.png  used on input line 196
+8.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/edsine/loopr4.12.png Graphic file (type png)
+<use imgs/comp/edsine/loopr4.12.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr4.12.png  used on input line 197
+5.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/edsine/loopr4.84.png Graphic file (type png)
+<use imgs/comp/edsine/loopr4.84.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr4.84.png  used on input line 198
+2.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/edsine/loopr6.12.png Graphic file (type png)
+<use imgs/comp/edsine/loopr6.12.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr6.12.png  used on input line 198
+9.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/edsine/loopr6.84.png Graphic file (type png)
+<use imgs/comp/edsine/loopr6.84.png>
+Package pdftex.def Info: imgs/comp/edsine/loopr6.84.png  used on input line 199
+6.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[118 <./imgs/comp/edsine/N0.3/edsin0.3r_r6_res_gru.png> <./imgs/comp/edsine/N0.
+3/edsin0.3r_r6_res_lstm.png>] [119] [120]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRA' on input line 2003.
+
+File: imgs/comp/ser/serr_r2.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2.png  used on input line 2014.
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
+File: imgs/comp/ser/serr_r4.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4.png  used on input line 2021.
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
+[121
+
+]
+File: imgs/comp/ser/serr_r14.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14.png  used on input line 2028.
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
+<imgs/comp/ser/serr_r2.h.png, id=1423, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r2.h.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2.h.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2.h.png  used on input line 2036.
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
+ [122]
+<imgs/comp/ser/serr_r4.h.png, id=1430, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r4.h.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4.h.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4.h.png  used on input line 2043.
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
+<imgs/comp/ser/serr_r14.h.png, id=1431, 848.16875pt x 605.76312pt>
+File: imgs/comp/ser/serr_r14.h.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14.h.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14.h.png  used on input line 2050.
+
+(pdftex.def)             Requested size: 422.51735pt x 281.68619pt.
+ [123 <./imgs/comp/ser/serr_r2.h.png> <./imgs/comp/ser/serr_r4.h.png>]
+File: imgs/comp/ser/sigserr_r2.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r2.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r2.png  used on input line 2057.
+
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+File: imgs/comp/ser/sigserr_r4.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r4.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r4.png  used on input line 2064.
+
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+ [124 <./imgs/comp/ser/serr_r14.h.png>]
+File: imgs/comp/ser/sigserr_r14.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r14.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r14.png  used on input line 2071
+.
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+<imgs/comp/ser/sigserr_r2.h.png, id=1447, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r2.h.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r2.h.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r2.h.png  used on input line 207
+8.
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+ [125]
+<imgs/comp/ser/sigserr_r4.h.png, id=1454, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r4.h.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r4.h.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r4.h.png  used on input line 208
+5.
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+<imgs/comp/ser/sigserr_r14.h.png, id=1455, 857.70438pt x 600.2425pt>
+File: imgs/comp/ser/sigserr_r14.h.png Graphic file (type png)
+<use imgs/comp/ser/sigserr_r14.h.png>
+Package pdftex.def Info: imgs/comp/ser/sigserr_r14.h.png  used on input line 20
+92.
+(pdftex.def)             Requested size: 422.51678pt x 281.6927pt.
+ [126 <./imgs/comp/ser/sigserr_r2.h.png> <./imgs/comp/ser/sigserr_r4.h.png>]
+File: imgs/comp/ser/serr_r2_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_ann.png  used on input line 
+2104.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+File: imgs/comp/ser/serr_r2_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_rnn.png  used on input line 
+2111.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [127 <./imgs/comp/ser/sigserr_r14.h.png>]
+<imgs/comp/ser/serr_r2_res_gru.png, id=1473, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r2_res_gru.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_gru.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_gru.png  used on input line 
+2118.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/serr_r2_res_lstm.png, id=1474, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r2_res_lstm.png Graphic file (type png)
+<use imgs/comp/ser/serr_r2_res_lstm.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r2_res_lstm.png  used on input line
+ 2125.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+File: imgs/comp/ser/serr_r4_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_ann.png  used on input line 
+2132.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [128 <./imgs/comp/ser/serr_r2_res_gru.png> <./imgs/comp/ser/serr_r2_res_lstm.p
+ng>]
+File: imgs/comp/ser/serr_r4_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_rnn.png  used on input line 
+2139.
+(pdftex.def)             Requested size: 422.52057pt x 159.37892pt.
+<imgs/comp/ser/serr_r4_res_gru.png, id=1484, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r4_res_gru.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_gru.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_gru.png  used on input line 
+2146.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/serr_r4_res_lstm.png, id=1485, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r4_res_lstm.png Graphic file (type png)
+<use imgs/comp/ser/serr_r4_res_lstm.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r4_res_lstm.png  used on input line
+ 2153.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [129 <./imgs/comp/ser/serr_r4_res_gru.png>]
+File: imgs/comp/ser/serr_r14_res_ann.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_ann.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_ann.png  used on input line
+ 2160.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+File: imgs/comp/ser/serr_r14_res_rnn.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_rnn.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_rnn.png  used on input line
+ 2167.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/serr_r14_res_gru.png, id=1494, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r14_res_gru.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_gru.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_gru.png  used on input line
+ 2174.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+ [130 <./imgs/comp/ser/serr_r4_res_lstm.png>]
+<imgs/comp/ser/serr_r14_res_lstm.png, id=1503, 827.59187pt x 308.65312pt>
+File: imgs/comp/ser/serr_r14_res_lstm.png Graphic file (type png)
+<use imgs/comp/ser/serr_r14_res_lstm.png>
+Package pdftex.def Info: imgs/comp/ser/serr_r14_res_lstm.png  used on input lin
+e 2181.
+(pdftex.def)             Requested size: 422.52057pt x 157.58525pt.
+<imgs/comp/ser/sigloopr2.12.png, id=1506, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr2.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr2.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr2.12.png  used on input line 219
+3.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr2.84.png, id=1507, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr2.84.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr2.84.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr2.84.png  used on input line 220
+0.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr4.12.png, id=1508, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr4.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr4.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr4.12.png  used on input line 220
+7.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr4.84.png, id=1509, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr4.84.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr4.84.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr4.84.png  used on input line 221
+4.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr14.12.png, id=1510, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr14.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr14.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr14.12.png  used on input line 22
+21.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<imgs/comp/ser/sigloopr14.84.png, id=1511, 848.16875pt x 327.2225pt>
+File: imgs/comp/ser/sigloopr14.84.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr14.84.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr14.84.png  used on input line 22
+28.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/ser/sigloopr2.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr2.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr2.12.png  used on input line 223
+5.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/ser/sigloopr2.84.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr2.84.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr2.84.png  used on input line 224
+2.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/ser/sigloopr4.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr4.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr4.12.png  used on input line 224
+9.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/ser/sigloopr4.84.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr4.84.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr4.84.png  used on input line 225
+6.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/ser/sigloopr14.12.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr14.12.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr14.12.png  used on input line 22
+63.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+File: imgs/comp/ser/sigloopr14.84.png Graphic file (type png)
+<use imgs/comp/ser/sigloopr14.84.png>
+Package pdftex.def Info: imgs/comp/ser/sigloopr14.84.png  used on input line 22
+70.
+(pdftex.def)             Requested size: 422.52057pt x 163.00668pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[131 <./imgs/comp/ser/serr_r14_res_gru.png> <./imgs/comp/ser/serr_r14_res_lstm.
+png>] [132 <./imgs/comp/ser/sigloopr2.12.png> <./imgs/comp/ser/sigloopr2.84.png
+> <./imgs/comp/ser/sigloopr4.12.png>] [133 <./imgs/comp/ser/sigloopr4.84.png> <
+./imgs/comp/ser/sigloopr14.12.png> <./imgs/comp/ser/sigloopr14.84.png>]
+[134] [135]
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRP' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrr' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrl' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyro' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrzh' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyrn' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyri' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\cyre' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRB' on input line 2275.
+
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRB' on input line 2277.
+
+<imgs/comp/eop/loop13.png, id=1553, 867.24pt x 327.2225pt>
+File: imgs/comp/eop/loop13.png Graphic file (type png)
+<use imgs/comp/eop/loop13.png>
+Package pdftex.def Info: imgs/comp/eop/loop13.png  used on input line 2282.
+(pdftex.def)             Requested size: 422.52057pt x 159.4267pt.
+<imgs/comp/eop/loop91.png, id=1554, 857.70438pt x 327.2225pt>
+File: imgs/comp/eop/loop91.png Graphic file (type png)
+<use imgs/comp/eop/loop91.png>
+Package pdftex.def Info: imgs/comp/eop/loop91.png  used on input line 2288.
+(pdftex.def)             Requested size: 422.52057pt x 161.19423pt.
+
+Package hyperref Warning: Glyph not defined in PU encoding,
+(hyperref)                removing `\CYRB' on input line 2293.
+
+<imgs/comp/weather/weather_res_ann.png, id=1555, 824.58063pt x 308.65312pt>
+File: imgs/comp/weather/weather_res_ann.png Graphic file (type png)
+<use imgs/comp/weather/weather_res_ann.png>
+Package pdftex.def Info: imgs/comp/weather/weather_res_ann.png  used on input l
+ine 2298.
+(pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
+[136
+
+ <./imgs/comp/eop/loop13.png> <./imgs/comp/eop/loop91.png>]
+<imgs/comp/weather/weather_res_rnn.png, id=1562, 824.58063pt x 308.65312pt>
+File: imgs/comp/weather/weather_res_rnn.png Graphic file (type png)
+<use imgs/comp/weather/weather_res_rnn.png>
+Package pdftex.def Info: imgs/comp/weather/weather_res_rnn.png  used on input l
+ine 2304.
+(pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
+<imgs/comp/weather/weather_res_gru.png, id=1563, 824.58063pt x 308.65312pt>
+File: imgs/comp/weather/weather_res_gru.png Graphic file (type png)
+<use imgs/comp/weather/weather_res_gru.png>
+Package pdftex.def Info: imgs/comp/weather/weather_res_gru.png  used on input l
+ine 2310.
+(pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
+<imgs/comp/weather/weather_res_lstm.png, id=1564, 824.58063pt x 308.65312pt>
+File: imgs/comp/weather/weather_res_lstm.png Graphic file (type png)
+<use imgs/comp/weather/weather_res_lstm.png>
+Package pdftex.def Info: imgs/comp/weather/weather_res_lstm.png  used on input 
+line 2316.
+(pdftex.def)             Requested size: 422.52057pt x 158.15512pt.
+ [137 <./imgs/comp/weather/weather_res_ann.png> <./imgs/comp/weather/weather_re
+s_rnn.png> <./imgs/comp/weather/weather_res_gru.png>]
+<imgs/comp/weather/loops.12.png, id=1574, 840.13875pt x 322.20375pt>
+File: imgs/comp/weather/loops.12.png Graphic file (type png)
+<use imgs/comp/weather/loops.12.png>
+Package pdftex.def Info: imgs/comp/weather/loops.12.png  used on input line 232
+5.
+(pdftex.def)             Requested size: 422.52057pt x 162.04051pt.
+<imgs/comp/weather/loops.84.png, id=1575, 846.16125pt x 322.20375pt>
+File: imgs/comp/weather/loops.84.png Graphic file (type png)
+<use imgs/comp/weather/loops.84.png>
+Package pdftex.def Info: imgs/comp/weather/loops.84.png  used on input line 233
+2.
+(pdftex.def)             Requested size: 422.52057pt x 160.88515pt.
+ [138 <./imgs/comp/weather/weather_res_lstm.png> <./imgs/comp/weather/loops.12.
+png> <./imgs/comp/weather/loops.84.png>]
+(report.aux)
+Package rerunfilecheck Info: File `report.out' has not changed.
+(rerunfilecheck)             Checksum: 0AD35902750E3E800E2A6E7090986C25;9536.
  ) 
 Here is how much of TeX's memory you used:
- 17777 strings out of 478621
- 323941 string characters out of 2854408
- 608248 words of memory out of 3000000
- 35367 multiletter control sequences out of 15000+600000
- 432650 words of font info for 110 fonts, out of 8000000 for 9000
+ 18718 strings out of 478582
+ 347047 string characters out of 2843873
+ 614725 words of memory out of 3000000
+ 35885 multiletter control sequences out of 15000+600000
+ 497861 words of font info for 111 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,77p,1480b,475s stack positions out of 5000i,500n,10000p,200000b,80000s
-{C:/Program Files/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t2a.enc}<C:/Progra
-m Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/typ
-e1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-mi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/P
-rogram Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/am
-sfonts/cm/cmss10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cm
-ss12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:
-/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program File
-s/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/font
-s/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1
-/public/cm-super/sfbx1200.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-su
-per/sfbx1440.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfbx1728.
-pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfrm0700.pfb><C:/Progr
-am Files/MiKTeX/fonts/type1/public/cm-super/sfrm0800.pfb><C:/Program Files/MiKT
-eX/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX/fonts/type
-1/public/cm-super/sfrm1095.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-s
-uper/sfrm1200.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sfrm1728
-.pfb><C:/Program Files/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb><C:/Prog
-ram Files/MiKTeX/fonts/type1/public/cm-super/sfxc1440.pfb>
-Output written on report.pdf (133 pages, 625748 bytes).
+ 75i,12n,77p,2273b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
+{C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-su
+per-t2a.enc}<C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmbx12.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmex10.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/
+fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/Fridge/AppData/Local/Progra
+ms/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/Fridge/AppData/Lo
+cal/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/Fridge/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users
+/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><
+C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cm
+r8.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmss12.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/Fridge/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb><C:/Users/Fridge/AppData/Local/Pr
+ograms/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/Fridge/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1200.pfb><C:/Users
+/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx1440.pfb>
+<C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfbx
+1728.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-s
+uper/sfbx2074.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/pu
+blic/cm-super/sfrm0700.pfb><C:/Users/Fridge/AppData/Local/Programs/MiKTeX/fonts
+/type1/public/cm-super/sfrm1000.pfb><C:/Users/Fridge/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/cm-super/sfrm1200.pfb><C:/Users/Fridge/AppData/Local/Pro
+grams/MiKTeX/fonts/type1/public/cm-super/sfrm1440.pfb><C:/Users/Fridge/AppData/
+Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfrm2074.pfb><C:/Users/Fridge
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1000.pfb><C:/Use
+rs/Fridge/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sfxc1728.pf
+b>
+Output written on report.pdf (138 pages, 23549040 bytes).
 PDF statistics:
- 684 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 731 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1765 PDF objects out of 2073 (max. 8388607)
+ 485 named destinations out of 1000 (max. 500000)
+ 1015 words of extra memory for PDF output out of 10000 (max. 10000000)
 

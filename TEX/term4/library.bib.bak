@@ -1,0 +1,122 @@
+@Book{SSA,
+  author    = {Nina Golyandina and Vladimir Nekrutkin and Anatoly Zhigljavsky},
+  publisher = {Chapman and Hall/CRC},
+  title     = {Analysis of Time Series Structure - SSA and Related Techniques},
+  year      = {2001},
+  address   = {Boca Raton, FL},
+  booktitle = {Monographs on statistics and applied probability},
+}
+
+@Article{ar1,
+  author  = {Du, Kongchang and Zhao, Ying and Lei, Jiaqiang},
+  journal = {Journal of Hydrology},
+  title   = {The wrong usage of singular spectral analysis and discrete wavelet transform in hybrid models to predict hydrological time series},
+  year    = {2017},
+  month   = {06},
+  volume  = {552},
+  doi     = {10.1016/j.jhydrol.2017.06.019},
+}
+
+@Article{gru,
+  author     = {Kyunghyun Cho and Bart van Merrienboer and {\c{C}}aglar G{\"{u}}l{\c{c}}ehre and Fethi Bougares and Holger Schwenk and Yoshua Bengio},
+  journal    = {CoRR},
+  title      = {Learning Phrase Representations using {RNN} Encoder-Decoder for Statistical Machine Translation},
+  year       = {2014},
+  volume     = {abs/1406.1078},
+  bibsource  = {dblp computer science bibliography, https://dblp.org},
+  biburl     = {https://dblp.org/rec/journals/corr/ChoMGBSB14.bib},
+  eprint     = {1406.1078},
+  eprinttype = {arXiv},
+  timestamp  = {Mon, 13 Aug 2018 16:46:44 +0200},
+  url        = {http://arxiv.org/abs/1406.1078},
+}
+
+@Article{rnn,
+  author  = {Jeffrey L. Elman},
+  journal = {Cogn. Sci.},
+  title   = {Finding Structure in Time},
+  year    = {1990},
+  pages   = {179-211},
+  volume  = {14},
+}
+
+@Article{lstm,
+  author  = {Hochreiter, Sepp and Schmidhuber, Jürgen},
+  journal = {Neural computation},
+  title   = {Long Short-term Memory},
+  year    = {1997},
+  month   = {12},
+  pages   = {1735-80},
+  volume  = {9},
+  doi     = {10.1162/neco.1997.9.8.1735},
+}
+
+@InProceedings{eopart,
+  author    = {Grigory Okhotnikov and Nina Golyandina},
+  booktitle = {Proceedings of MACLEAN: MAChine Learning for EArth ObservatioN Workshop},
+  title     = {EOP time series prediction using singular spectrum analysis},
+  year      = {2019},
+  address   = {Germany},
+  editor    = {T. Corpetti and D. Ienco and R. Interdonato and {et al.}},
+  note      = {2019 MAChine Learning for EArth ObservatioN Workshop, MACLEAN 2019 ; Conference date: 20-09-2019},
+  publisher = {RWTH Aahen University},
+  series    = {CEUR Workshop Proceedings},
+  abstract  = {Accurate forecasting of Earth orientation parameters (EOP) is important for improving the GPS location accuracy and navigation of Earth satellites. EOP time series include periodic components of complex structure. Singular Spectrum Analysis (SSA) is a nonparametric method that is capable of decomposing and forecasting time series with sine-wave components. In the paper, a unified approach to choosing parameters of the SSA forecasting algorithm for EOP time series prediction is proposed. EOP time series data published by IERS in Bulletin 14 C04 are used for 365-days prediction. The forecasts performed by the proposed techniques are compared with predictions taken from available public sources.},
+  keywords  = {Earth orientation parameters, Forecasting, Singular spectrum analysis, Time series},
+  language  = {English},
+}
+
+@Article{wang2015daily,
+  author    = {Wang, Yun and Guo, Shenglian and Xiong, Lihua and Liu, Pan and Liu, Dedi},
+  journal   = {Water},
+  title     = {Daily runoff forecasting model based on ANN and data preprocessing techniques},
+  year      = {2015},
+  number    = {8},
+  pages     = {4144--4160},
+  volume    = {7},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+}
+
+@Article{wu2010prediction,
+  author    = {Wu, CL and Chau, Kwok Wing and Fan, C},
+  journal   = {Journal of Hydrology},
+  title     = {Prediction of rainfall time series using modular artificial neural networks coupled with data-preprocessing techniques},
+  year      = {2010},
+  number    = {1-2},
+  pages     = {146--167},
+  volume    = {389},
+  publisher = {Elsevier},
+}
+
+@Article{Wu2011,
+  author    = {Wu, CL and Chau, Kwok Wing},
+  journal   = {Journal of Hydrology},
+  title     = {Rainfall--runoff modeling using artificial neural network coupled with singular spectrum analysis},
+  year      = {2011},
+  number    = {3-4},
+  pages     = {394--409},
+  volume    = {399},
+  publisher = {Elsevier},
+}
+
+@Misc{Ezhov2022,
+  author    = {Ezhov, Fedor},
+  title     = {Software for "On using the SSA method in machine learning to predict time series"},
+  year      = {2022},
+  copyright = {Creative Commons Attribution 4.0 International},
+  doi       = {10.5281/ZENODO.6585473},
+  publisher = {Zenodo},
+  url       = {https://doi.org/10.5281/zenodo.6585473},
+}
+
+@Electronic{eopbigfile,
+  title = {EOP 14 C04 (IAU1980) - one file dataset (1962-now)},
+  url   = {https://datacenter.iers.org/data/latestVersion/223_EOP_C04_14.62-NOW.IAU1980223.txt},
+}
+
+@Electronic{,
+  title = {Indian Monthly Rainfall Data Sets (1871-2016)},
+  url   = {https://tropmet.res.in/static_pages.php?page_id=53},
+}
+
+@Comment{jabref-meta: databaseType:bibtex;}

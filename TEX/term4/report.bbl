@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 \def\selectlanguageifdefined#1{
 \expandafter\ifx\csname date#1\endcsname\relax
 \else\selectlanguage{#1}\fi}
@@ -13,6 +13,38 @@
   0.1em\fi
 \cyrdash\hskip.2em plus 0.1em\ignorespaces}
 \renewcommand{\newblock}{\ignorespaces}
+
+\bibitem{SSA}
+\selectlanguageifdefined{english}
+Golyandina~N., Nekrutkin~V., Zhigljavsky~A. Analysis of Time Series Structure -
+  SSA and Related Techniques. \BibDash
+\newblock Boca Raton, FL~: Chapman and Hall/CRC, 2001.
+
+\bibitem{wang2015daily}
+\selectlanguageifdefined{english}
+Daily runoff forecasting model based on ANN and data preprocessing techniques~/
+  Wang~Y., Guo~S., Xiong~L., Liu~P., and Liu~D.~// \BibEmph{Water}. \BibDash
+\newblock 2015. \BibDash
+\newblock Vol.~7, no.~8. \BibDash
+\newblock P.~4144--4160.
+
+\bibitem{wu2010prediction}
+\selectlanguageifdefined{english}
+Wu~C., Chau~K.~W., Fan~C. Prediction of rainfall time series using modular
+  artificial neural networks coupled with data-preprocessing techniques~//
+  \BibEmph{Journal of Hydrology}. \BibDash
+\newblock 2010. \BibDash
+\newblock Vol. 389, no. 1-2. \BibDash
+\newblock P.~146--167.
+
+\bibitem{Wu2011}
+\selectlanguageifdefined{english}
+Wu~C., Chau~K.~W. Rainfall--runoff modeling using artificial neural network
+  coupled with singular spectrum analysis~// \BibEmph{Journal of Hydrology}.
+  \BibDash
+\newblock 2011. \BibDash
+\newblock Vol. 399, no. 3-4. \BibDash
+\newblock P.~394--409.
 
 \bibitem{ar1}
 \selectlanguageifdefined{english}
@@ -50,10 +82,22 @@ Hochreiter~S., Schmidhuber~J. Long Short-term Memory~//
 \newblock Vol.~9. \BibDash
 \newblock P.~1735--80.
 
-\bibitem{SSA}
+\bibitem{eopart}
+\selectlanguageifdefined{English}
+Okhotnikov~G., Golyandina~N. EOP time series prediction using singular spectrum
+  analysis~// Proceedings of MACLEAN: MAChine Learning for EArth ObservatioN
+  Workshop~/ Ed.\ by\ Corpetti~T., Ienco~D., Interdonato~R., {et al.} \BibDash
+\newblock Germany~: RWTH Aahen University. \BibDash
+\newblock 2019. \BibDash
+\newblock CEUR Workshop Proceedings. \BibDash
+\newblock 2019 MAChine Learning for EArth ObservatioN Workshop, MACLEAN 2019 ;
+  Conference date: 20-09-2019.
+
+\bibitem{Ezhov2022}
 \selectlanguageifdefined{english}
-Golyandina~N., Nekrutkin~V., Zhigljavsky~A. Analysis of Time Series Structure -
-  SSA and Related Techniques. \BibDash
-\newblock Boca Raton, FL~: Chapman and Hall/CRC, 2001.
+Ezhov~F. Software for "On using the SSA method in machine learning to predict
+  time series". \BibDash
+\newblock 2022. \BibDash
+\newblock Access mode: \BibUrl{https://doi.org/10.5281/zenodo.6585473}.
 
 \end{thebibliography}
